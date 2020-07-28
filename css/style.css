@@ -91,15 +91,16 @@ body {
 
 .social-container {
   display: flex;
-  padding: 0;
+  padding: 10px;
   justify-content: space-between;
   list-style: none;
 }
 
 .social-link {
-  flex-basis: 31%;
-  height: 100px;
-  display: flex;
+  flex-basis: 20%;
+  height: 80px;
+  width: fit-content;
+  display: auto;
   align-items: center;
 }
 
