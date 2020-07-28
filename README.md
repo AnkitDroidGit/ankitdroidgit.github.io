@@ -1,5 +1,3 @@
-# AnkitDroidGit.github.io
+# Portfolio
 
-Ankit Kumar, personal website
-
-![](https://raw.githubusercontent.com/AnkitDroidGit/ankitdroidgit.github.io/master/images/screen.png)
+[Website](https://ankitdroidgit.github.io/)
