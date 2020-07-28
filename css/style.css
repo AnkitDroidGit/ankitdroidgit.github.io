@@ -4,7 +4,7 @@ body {
   margin: 0px;
   font-family: "Nunito", system-ui, sans-serif;
   font-size: 18px;
-  color: #4a4a4a;
+  color: #201f1f;
 }
 
 .header {
@@ -14,7 +14,7 @@ body {
   min-width: 320px;
   justify-content: center;
   align-items: center;
-  background: #0090c1;
+  background: #050f13;
   background-image: url("../images/cover.png");
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .section-header {
-  border-bottom: 3px solid #0090c1;
+  border-bottom: 3px solid #0a0a0a;
   margin: 30px 0 20px 0;
 }
 
@@ -116,11 +116,11 @@ body {
 }
 
 .social-link a:hover {
-  border: 1px solid #0090c1;
+  border: 1px solid #0a0a0a;
 }
 
 .social-link a:hover > .social-icon {
-  color: #0090c1;
+  color: #0a0a0a;
 }
 
 .social-icon {
@@ -136,7 +136,7 @@ body {
 
 .personal-info-container .icon {
   font-size: 13px;
-  color: #0090c1;
+  color: #0a0a0a;
 }
 
 .personal-info-text {
@@ -150,7 +150,7 @@ body {
 }
 
 .personal-info-container a:hover {
-  color: #0090c1;
+  color: #0a0a0a;
 }
 
 .lang-info h4 {
