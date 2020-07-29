@@ -189,9 +189,10 @@ body {
 
 .footer {
   display: flex;
-  height: 80px;
+  flex-direction: column;
+  height: 100px;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   font-size: 13px;
 }
 
