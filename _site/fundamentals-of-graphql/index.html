@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="icon" href="/assets/images/logo.png" />
+
+    <title>Apollo Server Express GraphQL API using Node.js with TypeScript | Ankit 's Tech Blog</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Apollo Server Express GraphQL API using Node.js with TypeScript | Ankit’s Tech Blog</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Apollo Server Express GraphQL API using Node.js with TypeScript" />
+<meta name="author" content="ankit" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In this article, we are going to see how to build a Nodejs GraphQL API with TypeScript using Apollo Server Express." />
+<meta property="og:description" content="In this article, we are going to see how to build a Nodejs GraphQL API with TypeScript using Apollo Server Express." />
+<link rel="canonical" href="http://localhost:4000/fundamentals-of-graphql/" />
+<meta property="og:url" content="http://localhost:4000/fundamentals-of-graphql/" />
+<meta property="og:site_name" content="Ankit’s Tech Blog" />
+<meta property="og:image" content="http://localhost:4000/assets/images/post/graphql/header.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-14T00:00:00+08:00" />
+<script type="application/ld+json">
+{"headline":"Apollo Server Express GraphQL API using Node.js with TypeScript","dateModified":"2020-07-14T00:00:00+08:00","datePublished":"2020-07-14T00:00:00+08:00","author":{"@type":"Person","name":"ankit"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/fundamentals-of-graphql/"},"image":"http://localhost:4000/assets/images/post/graphql/header.png","description":"In this article, we are going to see how to build a Nodejs GraphQL API with TypeScript using Apollo Server Express.","@type":"BlogPosting","url":"http://localhost:4000/fundamentals-of-graphql/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"ankit"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link href="/assets/css/screen.css" rel="stylesheet" />
+
+    <link href="/assets/css/main.css" rel="stylesheet" />
+
+    <script src="/assets/js/jquery.min.js"></script>
+  </head>
+
+   
+  <body class="layout-post">
+    <!-- defer loading of font and font awesome -->
+    <noscript id="deferred-styles">
+      <link
+        href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i"
+        rel="stylesheet"
+      />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous"
+      />
+    </noscript>
+
+    <!-- Begin Menu Navigation
+================================================== -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down"
+    >
+      <div class="container pr-0">
+        <!-- Begin Logo -->
+        <a class="navbar-brand" href="/">
+          <img src="/assets/images/logo.png" alt="Ankit 's Tech Blog" />
+        </a>
+        <!-- End Logo -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarMediumish"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMediumish">
+          <!-- Begin Menu -->
+
+          <ul class="navbar-nav ml-auto">
+            </li>
+
+            <li class="nav-item">
+              
+              <a class="nav-link" href="/index.html">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://www.youtube.com/channel/UCalpz0wG0xvNXcVYasg1pEA"
+                ><i class="fab fa-youtube"></i> YouTube</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/AnkitDroidGit"
+                ><i class="fab fa-github"></i> Github</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://twitter.com/KumarrAnkitt"
+                ><i class="fab fa-twitter"></i> Twitter</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://www.linkedin.com/in/kumarankitkumar/"
+                ><i class="fab fa-linkedin"></i> LinkedIn</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/AnkitDroidGit"
+                ><i class="fab fa-medium"></i> Medium</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/AnkitDroidGit"
+                ><i class="fab fa-dev"></i> Dev</a
+              >
+            </li>
+
+            <script src="/assets/js/lunr.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script>
+          </ul>
+
+          <!-- End Menu -->
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation
+================================================== -->
+
+    <div class="site-content">
+      <div class="container">
+        <!-- Site Title
+================================================== -->
+        <div class="mainheading">
+          <h1 class="sitetitle">Ankit 's Tech Blog</h1>
+          <p class="lead">Ankit Kumar is a programmer, teacher, technologist, writer and  YouTuber</p>
+        </div>
+
+        <!-- Content
+================================================== -->
+        <div class="main-content"><!-- Begin Article
+================================================== -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Share -->
+        <div class="col-md-2 pl-0">
+            <div class="share sticky-top sticky-top-offset">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Apollo Server Express GraphQL API using Node.js with TypeScript&url=http://localhost:4000/fundamentals-of-graphql/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/fundamentals-of-graphql/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/fundamentals-of-graphql/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+
+    </ul>
+    
+</div>
+
+        </div>
+
+        <!-- Post -->
+        
+
+        <div class="col-md-9 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!-- Author Box -->
+                
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                        
+                        <img class="author-thumb" src="/assets/images/avatar.png" alt="Ankit">
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                        <a target="_blank" class="link-dark" href="https://www.ankitkumar.dev">Ankit</a><a target="_blank" href="https://twitter.com/KumarrAnkitt" class="btn follow">Follow</a>
+                        <span class="author-description">Software Engineer, YouTuber </span>
+                    </div>
+                </div>
+                
+
+                <!-- Post Title -->
+                <h1 class="posttitle">Apollo Server Express GraphQL API using Node.js with TypeScript</h1>
+
+            </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            
+            <!-- End Adsense -->
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="/assets/images/post/graphql/header.png" alt="Apollo Server Express GraphQL API using Node.js with TypeScript">
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+                <!-- Toc if any -->
+                
+                <!-- End Toc -->
+                <p>In this article, we are going to see how to build a Nodejs GraphQL API with TypeScript using Apollo Server Express.</p>
+
+<p>I conducted a workshop for beginners who want to write GraphQL APIs using Typescript and Nodejs.</p>
+
+<hr />
+
+<p>If it feels boring reading lots of words one by one and you can understand Hindi a bit. You can watch video tutorials for this.
+Video tutorials are available on my <a href="https://www.youtube.com/channel/UCalpz0wG0xvNXcVYasg1pEA">YouTube Channel</a> as <a href="https://www.youtube.com/playlist?list=PLt7lRnT2c5QTdzvHgKybuMankvw855qMW">Playlsit</a>.</p>
+
+<iframe width="1192" height="670" src="https://www.youtube.com/embed/mAFPj-leaMw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<hr />
+
+<p>Let’s understand a few terminologies before actually diving into the code.</p>
+
+<h3 id="nodejs">Node.js</h3>
+
+<ul>
+  <li>Node.js is a platform built on Chrome’s JavaScript runtime for easily building fast and scalable network applications.</li>
+  <li>Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</li>
+  <li><a href="https://nodejs.org/en/docs/">More document about node.js is here</a>.</li>
+</ul>
+
+<h3 id="apollo-server">Apollo Server</h3>
+
+<ul>
+  <li>Apollo Server is an <a href="https://github.com/apollographql/apollo-server">open-source</a>, spec-compliant GraphQL server that’s compatible with any GraphQL client, including <a href="https://www.apollographql.com/docs/react">Apollo Client</a>.</li>
+  <li>It’s the best way to build a production-ready, self-documenting GraphQL API that can use data from any source.</li>
+  <li><a href="https://www.apollographql.com/docs/apollo-server/">Read more about Apollo Server here</a>.</li>
+</ul>
+
+<h5 id="you-can-use-apollo-server-as">You can use Apollo Server as:</h5>
+
+<ul>
+  <li>A stand-alone GraphQL server, including in a serverless environment</li>
+  <li>An add-on to your application’s existing <a href="https://www.apollographql.com/docs/apollo-server/integrations/middleware/">Node.js middleware</a> (such as Express or Fastify)</li>
+  <li>A gateway for a <a href="https://www.apollographql.com/docs/apollo-server/federation/introduction/">federated data graph</a>.</li>
+</ul>
+
+<h5 id="apollo-server-provides">Apollo Server provides:</h5>
+
+<ul>
+  <li><strong>Straightforward setup</strong>, so your client developers can start fetching data quickly</li>
+  <li><strong>Incremental adoption</strong>, allowing you to add features as they’re needed</li>
+  <li><strong>Universal compatibility</strong> with any data source, any build tool, and any GraphQL client</li>
+  <li><strong>Production readiness</strong>, enabling you to ship features faster.</li>
+</ul>
+
+<h3 id="express">Express</h3>
+
+<ul>
+  <li><strong>Express</strong> is a routing and middleware web framework that has minimal functionality of its own: An Express application is essentially a series of middleware function calls.</li>
+  <li><a href="https://expressjs.com/en/guide/using-middleware.html">Read more about express here</a></li>
+</ul>
+
+<h3 id="typescript">TypeScript</h3>
+
+<ul>
+  <li>TypeScript is JavaScript that scales.</li>
+  <li>Because TypeScript is a superset of JavaScript, it doesn’t have a default template — there would be too many. Instead, other projects have their own TypeScript bootstrap templates with their own context.</li>
+</ul>
+
+<p><strong>Why use TypeScript over JavaScript?</strong></p>
+
+<p>If an experienced developer is working on relatively small coding projects, then JavaScript is ideal. However, if you have the knowledge and expertise development team, then Typescript is the most preferred option. Typescript has the following advantages over Javascript.</p>
+
+<ul>
+  <li>The powerful type system, including generics &amp; JS features</li>
+  <li>TypeScript uses concepts like types and interfaces to describe data being used.</li>
+  <li>The Ecosystem is quite powerful and intuitive. Thus, it allows you to statically type various types of idiomatic JavaScript features like union types, intersection, discriminated union.</li>
+  <li>With Typescript, many npm packages either come with static type definitions or have an external one that is easy to install.</li>
+  <li>Typescript has a feature of prototyping.</li>
+  <li>Early spotted bugs</li>
+  <li>Predictability</li>
+  <li>Readability</li>
+  <li>Power of OOP</li>
+</ul>
+
+<h3 id="lets-write-code-for-what-we-are-here">Let’s write code for what we are here….</h3>
+
+<p><strong>Creating a directory and working on</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>mkdir apollo-server-demo-project
+cd apollo-server-demo-project
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Setting up the npm project</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>npm init — yes
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>This command will create a package.json file in the project.</p>
+
+<p><strong>Install and initializing TypeScript for our project</strong></p>
+
+<p>Add TypeScript to our project’s npm devDependencies</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>npm install — save-dev typescript
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Generate a tsconfig.json file using <a href="https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b">npx</a></strong>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>npx tsc --init --rootDir src --outDir dist --lib dom,es6 --module commonjs –removeComments
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Running above command will create tsconfig.json file in the project and it will look like this.</p>
+
+<p><img src="../_site/assets/images/post/graphql/tsconfig.png" alt="" /></p>
+
+<p>We will also need <a href="https://www.npmjs.com/package/nodemon">nodemon</a> to compile our code on change, and <a href="https://www.npmjs.com/package/ts-node">ts-node</a> to exec TypeScript files.</p>
+
+<p>Let’s install these 2 dependencies as well now</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>npm i nodemon ts-node --save-dev
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<h3 id="writing-actual-code-now">Writing actual code now</h3>
+
+<p>Create a <code class="language-plaintext highlighter-rouge">/src</code> directory with a <code class="language-plaintext highlighter-rouge">server.ts</code> file and print hello world from <code class="language-plaintext highlighter-rouge">server.ts</code> file</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>console.log(“Hello World”);
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Run below command to see the result on your terminal of project.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>nodemon 'src/server.ts' --exec 'ts-node' src/server.ts
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>You will see <strong>Hello World</strong> printed on your terminal as below.</p>
+
+<p><img src="../assets/images/post/graphql/hello_world.png" alt="" /></p>
+
+<h3 id="lets-now-create-an-actual-graphql-api">Lets now create an actual GraphQL API</h3>
+
+<p><strong>Setting up Apollo-Server-Express</strong></p>
+
+<p>Installing dependencies for <a href="https://www.npmjs.com/package/apollo-server-express">apollo-server-express</a>, <a href="https://www.npmjs.com/package/cors">cors</a>, <a href="https://www.npmjs.com/package/express">express</a> and <a href="https://www.npmjs.com/package/graphql">graphql</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>npm install apollo-server-express cors express graphql
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Installing dependencies for <a href="https://www.npmjs.com/package/@types/express">@types/express</a>, <a href="https://www.npmjs.com/package/@types/node">@types/node</a>, <a href="https://www.npmjs.com/package/graphql-tools">graphql-tools</a> and <a href="https://www.npmjs.com/package/graphql-import-node">graphql-import-node</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>npm install @types/express @types/node graphql-tools graphql-import-node --save-dev
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Creating a simple schema and resolver</strong></p>
+
+<p>In the <code class="language-plaintext highlighter-rouge">/src</code> folder, create a <code class="language-plaintext highlighter-rouge">/schema</code> folder and create a file <code class="language-plaintext highlighter-rouge">schema.graphql</code></p>
+
+<script src="https://gist.github.com/AnkitDroidGit/390ef242f8c77c279449fb836e0cc116.js"></script>
+
+<p>Then let’s quickly create a <code class="language-plaintext highlighter-rouge">resolvers.ts</code> file in the <code class="language-plaintext highlighter-rouge">/src</code> folder</p>
+
+<script src="https://gist.github.com/AnkitDroidGit/0c612e3863f2b62c6d7570c774e311bf.js"></script>
+
+<p>Create a <code class="language-plaintext highlighter-rouge">schema.ts</code> file in the <code class="language-plaintext highlighter-rouge">/src</code> folder that will be in charge of making an Executable GraphQL Schema:</p>
+
+<script src="https://gist.github.com/AnkitDroidGit/127b6d94d27be9922a711d9156096b13.js"></script>
+
+<p><strong>Finally creating apollo-server</strong></p>
+
+<script src="https://gist.github.com/AnkitDroidGit/c12cc8d38653c28c81c203ba9c34e009.js"></script>
+
+<p>Run your server again open http://localhost:8000/graphql on browsers of any other graphql client software.</p>
+
+<p><img src="../assets/images/post/graphql/run_server.png" alt="" /></p>
+
+<h3 id="lets-test-your-hellowolrd-query-from-the-client">Let’s test your helloWolrd query from the client</h3>
+
+<p><img src="../assets/images/post/graphql/test_query.png" alt="" /></p>
+
+<p>Add scripts in your <code class="language-plaintext highlighter-rouge">package.json</code> file as below for running commands in an easier way from next time.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre>"scripts": {
+"start": "node 'dist/server.js'",
+"build": "tsc -p . &amp;&amp; ncp src/schema dist/schema",
+"start:dev": "npm run build:dev",
+"build:dev": "nodemon 'src/server.ts' --exec 'ts-node' src/server.ts -e ts,graphql"
+},
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>Running <code class="language-plaintext highlighter-rouge">npm run build:dev</code> in your terminal will compile your code.</li>
+  <li>You can run the compiled code with <code class="language-plaintext highlighter-rouge">npm start:dev</code></li>
+  <li>Running <code class="language-plaintext highlighter-rouge">npm run build</code> in your terminal will compile your code and put it in the <code class="language-plaintext highlighter-rouge">/dist</code> folder.</li>
+  <li>You can run the compiled code with <code class="language-plaintext highlighter-rouge">npm start</code></li>
+</ul>
+
+<h2 id="lets-now-create-a-mutation-graphql-api">Lets now create a Mutation GraphQL API</h2>
+
+<p>Add mutation object in <code class="language-plaintext highlighter-rouge">src/schem/schema.graphql</code> file</p>
+
+<script src="https://gist.github.com/AnkitDroidGit/44032e5a567c15d5f5dea197db6f32d1.js"></script>
+
+<p>Add some logic for resolving mutation in <code class="language-plaintext highlighter-rouge">src/resolvers.ts</code> file as shown below</p>
+
+<script src="https://gist.github.com/AnkitDroidGit/d7bea58a81ce5ccbc69712290a34114f.js"></script>
+
+<p>Run the command and test mutation from client</p>
+
+<p><img src="../_site/assets/images/post/graphql/test_mutation.png" alt="" /></p>
+
+<hr />
+
+<p>Happy learning and happy coding !!!</p>
+
+<p>The code for this workshop is available as open source on <a href="https://github.com/AnkitDroidGit/Apollo-Server-Workshop">GitHub repo</a>.</p>
+
+<hr />
+
+<p>I have tried to share some of the lessons that I have learned from various sources. I will continue to keep learning more and sharing more. I hope it helps someone and makes their life a bit easier.</p>
+
+<p>Also, to be notified about my new articles and stories, follow me on <a href="https://ankitdeveloper.medium.com/">Medium</a>, <a href="https://github.com/AnkitDroidGit">Github</a>, and <a href="https://twitter.com/KumarrAnkitt">Twitter</a>. You can find me on <a href="https://www.linkedin.com/in/kumarankitkumar/">LinkedIn</a> as well. I am quite active on <a href="https://dev.to/ankitkumar">Dev Community</a> as well and write small topics over there.</p>
+
+<p>Cheers!!!!</p>
+
+            </div>
+
+            <!-- Rating -->
+            
+            <div class="rating mb-4 d-flex align-items-center">
+                <strong class="mr-1">Rating:</strong> <div class="rating-holder">
+<div class="c-rating c-rating--regular" data-rating-value="4.5">
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+</div>
+</div>
+            </div>
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2020-07-14">14 Jul 2020</time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#GraphQL">GraphQL</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#GraphQL-Mutation">GraphQL Mutation</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#GraphQL-Query">GraphQL Query</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#JavaScript">JavaScript</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#Nodejs">Nodejs</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#TypeScript">TypeScript</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#GraphQL">#GraphQL</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#GraphQL-Mutation">#GraphQL Mutation</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#GraphQL-Query">#GraphQL Query</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#JavaScript">#JavaScript</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Nodejs">#Nodejs</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#TypeScript">#TypeScript</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            <a class="prev d-block col-md-6" href="//github-secret-creating-github-profile/"> &laquo; Github Secret : Creating A GitHub Profile</a>
+            
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+
+    </div>
+</div>
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Thing",
+    "name": "Apollo Server Express GraphQL API using Node.js with TypeScript"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Ankit"
+  },
+  "datePublished": "2020-07-14",
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.5",
+    "bestRating": "5"
+  }
+}
+</script>
+</div>
+
+        
+      </div>
+
+      <!-- Categories Jumbotron
+================================================== -->
+      <div class="jumbotron fortags">
+        <div class="d-md-flex h-100">
+          <div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div
+              class="d-md-flex align-items-center justify-content-center h-100"
+            >
+              <h2 class="d-md-block align-self-center py-1 font-weight-light">
+                Explore <span class="d-none d-md-inline">→</span>
+              </h2>
+            </div>
+          </div>
+          <div class="col-md-8 p-5 align-self-center text-center">
+              
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Android"
+              >Android (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Jetpack-Compose"
+              >Jetpack Compose (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#CameraX"
+              >CameraX (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Technology"
+              >Technology (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#git"
+              >git (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#github"
+              >github (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#tutorial"
+              >tutorial (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#GraphQL"
+              >GraphQL (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#GraphQL-Query"
+              >GraphQL Query (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#GraphQL-Mutation"
+              >GraphQL Mutation (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Nodejs"
+              >Nodejs (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#JavaScript"
+              >JavaScript (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#TypeScript"
+              >TypeScript (1)</a
+            >
+              
+          </div>
+        </div>
+      </div>
+
+      <!-- Begin Footer
+================================================== -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+              Copyright © 2020 Ankit 's Tech Blog
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">
+              <a
+                target="_blank"
+                href="https://www.wowthemes.net/mediumish-free-jekyll-template/"
+                >Mediumish Jekyll Theme</a
+              >
+              by WowThemes.net
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer
+================================================== -->
+    </div>
+    <!-- /.site-content -->
+
+    <!-- Scripts
+================================================== -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/assets/js/mediumish.js"></script>
+
+    
+
+    <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    
+    <script
+      id="dsq-count-scr"
+      src="//demowebsite.disqus.com/count.js"
+    ></script>
+    
+  </body>
+</html>

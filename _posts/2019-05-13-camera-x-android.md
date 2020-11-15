@@ -6,8 +6,8 @@ categories: [Android, Jetpack Compose, CameraX, Technology]
 tags: [Android, Jetpack Compose, CameraX, Technology]
 image: assets/images/11.png
 description: "CameraX, launched at Google IO 19 , is a Jetpack support library, built to help us make camera app development easier. It provides a consistent and easy-to-use API surface that works across most Android devices, with backward-compatibility to Android 5.0 (API level 21)."
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: false
 rating: 4.5
 ---

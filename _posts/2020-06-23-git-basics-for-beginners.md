@@ -5,8 +5,8 @@ author: ankit
 categories: [git, github, tutorial]
 tags: [git, github, tutorial]
 image: assets/images/post/git_basics.png
-featured: true
-hidden: true
+hidden: false
+comments: false
 comments: false
 ---
 
