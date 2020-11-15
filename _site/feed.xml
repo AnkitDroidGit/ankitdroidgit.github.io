@@ -5,9 +5,9 @@
     <description>Ankit Kumar is a programmer, teacher, technologist, writer and  YouTuber</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Nov 2020 13:20:28 +0800</pubDate>
-    <lastBuildDate>Sun, 15 Nov 2020 13:20:28 +0800</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Sun, 15 Nov 2020 13:46:08 +0800</pubDate>
+    <lastBuildDate>Sun, 15 Nov 2020 13:46:08 +0800</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>Github Secret : Creating A GitHub Profile</title>
@@ -93,7 +93,7 @@ For getting hands-on experience of the below steps, feel free to fork &lt;a href
 &lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;     git pull
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;Make your changes on the master (default) branch. I am adding a new file called &lt;code class=&quot;highlighter-rouge&quot;&gt;contributors.md&lt;/code&gt; and appending it with my name &lt;code class=&quot;highlighter-rouge&quot;&gt;Ankit Kumar&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Make your changes on the master (default) branch. I am adding a new file called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;contributors.md&lt;/code&gt; and appending it with my name &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ankit Kumar&lt;/code&gt;.&lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Add file(s) to git for tracking by git add&lt;/p&gt;
 
@@ -174,12 +174,12 @@ We will do it here by the below commands.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Visit Github (or any software development version control using Git) repo on the browser.
-Click on &lt;code class=&quot;highlighter-rouge&quot;&gt;compare and pull request&lt;/code&gt;,
+Click on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;compare and pull request&lt;/code&gt;,
 Write your PR name with appropriate comments.
-Add &lt;code class=&quot;highlighter-rouge&quot;&gt;reviewers&lt;/code&gt; to request team members to review your PR.&lt;/p&gt;
+Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reviewers&lt;/code&gt; to request team members to review your PR.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Finally click on &lt;code class=&quot;highlighter-rouge&quot;&gt;create pull request&lt;/code&gt;
+    &lt;p&gt;Finally click on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create pull request&lt;/code&gt;
 You have done your work already.
 Wait for the reviewer to review&lt;/p&gt;
   &lt;/li&gt;
@@ -238,7 +238,7 @@ Visit your branch and merge your branch.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Create Android Project with minimum APL level 21.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
 4
@@ -254,7 +254,7 @@ Visit your branch and merge your branch.&lt;/p&gt;
 
 &lt;p&gt;Add dependencies in app&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 &lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    implementation &quot;androidx.camera:camera-core:1.0.0-alpha01&quot;
     implementation &quot;androidx.camera:camera-camera2:1.0.0-alpha01&quot;
@@ -264,13 +264,13 @@ Visit your branch and merge your branch.&lt;/p&gt;
 
 &lt;p&gt;In the manifest file&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 &lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    &amp;lt;uses-permission android:name=&quot;android.permission.CAMERA&quot; /&amp;gt;
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Handoling runtime permission in kotlin&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
 4
@@ -310,12 +310,12 @@ Visit your branch and merge your branch.&lt;/p&gt;
       &lt;li&gt;
         &lt;p&gt;Declare lateinit&lt;/p&gt;
 
-        &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 &lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    private lateinit var viewFinder: TextureView
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
       &lt;/li&gt;
       &lt;li&gt;define it inside onCreate(..) method
-        &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 &lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;   viewFinder = findViewById(R.id.finder_view)
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
       &lt;/li&gt;
@@ -336,7 +336,7 @@ Visit your branch and merge your branch.&lt;/p&gt;
   &lt;script src=&quot;https://gist.github.com/AnkitDroidGit/11555201e33e8b74eda1e757685aeb71.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Place below code between &lt;code class=&quot;highlighter-rouge&quot;&gt;CameraX.bindToLifecycle(this, preview)&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;CameraX.bindToLifecycle(this, preview, imageCapture)&lt;/code&gt;
+    &lt;p&gt;Place below code between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CameraX.bindToLifecycle(this, preview)&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CameraX.bindToLifecycle(this, preview, imageCapture)&lt;/code&gt;
   &lt;script src=&quot;https://gist.github.com/AnkitDroidGit/7976120ebcfeefaef55bb73e05bc420b.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -347,7 +347,7 @@ Visit your branch and merge your branch.&lt;/p&gt;
   &lt;li&gt;
     &lt;p&gt;create a class called ImageAnalyzer as below&lt;/p&gt;
 
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
 4
@@ -361,8 +361,8 @@ Visit your branch and merge your branch.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;And implement above class for analyzing image
   &lt;script src=&quot;https://gist.github.com/AnkitDroidGit/77c87e7d35f22621063f5f9213c5353d.js&quot;&gt;&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;Now add image analysis code inside &lt;code class=&quot;highlighter-rouge&quot;&gt;startCamera()&lt;/code&gt; method as below
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+  &lt;li&gt;Now add image analysis code inside &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;startCamera()&lt;/code&gt; method as below
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
 4

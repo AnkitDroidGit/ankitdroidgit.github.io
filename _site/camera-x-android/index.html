@@ -13,7 +13,7 @@
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>Getting Started with CameraX API | Ankit’s Tech Blog</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Getting Started with CameraX API" />
 <meta name="author" content="ankit" />
 <meta property="og:locale" content="en_US" />
@@ -26,7 +26,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-05-13T00:00:00+08:00" />
 <script type="application/ld+json">
-{"image":"http://localhost:4000/assets/images/11.png","author":{"@type":"Person","name":"ankit"},"description":"CameraX, launched at Google IO 19 , is a Jetpack support library, built to help us make camera app development easier. It provides a consistent and easy-to-use API surface that works across most Android devices, with backward-compatibility to Android 5.0 (API level 21).","headline":"Getting Started with CameraX API","dateModified":"2019-05-13T00:00:00+08:00","datePublished":"2019-05-13T00:00:00+08:00","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"ankit"},"url":"http://localhost:4000/camera-x-android/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/camera-x-android/"},"@context":"http://schema.org"}</script>
+{"headline":"Getting Started with CameraX API","dateModified":"2019-05-13T00:00:00+08:00","datePublished":"2019-05-13T00:00:00+08:00","author":{"@type":"Person","name":"ankit"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/camera-x-android/"},"image":"http://localhost:4000/assets/images/11.png","description":"CameraX, launched at Google IO 19 , is a Jetpack support library, built to help us make camera app development easier. It provides a consistent and easy-to-use API surface that works across most Android devices, with backward-compatibility to Android 5.0 (API level 21).","@type":"BlogPosting","url":"http://localhost:4000/camera-x-android/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"ankit"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -294,7 +294,7 @@
 
 <p><strong>Create Android Project with minimum APL level 21.</strong></p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -310,7 +310,7 @@
 
 <p>Add dependencies in app</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 </pre></td><td class="rouge-code"><pre>    implementation "androidx.camera:camera-core:1.0.0-alpha01"
     implementation "androidx.camera:camera-camera2:1.0.0-alpha01"
@@ -320,13 +320,13 @@
 
 <p>In the manifest file</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>    &lt;uses-permission android:name="android.permission.CAMERA" /&gt;
 </pre></td></tr></tbody></table></code></pre></div></div>
 
 <p>Handoling runtime permission in kotlin</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -366,12 +366,12 @@
       <li>
         <p>Declare lateinit</p>
 
-        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>    private lateinit var viewFinder: TextureView
 </pre></td></tr></tbody></table></code></pre></div>        </div>
       </li>
       <li>define it inside onCreate(..) method
-        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>   viewFinder = findViewById(R.id.finder_view)
 </pre></td></tr></tbody></table></code></pre></div>        </div>
       </li>
@@ -392,7 +392,7 @@
   <script src="https://gist.github.com/AnkitDroidGit/11555201e33e8b74eda1e757685aeb71.js"></script></p>
   </li>
   <li>
-    <p>Place below code between <code class="highlighter-rouge">CameraX.bindToLifecycle(this, preview)</code> and <code class="highlighter-rouge">CameraX.bindToLifecycle(this, preview, imageCapture)</code>
+    <p>Place below code between <code class="language-plaintext highlighter-rouge">CameraX.bindToLifecycle(this, preview)</code> and <code class="language-plaintext highlighter-rouge">CameraX.bindToLifecycle(this, preview, imageCapture)</code>
   <script src="https://gist.github.com/AnkitDroidGit/7976120ebcfeefaef55bb73e05bc420b.js"></script></p>
   </li>
 </ul>
@@ -403,7 +403,7 @@
   <li>
     <p>create a class called ImageAnalyzer as below</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -417,8 +417,8 @@
   </li>
   <li>And implement above class for analyzing image
   <script src="https://gist.github.com/AnkitDroidGit/77c87e7d35f22621063f5f9213c5353d.js"></script></li>
-  <li>Now add image analysis code inside <code class="highlighter-rouge">startCamera()</code> method as below
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+  <li>Now add image analysis code inside <code class="language-plaintext highlighter-rouge">startCamera()</code> method as below
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4

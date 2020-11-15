@@ -4,7 +4,7 @@ title: "Working with Github (or any software development version control using G
 author: ankit
 categories: [git, github, tutorial]
 tags: [git, github, tutorial]
-image: assets/images/16.jpg
+image: assets/images/post/git_basics.png
 featured: true
 hidden: true
 comments: false
