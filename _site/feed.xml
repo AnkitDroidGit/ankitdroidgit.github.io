@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ankit's Tech Blog</title>
+    <description>Ankit Kumar is a programmer, teacher, technologist, writer and  YouTuber</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 15 Nov 2020 12:36:26 +0800</pubDate>
+    <lastBuildDate>Sun, 15 Nov 2020 12:36:26 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Github Secret : Creating A GitHub Profile</title>
+        <description>&lt;h2 id=&quot;creating-a-github-profile&quot;&gt;Creating A GitHub Profile&lt;/h2&gt;
+
+&lt;p&gt;Github says&lt;/p&gt;
+
+&lt;p&gt;AnkitDroidGit/AnkitDroidGit is now a special repository: its README.md will appear on your profile!&lt;/p&gt;
+
+&lt;p&gt;GitHub recently released a feature that allows users to create a profile README to display prominently on their GitHub profile.
+This write-up explains how to access this new feature and create your own special repository.&lt;/p&gt;
+
+&lt;h2 id=&quot;lets-start-&quot;&gt;Let’s Start !!&lt;/h2&gt;
+
+&lt;p&gt;The profile README is created by creating a new repository with the same name as your username.
+Let’s understand with my example:
+My GitHub username is AnkitDroidGit so I created a new repository with the name AnkitDroidGit.
+Note: new repository name must match (including letter case) your GitHub username.&lt;/p&gt;
+
+&lt;h3 id=&quot;lets-follow-the-steps&quot;&gt;Let’s follow the steps&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a new repository with the same name (including casing) as your GitHub username: https://github.com/new&lt;/li&gt;
+  &lt;li&gt;Let it be public.&lt;/li&gt;
+  &lt;li&gt;Initialize this repository with a README.&lt;/li&gt;
+  &lt;li&gt;Modify README.md file inside the repo with your content (text, GIFs, images, emojis, etc.)&lt;/li&gt;
+  &lt;li&gt;Commit your README!&lt;/li&gt;
+  &lt;li&gt;Push changes to GitHub (if you made changes locally).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/1400/1*iBP_8ZiavCJ5yz7rmaUPPg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And finally, you will get a profile read me like mine.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/2000/1*sTgb-hXxszN0U5zssdFRrQ.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This article was originally posted on &lt;a href=&quot;https://medium.com/@ankitdeveloper/creating-a-github-profile-bf9cfd885b89&quot;&gt;Medium&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, to be notified about my new articles and stories, follow me on Medium, Github. You can find me on LinkedIn as well. Cheers!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Jun 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/Github-Secret-Creating-A-GitHub-Profile/</link>
+        <guid isPermaLink="true">http://localhost:4000/Github-Secret-Creating-A-GitHub-Profile/</guid>
+        
+        <category>git</category>
+        
+        <category>github</category>
+        
+        <category>tutorial</category>
+        
+        
+        <category>git</category>
+        
+        <category>github</category>
+        
+        <category>tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>Working with Github (or any software development version control using Git) for the beginners</title>
+        <description>&lt;p&gt;Working with Github (or any software development version control using Git) for the beginners&lt;/p&gt;
+
+&lt;p&gt;Many new developers face this problem when they start working on a project which is shared among many team member and many of them need to work together on the project.
+It becomes hard for newbies to create PR and adding their work to the upstream project repo.
+I am trying to make this easier for all the newbies who are going to work on the project collaboration in the team.
+By following these steps, it becomes easier to handle changes, stashing, committing, creating, and merging PR after approval.&lt;/p&gt;
+
+&lt;p&gt;Let’s go through the steps with commands and sample project on Github.
+For getting hands-on experience of the below steps, feel free to fork &lt;a href=&quot;https://github.com/AnkitDroidGit/git-basics-for-newbies&quot;&gt;this Github repo&lt;/a&gt; and follow along&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clone project from upstream to the local repo&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;     git clone git@github.com:AnkitDroidGit/git-basics-for-newbies.git
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Open project with your favorite IDE/Code Editor&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pull the latest changes from upstream if you haven’t pulled changes from quite some time (think of changes merged by other members of your team)&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;     git pull
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Make your changes on the master (default) branch. I am adding a new file called &lt;code class=&quot;highlighter-rouge&quot;&gt;contributors.md&lt;/code&gt; and appending it with my name &lt;code class=&quot;highlighter-rouge&quot;&gt;Ankit Kumar&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Add file(s) to git for tracking by git add&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;     git add name
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;You can add all files by running below command&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;     git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Check differences by running the following command.&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;     git diff
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now suppose someone from your teams has already added and merged his changes to the master branch. If you are going to commit and push your changes without synching repo with upstream, you might get conflicts that become hard to resolve later in case of many conflicts.
+Its a great idea to sync your local repo with upstream.
+We will do it here by the below commands.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;First, stash your changes. Stashing saves your working directory and index state WIP on master: with the latest commit&lt;/p&gt;
+
+        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    git stash
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Run git pull for latest changes from upstream branch, if any.&lt;/p&gt;
+
+        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    git pull
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Apply your stashed change to an active changelist or default changelist.&lt;/p&gt;
+
+        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    git stash apply
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Check your difference again by running git diff&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    git diff
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Resolve conflicts if any. Resolving conflicts now is easier compared to the time of many many conflicts at the time of creating PR without synching.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now, add commit message&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    git commit - m &lt;span class=&quot;s2&quot;&gt;&quot;added my name in contributors.md&quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Checkout to a new branch&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    git checkout &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; addedName
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Push your changes to the newly checked out branch. It will create a new branch on upstream with the same name your have checked out with.&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    git push &lt;span class=&quot;nt&quot;&gt;--set-upstream&lt;/span&gt; origin addedName
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Visit Github (or any software development version control using Git) repo on the browser.
+Click on &lt;code class=&quot;highlighter-rouge&quot;&gt;compare and pull request&lt;/code&gt;,
+Write your PR name with appropriate comments.
+Add &lt;code class=&quot;highlighter-rouge&quot;&gt;reviewers&lt;/code&gt; to request team members to review your PR.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Finally click on &lt;code class=&quot;highlighter-rouge&quot;&gt;create pull request&lt;/code&gt;
+You have done your work already.
+Wait for the reviewer to review&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Once PR is approved by the reviewer(s).
+Visit your branch and merge your branch.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;On your local repo, pull master again before making any other changes, follow the steps again.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Also, to be notified about my new articles and stories, follow me on &lt;a href=&quot;https://medium.com/@ankitdeveloper&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://github.com/AnkitDroidGit&quot;&gt;Github&lt;/a&gt;. You can find me on &lt;a href=&quot;https://www.linkedin.com/in/kumarankitkumar/&quot;&gt;LinkedIn&lt;/a&gt; as well. Cheers!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Jun 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/git-basics-for-beginners/</link>
+        <guid isPermaLink="true">http://localhost:4000/git-basics-for-beginners/</guid>
+        
+        <category>git</category>
+        
+        <category>github</category>
+        
+        <category>tutorial</category>
+        
+        
+        <category>git</category>
+        
+        <category>github</category>
+        
+        <category>tutorial</category>
+        
+      </item>
+    
+      <item>
+        <title>Getting Started with CameraX API</title>
+        <description>&lt;p&gt;CameraX, launched at Google IO 19 , is a Jetpack support library, built to help us make camera app development easier. It provides a consistent and easy-to-use API surface that works across most Android devices, with backward-compatibility to Android 5.0 (API level 21).&lt;/p&gt;
+
+&lt;h3 id=&quot;why-camerax-is-beneficial&quot;&gt;Why CameraX is beneficial?&lt;/h3&gt;
+
+&lt;p&gt;As per the &lt;a href=&quot;https://developer.android.com/training/camerax#primary&quot;&gt;documentation&lt;/a&gt;, CameraX has following primary benefits :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Easy to use&lt;/li&gt;
+  &lt;li&gt;Consistence across the devices&lt;/li&gt;
+  &lt;li&gt;It provide new camera experience to the user&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
+
+&lt;p&gt;Requirements to use CameraX are :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Android Studio 3.3 or later&lt;/li&gt;
+  &lt;li&gt;A device running on Android L or later&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lets-get-hands-on-app-code&quot;&gt;Let’s get hands on app code&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Create Android Project with minimum APL level 21.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    defaultConfig {
+        applicationId &quot;com.ankkumar.cameraxsampleapp&quot;
+        minSdkVersion 21
+        targetSdkVersion 28
+        ......
+    }
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Add dependencies in app&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    implementation &quot;androidx.camera:camera-core:1.0.0-alpha01&quot;
+    implementation &quot;androidx.camera:camera-camera2:1.0.0-alpha01&quot;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Request Camera Permissions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the manifest file&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    &amp;lt;uses-permission android:name=&quot;android.permission.CAMERA&quot; /&amp;gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Handoling runtime permission in kotlin&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    import android.Manifest
+    import android.util.Size
+    import android.graphics.Matrix
+    import java.util.concurrent.TimeUnit
+
+    private const val REQUEST_CODE_PERMISSIONS = 881
+
+    private val REQUIRED_PERMISSIONS = arrayOf(Manifest.permission.CAMERA)
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;actual code of permission handling look like below&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AnkitDroidGit/132ef18e5760d202e43513b55e2488c7.js&quot;&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;time-to-create-ui&quot;&gt;Time to create UI&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Create and Implement view finder&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&quot;https://gist.github.com/AnkitDroidGit/e8207c26817774fdb20af611fdf9ed29.js&quot;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Implementation of view finder&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Declare lateinit&lt;/p&gt;
+
+        &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    private lateinit var viewFinder: TextureView
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;define it inside onCreate(..) method
+        &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;   viewFinder = findViewById(R.id.finder_view)
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;and implement it as below&lt;/p&gt;
+
+        &lt;script src=&quot;https://gist.github.com/AnkitDroidGit/b691aef48268d2f7cafd787bcf8c60de.js&quot;&gt;&lt;/script&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;implementing-image-capture&quot;&gt;Implementing Image Capture&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Write below code to capture image
+  &lt;script src=&quot;https://gist.github.com/AnkitDroidGit/11555201e33e8b74eda1e757685aeb71.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Place below code between &lt;code class=&quot;highlighter-rouge&quot;&gt;CameraX.bindToLifecycle(this, preview)&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;CameraX.bindToLifecycle(this, preview, imageCapture)&lt;/code&gt;
+  &lt;script src=&quot;https://gist.github.com/AnkitDroidGit/7976120ebcfeefaef55bb73e05bc420b.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;analysing-captured-image&quot;&gt;Analysing captured image&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;create a class called ImageAnalyzer as below&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;  class ImageAnalyzer : ImageAnalysis.Analyzer {
+      override fun analyze(image: ImageProxy?, rotationDegrees: Int) {
+          TODO(&quot;not implemented&quot;) //To change body of created functions use File | Settings | File Templates.
+      }
+  }
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;And implement above class for analyzing image
+  &lt;script src=&quot;https://gist.github.com/AnkitDroidGit/77c87e7d35f22621063f5f9213c5353d.js&quot;&gt;&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;Now add image analysis code inside &lt;code class=&quot;highlighter-rouge&quot;&gt;startCamera()&lt;/code&gt; method as below
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;   // Setup image analysis pipeline that computes average pixel luminance
+  val analyzerConfig = ImageAnalysisConfig.Builder().apply {
+      // Use a worker thread for image analysis to prevent glitches
+      val analyzerThread = HandlerThread(
+            &quot;LuminosityAnalysis&quot;
+      ).apply { start() }
+      setCallbackHandler(Handler(analyzerThread.looper))
+      // In our analysis, we care more about the latest image than
+      // analyzing *every* image
+      setImageReaderMode(
+          ImageAnalysis.ImageReaderMode.ACQUIRE_LATEST_IMAGE
+      )
+  }.build()
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;After adding this snippet modify CameraX.bindToLifecycle() method with this argument&lt;/li&gt;
+  &lt;li&gt;Now our complete startCamera() will look like this
+  &lt;script src=&quot;https://gist.github.com/AnkitDroidGit/de4d7bb7c453a9e1fecec162cfb071f6.js&quot;&gt;&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;testing-app&quot;&gt;Testing app&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/test_camera_x.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And it works perfect !!!
+Congratulations !!!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 May 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/camera-x-android/</link>
+        <guid isPermaLink="true">http://localhost:4000/camera-x-android/</guid>
+        
+        <category>Android</category>
+        
+        <category>Jetpack Compose</category>
+        
+        <category>CameraX</category>
+        
+        <category>Technology</category>
+        
+        
+        <category>Android</category>
+        
+        <category>Jetpack Compose</category>
+        
+        <category>CameraX</category>
+        
+        <category>Technology</category>
+        
+      </item>
+    
+  </channel>
+</rss>

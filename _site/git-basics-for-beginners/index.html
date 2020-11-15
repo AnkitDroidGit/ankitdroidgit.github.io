@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="icon" href="/assets/images/logo.png" />
+
+    <title>Working with Github (or any software development version control using Git) for the beginners | Ankit 's Tech Blog</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Working with Github (or any software development version control using Git) for the beginners | Ankit’s Tech Blog</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Working with Github (or any software development version control using Git) for the beginners" />
+<meta name="author" content="ankit" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Working with Github (or any software development version control using Git) for the beginners" />
+<meta property="og:description" content="Working with Github (or any software development version control using Git) for the beginners" />
+<link rel="canonical" href="http://localhost:4000/git-basics-for-beginners/" />
+<meta property="og:url" content="http://localhost:4000/git-basics-for-beginners/" />
+<meta property="og:site_name" content="Ankit’s Tech Blog" />
+<meta property="og:image" content="http://localhost:4000/assets/images/16.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-23T00:00:00+08:00" />
+<script type="application/ld+json">
+{"image":"http://localhost:4000/assets/images/16.jpg","author":{"@type":"Person","name":"ankit"},"description":"Working with Github (or any software development version control using Git) for the beginners","headline":"Working with Github (or any software development version control using Git) for the beginners","dateModified":"2020-06-23T00:00:00+08:00","datePublished":"2020-06-23T00:00:00+08:00","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"ankit"},"url":"http://localhost:4000/git-basics-for-beginners/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/git-basics-for-beginners/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link href="/assets/css/screen.css" rel="stylesheet" />
+
+    <link href="/assets/css/main.css" rel="stylesheet" />
+
+    <script src="/assets/js/jquery.min.js"></script>
+  </head>
+
+   
+  <body class="layout-post">
+    <!-- defer loading of font and font awesome -->
+    <noscript id="deferred-styles">
+      <link
+        href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i"
+        rel="stylesheet"
+      />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous"
+      />
+    </noscript>
+
+    <!-- Begin Menu Navigation
+================================================== -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down"
+    >
+      <div class="container pr-0">
+        <!-- Begin Logo -->
+        <a class="navbar-brand" href="/">
+          <img src="/assets/images/logo.png" alt="Ankit 's Tech Blog" />
+        </a>
+        <!-- End Logo -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarMediumish"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMediumish">
+          <!-- Begin Menu -->
+
+          <ul class="navbar-nav ml-auto">
+            </li>
+
+            <li class="nav-item">
+              
+              <a class="nav-link" href="/index.html">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://www.youtube.com/channel/UCalpz0wG0xvNXcVYasg1pEA"
+                ><i class="fab fa-youtube"></i> YouTube</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/AnkitDroidGit"
+                ><i class="fab fa-github"></i> Github</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://twitter.com/KumarrAnkitt"
+                ><i class="fab fa-twitter"></i> Twitter</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://www.linkedin.com/in/kumarankitkumar/"
+                ><i class="fab fa-linkedin"></i> LinkedIn</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/AnkitDroidGit"
+                ><i class="fab fa-medium"></i> Medium</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/AnkitDroidGit"
+                ><i class="fab fa-dev"></i> Dev</a
+              >
+            </li>
+
+            <script src="/assets/js/lunr.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script>
+          </ul>
+
+          <!-- End Menu -->
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation
+================================================== -->
+
+    <div class="site-content">
+      <div class="container">
+        <!-- Site Title
+================================================== -->
+        <div class="mainheading">
+          <h1 class="sitetitle">Ankit 's Tech Blog</h1>
+          <p class="lead">Ankit Kumar is a programmer, teacher, technologist, writer and  YouTuber</p>
+        </div>
+
+        <!-- Content
+================================================== -->
+        <div class="main-content"><!-- Begin Article
+================================================== -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Share -->
+        <div class="col-md-2 pl-0">
+            <div class="share sticky-top sticky-top-offset">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Working with Github (or any software development version control using Git) for the beginners&url=http://localhost:4000/git-basics-for-beginners/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/git-basics-for-beginners/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/git-basics-for-beginners/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+
+    </ul>
+    
+</div>
+
+        </div>
+
+        <!-- Post -->
+        
+
+        <div class="col-md-9 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!-- Author Box -->
+                
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                        
+                        <img class="author-thumb" src="/assets/images/avatar.png" alt="Ankit">
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                        <a target="_blank" class="link-dark" href="https://www.ankitkumar.dev">Ankit</a><a target="_blank" href="https://twitter.com/KumarrAnkitt" class="btn follow">Follow</a>
+                        <span class="author-description">Software Engineer, YouTuber </span>
+                    </div>
+                </div>
+                
+
+                <!-- Post Title -->
+                <h1 class="posttitle">Working with Github (or any software development version control using Git) for the beginners</h1>
+
+            </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            
+            <!-- End Adsense -->
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="/assets/images/16.jpg" alt="Working with Github (or any software development version control using Git) for the beginners">
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+                <!-- Toc if any -->
+                
+                <!-- End Toc -->
+                <p>Working with Github (or any software development version control using Git) for the beginners</p>
+
+<p>Many new developers face this problem when they start working on a project which is shared among many team member and many of them need to work together on the project.
+It becomes hard for newbies to create PR and adding their work to the upstream project repo.
+I am trying to make this easier for all the newbies who are going to work on the project collaboration in the team.
+By following these steps, it becomes easier to handle changes, stashing, committing, creating, and merging PR after approval.</p>
+
+<p>Let’s go through the steps with commands and sample project on Github.
+For getting hands-on experience of the below steps, feel free to fork <a href="https://github.com/AnkitDroidGit/git-basics-for-newbies">this Github repo</a> and follow along</p>
+
+<ul>
+  <li>
+    <p>Clone project from upstream to the local repo</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>     git clone git@github.com:AnkitDroidGit/git-basics-for-newbies.git
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>Open project with your favorite IDE/Code Editor</li>
+  <li>
+    <p>Pull the latest changes from upstream if you haven’t pulled changes from quite some time (think of changes merged by other members of your team)</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>     git pull
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>Make your changes on the master (default) branch. I am adding a new file called <code class="highlighter-rouge">contributors.md</code> and appending it with my name <code class="highlighter-rouge">Ankit Kumar</code>.</li>
+  <li>
+    <p>Add file(s) to git for tracking by git add</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>     git add name
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+
+    <p>You can add all files by running below command</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>     git add <span class="nb">.</span>
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Check differences by running the following command.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>     git diff
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Now suppose someone from your teams has already added and merged his changes to the master branch. If you are going to commit and push your changes without synching repo with upstream, you might get conflicts that become hard to resolve later in case of many conflicts.
+Its a great idea to sync your local repo with upstream.
+We will do it here by the below commands.</p>
+
+    <ul>
+      <li>
+        <p>First, stash your changes. Stashing saves your working directory and index state WIP on master: with the latest commit</p>
+
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>    git stash
+</pre></td></tr></tbody></table></code></pre></div>        </div>
+      </li>
+      <li>
+        <p>Run git pull for latest changes from upstream branch, if any.</p>
+
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>    git pull
+</pre></td></tr></tbody></table></code></pre></div>        </div>
+      </li>
+      <li>
+        <p>Apply your stashed change to an active changelist or default changelist.</p>
+
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>    git stash apply
+</pre></td></tr></tbody></table></code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Check your difference again by running git diff</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>    git diff
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>Resolve conflicts if any. Resolving conflicts now is easier compared to the time of many many conflicts at the time of creating PR without synching.</li>
+  <li>
+    <p>Now, add commit message</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>    git commit - m <span class="s2">"added my name in contributors.md"</span>
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Checkout to a new branch</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>    git checkout <span class="nt">-b</span> addedName
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Push your changes to the newly checked out branch. It will create a new branch on upstream with the same name your have checked out with.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>    git push <span class="nt">--set-upstream</span> origin addedName
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Visit Github (or any software development version control using Git) repo on the browser.
+Click on <code class="highlighter-rouge">compare and pull request</code>,
+Write your PR name with appropriate comments.
+Add <code class="highlighter-rouge">reviewers</code> to request team members to review your PR.</p>
+  </li>
+  <li>
+    <p>Finally click on <code class="highlighter-rouge">create pull request</code>
+You have done your work already.
+Wait for the reviewer to review</p>
+  </li>
+  <li>
+    <p>Once PR is approved by the reviewer(s).
+Visit your branch and merge your branch.</p>
+  </li>
+  <li>On your local repo, pull master again before making any other changes, follow the steps again.</li>
+</ul>
+
+<p>Also, to be notified about my new articles and stories, follow me on <a href="https://medium.com/@ankitdeveloper">Medium</a>, <a href="https://github.com/AnkitDroidGit">Github</a>. You can find me on <a href="https://www.linkedin.com/in/kumarankitkumar/">LinkedIn</a> as well. Cheers!</p>
+
+            </div>
+
+            <!-- Rating -->
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2020-06-23">23 Jun 2020</time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#git">git</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#github">github</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#tutorial">tutorial</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#git">#git</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#github">#github</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#tutorial">#tutorial</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            <a class="prev d-block col-md-6" href="//camera-x-android/"> &laquo; Getting Started with CameraX API</a>
+            
+            
+            <a class="next d-block col-md-6 text-lg-right" href="//Github-Secret-Creating-A-GitHub-Profile/">Github Secret : Creating A GitHub Profile &raquo; </a>
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+
+    </div>
+</div>
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+</div>
+
+        
+      </div>
+
+      <!-- Categories Jumbotron
+================================================== -->
+      <div class="jumbotron fortags">
+        <div class="d-md-flex h-100">
+          <div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div
+              class="d-md-flex align-items-center justify-content-center h-100"
+            >
+              <h2 class="d-md-block align-self-center py-1 font-weight-light">
+                Explore <span class="d-none d-md-inline">→</span>
+              </h2>
+            </div>
+          </div>
+          <div class="col-md-8 p-5 align-self-center text-center">
+              
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Android"
+              >Android (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Jetpack-Compose"
+              >Jetpack Compose (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#CameraX"
+              >CameraX (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Technology"
+              >Technology (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#git"
+              >git (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#github"
+              >github (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#tutorial"
+              >tutorial (2)</a
+            >
+              
+          </div>
+        </div>
+      </div>
+
+      <!-- Begin Footer
+================================================== -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+              Copyright © 2020 Ankit 's Tech Blog
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">
+              <a
+                target="_blank"
+                href="https://www.wowthemes.net/mediumish-free-jekyll-template/"
+                >Mediumish Jekyll Theme</a
+              >
+              by WowThemes.net
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer
+================================================== -->
+    </div>
+    <!-- /.site-content -->
+
+    <!-- Scripts
+================================================== -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/assets/js/mediumish.js"></script>
+
+    
+
+    <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    
+    <script
+      id="dsq-count-scr"
+      src="//demowebsite.disqus.com/count.js"
+    ></script>
+    
+  </body>
+</html>

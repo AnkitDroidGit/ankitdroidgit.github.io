@@ -1,0 +1,274 @@
+/*  Generic style */
+
+body {
+  margin: 0px;
+  font-family: "Nunito", system-ui, sans-serif;
+  font-size: 18px;
+  color: #201f1f;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  min-width: 320px;
+  justify-content: center;
+  align-items: center;
+  background: #050f13;
+  background-image: url("../images/cover.png");
+}
+
+.profile-pic {
+  height: 250px;
+  width: 200px;
+}
+
+.profile-pic img {
+  margin-top: 100px;
+  border-radius: 50%;
+  height: 300px;
+  width: auto;
+}
+
+.profile-headings {
+  text-align: center;
+}
+
+.tech-title {
+  margin: 40px 0 0 0;
+  padding: 0 0 10px 0;
+  color: rgb(251, 171, 171);
+}
+
+.tech-stack {
+  margin: 0;
+  padding: 0 0 30px 0;
+  font-size: 20px;
+  color: antiquewhite;
+  list-style: none;
+}
+
+.tech-stack li {
+  padding: 2px;
+}
+
+.container {
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.section {
+  margin: 40px 0;
+}
+
+.section-header {
+  border-bottom: 3px solid #0a0a0a;
+  margin: 30px 0 20px 0;
+}
+
+.section-title {
+  margin: 10px 0;
+  font-size: 30px;
+}
+
+.skills-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.skills {
+  padding: 0 20px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+.skills li {
+  padding: 5px 0;
+}
+
+.social-container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.social-link {
+  flex-basis: 20%;
+  height: 80px;
+  width: fit-content;
+  display: auto;
+  align-items: center;
+}
+
+.social-link a {
+  flex: 1;
+  border: 1px solid #c5c5c5;
+  border-radius: 8px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #c5c5c5;
+}
+
+.social-link a:hover {
+  border: 1px solid #0a0a0a;
+}
+
+.social-link a:hover > .social-icon {
+  color: #0a0a0a;
+}
+
+.social-icon {
+  font-size: 40px;
+}
+
+.personal-info-container {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.personal-info-container .icon {
+  font-size: 13px;
+  color: #0a0a0a;
+}
+
+.personal-info-text {
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.personal-info-container a {
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+.personal-info-container a:hover {
+  color: #0a0a0a;
+}
+
+.lang-info h4 {
+  margin: 20px 0 10px 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.lang-info li {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.additional-skills-div h4 {
+  margin: 20px 0 10px 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.additional-skills {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.additional-skills li {
+  font-size: 16px;
+  padding: 2px 3px;
+}
+
+.additional-skills li:before {
+  content: "✓";
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+}
+
+@media only screen and (min-width: 900px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .profile-pic {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .profile-pic img {
+    margin-top: 50px;
+  }
+
+  .profile-headings {
+    flex-basis: 75%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .tech-title {
+    padding: 0 0 0 10px;
+  }
+
+  .tech-stack {
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  .tech-stack li {
+    padding: 0 10px 10px 10px;
+  }
+
+  .container {
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+  }
+
+  .main {
+    flex-basis: 60%;
+  }
+
+  .section-skills {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .skills-div {
+    flex: 1;
+  }
+
+  .work-div {
+    display: flex;
+  }
+
+  .work-period {
+    flex: 1;
+  }
+
+  .work-description {
+    flex: 5;
+  }
+
+  .quick-detail {
+    margin-top: 80px;
+    flex-basis: 30%;
+  }
+}

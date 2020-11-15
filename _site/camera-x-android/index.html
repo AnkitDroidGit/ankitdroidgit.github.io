@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="icon" href="/assets/images/logo.png" />
+
+    <title>Getting Started with CameraX API | Ankit 's Tech Blog</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Getting Started with CameraX API | Ankit’s Tech Blog</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Getting Started with CameraX API" />
+<meta name="author" content="ankit" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="CameraX, launched at Google IO 19 , is a Jetpack support library, built to help us make camera app development easier. It provides a consistent and easy-to-use API surface that works across most Android devices, with backward-compatibility to Android 5.0 (API level 21)." />
+<meta property="og:description" content="CameraX, launched at Google IO 19 , is a Jetpack support library, built to help us make camera app development easier. It provides a consistent and easy-to-use API surface that works across most Android devices, with backward-compatibility to Android 5.0 (API level 21)." />
+<link rel="canonical" href="http://localhost:4000/camera-x-android/" />
+<meta property="og:url" content="http://localhost:4000/camera-x-android/" />
+<meta property="og:site_name" content="Ankit’s Tech Blog" />
+<meta property="og:image" content="http://localhost:4000/assets/images/11.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-13T00:00:00+08:00" />
+<script type="application/ld+json">
+{"image":"http://localhost:4000/assets/images/11.png","author":{"@type":"Person","name":"ankit"},"description":"CameraX, launched at Google IO 19 , is a Jetpack support library, built to help us make camera app development easier. It provides a consistent and easy-to-use API surface that works across most Android devices, with backward-compatibility to Android 5.0 (API level 21).","headline":"Getting Started with CameraX API","dateModified":"2019-05-13T00:00:00+08:00","datePublished":"2019-05-13T00:00:00+08:00","@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"ankit"},"url":"http://localhost:4000/camera-x-android/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/camera-x-android/"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link href="/assets/css/screen.css" rel="stylesheet" />
+
+    <link href="/assets/css/main.css" rel="stylesheet" />
+
+    <script src="/assets/js/jquery.min.js"></script>
+  </head>
+
+   
+  <body class="layout-post">
+    <!-- defer loading of font and font awesome -->
+    <noscript id="deferred-styles">
+      <link
+        href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i"
+        rel="stylesheet"
+      />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous"
+      />
+    </noscript>
+
+    <!-- Begin Menu Navigation
+================================================== -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down"
+    >
+      <div class="container pr-0">
+        <!-- Begin Logo -->
+        <a class="navbar-brand" href="/">
+          <img src="/assets/images/logo.png" alt="Ankit 's Tech Blog" />
+        </a>
+        <!-- End Logo -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarMediumish"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMediumish">
+          <!-- Begin Menu -->
+
+          <ul class="navbar-nav ml-auto">
+            </li>
+
+            <li class="nav-item">
+              
+              <a class="nav-link" href="/index.html">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://www.youtube.com/channel/UCalpz0wG0xvNXcVYasg1pEA"
+                ><i class="fab fa-youtube"></i> YouTube</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/AnkitDroidGit"
+                ><i class="fab fa-github"></i> Github</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://twitter.com/KumarrAnkitt"
+                ><i class="fab fa-twitter"></i> Twitter</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://www.linkedin.com/in/kumarankitkumar/"
+                ><i class="fab fa-linkedin"></i> LinkedIn</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/AnkitDroidGit"
+                ><i class="fab fa-medium"></i> Medium</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/AnkitDroidGit"
+                ><i class="fab fa-dev"></i> Dev</a
+              >
+            </li>
+
+            <script src="/assets/js/lunr.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script>
+          </ul>
+
+          <!-- End Menu -->
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation
+================================================== -->
+
+    <div class="site-content">
+      <div class="container">
+        <!-- Site Title
+================================================== -->
+        <div class="mainheading">
+          <h1 class="sitetitle">Ankit 's Tech Blog</h1>
+          <p class="lead">Ankit Kumar is a programmer, teacher, technologist, writer and  YouTuber</p>
+        </div>
+
+        <!-- Content
+================================================== -->
+        <div class="main-content"><!-- Begin Article
+================================================== -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Share -->
+        <div class="col-md-2 pl-0">
+            <div class="share sticky-top sticky-top-offset">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Getting Started with CameraX API&url=http://localhost:4000/camera-x-android/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/camera-x-android/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/camera-x-android/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+
+    </ul>
+    
+</div>
+
+        </div>
+
+        <!-- Post -->
+        
+
+        <div class="col-md-9 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!-- Author Box -->
+                
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                        
+                        <img class="author-thumb" src="/assets/images/avatar.png" alt="Ankit">
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                        <a target="_blank" class="link-dark" href="https://www.ankitkumar.dev">Ankit</a><a target="_blank" href="https://twitter.com/KumarrAnkitt" class="btn follow">Follow</a>
+                        <span class="author-description">Software Engineer, YouTuber </span>
+                    </div>
+                </div>
+                
+
+                <!-- Post Title -->
+                <h1 class="posttitle">Getting Started with CameraX API</h1>
+
+            </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            
+            <!-- End Adsense -->
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="/assets/images/11.png" alt="Getting Started with CameraX API">
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+                <!-- Toc if any -->
+                
+                <!-- End Toc -->
+                <p>CameraX, launched at Google IO 19 , is a Jetpack support library, built to help us make camera app development easier. It provides a consistent and easy-to-use API surface that works across most Android devices, with backward-compatibility to Android 5.0 (API level 21).</p>
+
+<h3 id="why-camerax-is-beneficial">Why CameraX is beneficial?</h3>
+
+<p>As per the <a href="https://developer.android.com/training/camerax#primary">documentation</a>, CameraX has following primary benefits :</p>
+
+<ol>
+  <li>Easy to use</li>
+  <li>Consistence across the devices</li>
+  <li>It provide new camera experience to the user</li>
+</ol>
+
+<h3 id="requirements">Requirements</h3>
+
+<p>Requirements to use CameraX are :</p>
+
+<ul>
+  <li>Android Studio 3.3 or later</li>
+  <li>A device running on Android L or later</li>
+</ul>
+
+<h3 id="lets-get-hands-on-app-code">Let’s get hands on app code</h3>
+
+<p><strong>Create Android Project with minimum APL level 21.</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre>    defaultConfig {
+        applicationId "com.ankkumar.cameraxsampleapp"
+        minSdkVersion 21
+        targetSdkVersion 28
+        ......
+    }
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Add dependencies in app</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>    implementation "androidx.camera:camera-core:1.0.0-alpha01"
+    implementation "androidx.camera:camera-camera2:1.0.0-alpha01"
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Request Camera Permissions</strong></p>
+
+<p>In the manifest file</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>    &lt;uses-permission android:name="android.permission.CAMERA" /&gt;
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Handoling runtime permission in kotlin</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre>    import android.Manifest
+    import android.util.Size
+    import android.graphics.Matrix
+    import java.util.concurrent.TimeUnit
+
+    private const val REQUEST_CODE_PERMISSIONS = 881
+
+    private val REQUIRED_PERMISSIONS = arrayOf(Manifest.permission.CAMERA)
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>actual code of permission handling look like below</p>
+
+<script src="https://gist.github.com/AnkitDroidGit/132ef18e5760d202e43513b55e2488c7.js"></script>
+
+<hr />
+
+<h4 id="time-to-create-ui">Time to create UI</h4>
+
+<ul>
+  <li>Create and Implement view finder</li>
+</ul>
+
+<script src="https://gist.github.com/AnkitDroidGit/e8207c26817774fdb20af611fdf9ed29.js"></script>
+
+<ul>
+  <li>
+    <p>Implementation of view finder</p>
+
+    <ul>
+      <li>
+        <p>Declare lateinit</p>
+
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>    private lateinit var viewFinder: TextureView
+</pre></td></tr></tbody></table></code></pre></div>        </div>
+      </li>
+      <li>define it inside onCreate(..) method
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>   viewFinder = findViewById(R.id.finder_view)
+</pre></td></tr></tbody></table></code></pre></div>        </div>
+      </li>
+      <li>
+        <p>and implement it as below</p>
+
+        <script src="https://gist.github.com/AnkitDroidGit/b691aef48268d2f7cafd787bcf8c60de.js"></script>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="implementing-image-capture">Implementing Image Capture</h3>
+
+<ul>
+  <li>
+    <p>Write below code to capture image
+  <script src="https://gist.github.com/AnkitDroidGit/11555201e33e8b74eda1e757685aeb71.js"></script></p>
+  </li>
+  <li>
+    <p>Place below code between <code class="highlighter-rouge">CameraX.bindToLifecycle(this, preview)</code> and <code class="highlighter-rouge">CameraX.bindToLifecycle(this, preview, imageCapture)</code>
+  <script src="https://gist.github.com/AnkitDroidGit/7976120ebcfeefaef55bb73e05bc420b.js"></script></p>
+  </li>
+</ul>
+
+<h3 id="analysing-captured-image">Analysing captured image</h3>
+
+<ul>
+  <li>
+    <p>create a class called ImageAnalyzer as below</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>  class ImageAnalyzer : ImageAnalysis.Analyzer {
+      override fun analyze(image: ImageProxy?, rotationDegrees: Int) {
+          TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+      }
+  }
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>And implement above class for analyzing image
+  <script src="https://gist.github.com/AnkitDroidGit/77c87e7d35f22621063f5f9213c5353d.js"></script></li>
+  <li>Now add image analysis code inside <code class="highlighter-rouge">startCamera()</code> method as below
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>   // Setup image analysis pipeline that computes average pixel luminance
+  val analyzerConfig = ImageAnalysisConfig.Builder().apply {
+      // Use a worker thread for image analysis to prevent glitches
+      val analyzerThread = HandlerThread(
+            "LuminosityAnalysis"
+      ).apply { start() }
+      setCallbackHandler(Handler(analyzerThread.looper))
+      // In our analysis, we care more about the latest image than
+      // analyzing *every* image
+      setImageReaderMode(
+          ImageAnalysis.ImageReaderMode.ACQUIRE_LATEST_IMAGE
+      )
+  }.build()
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>After adding this snippet modify CameraX.bindToLifecycle() method with this argument</li>
+  <li>Now our complete startCamera() will look like this
+  <script src="https://gist.github.com/AnkitDroidGit/de4d7bb7c453a9e1fecec162cfb071f6.js"></script></li>
+</ul>
+
+<h3 id="testing-app">Testing app</h3>
+
+<p><img src="../../assets/images/post/test_camera_x.png" alt="" /></p>
+
+<p>And it works perfect !!!
+Congratulations !!!</p>
+
+            </div>
+
+            <!-- Rating -->
+            
+            <div class="rating mb-4 d-flex align-items-center">
+                <strong class="mr-1">Rating:</strong> <div class="rating-holder">
+<div class="c-rating c-rating--regular" data-rating-value="4.5">
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+</div>
+</div>
+            </div>
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2019-05-13">13 May 2019</time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#Android">Android</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#CameraX">CameraX</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#Jetpack-Compose">Jetpack Compose</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#Technology">Technology</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Android">#Android</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#CameraX">#CameraX</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Jetpack-Compose">#Jetpack Compose</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Technology">#Technology</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            
+            <a class="next d-block col-md-6 text-lg-right" href="//git-basics-for-beginners/">Working with Github (or any software development version control using Git) for the beginners &raquo; </a>
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+
+    </div>
+</div>
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Thing",
+    "name": "Getting Started with CameraX API"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Ankit"
+  },
+  "datePublished": "2019-05-13",
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.5",
+    "bestRating": "5"
+  }
+}
+</script>
+</div>
+
+        
+      </div>
+
+      <!-- Categories Jumbotron
+================================================== -->
+      <div class="jumbotron fortags">
+        <div class="d-md-flex h-100">
+          <div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div
+              class="d-md-flex align-items-center justify-content-center h-100"
+            >
+              <h2 class="d-md-block align-self-center py-1 font-weight-light">
+                Explore <span class="d-none d-md-inline">→</span>
+              </h2>
+            </div>
+          </div>
+          <div class="col-md-8 p-5 align-self-center text-center">
+              
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Android"
+              >Android (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Jetpack-Compose"
+              >Jetpack Compose (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#CameraX"
+              >CameraX (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Technology"
+              >Technology (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#git"
+              >git (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#github"
+              >github (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#tutorial"
+              >tutorial (2)</a
+            >
+              
+          </div>
+        </div>
+      </div>
+
+      <!-- Begin Footer
+================================================== -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+              Copyright © 2020 Ankit 's Tech Blog
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">
+              <a
+                target="_blank"
+                href="https://www.wowthemes.net/mediumish-free-jekyll-template/"
+                >Mediumish Jekyll Theme</a
+              >
+              by WowThemes.net
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer
+================================================== -->
+    </div>
+    <!-- /.site-content -->
+
+    <!-- Scripts
+================================================== -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/assets/js/mediumish.js"></script>
+
+    
+
+    <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    
+    <script
+      id="dsq-count-scr"
+      src="//demowebsite.disqus.com/count.js"
+    ></script>
+    
+  </body>
+</html>
