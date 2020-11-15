@@ -109,7 +109,7 @@ npx tsc --init --rootDir src --outDir dist --lib dom,es6 --module commonjs –re
 
 Running above command will create tsconfig.json file in the project and it will look like this.
 
-![](../_site/assets/images/post/graphql/tsconfig.png)
+![](../../assets/images/post/graphql/tsconfig.png)
 
 We will also need [nodemon](https://www.npmjs.com/package/nodemon) to compile our code on change, and [ts-node](https://www.npmjs.com/package/ts-node) to exec TypeScript files.
 
@@ -135,7 +135,7 @@ nodemon 'src/server.ts' --exec 'ts-node' src/server.ts
 
 You will see **Hello World** printed on your terminal as below.
 
-![](../assets/images/post/graphql/hello_world.png)
+![](../../assets/images/post/graphql/hello_world.png)
 
 ### Lets now create an actual GraphQL API
 
@@ -173,11 +173,11 @@ Create a `schema.ts` file in the `/src` folder that will be in charge of making 
 
 Run your server again open http://localhost:8000/graphql on browsers of any other graphql client software.
 
-![](../assets/images/post/graphql/run_server.png)
+![](../../assets/images/post/graphql/run_server.png)
 
 ### Let's test your helloWolrd query from the client
 
-![](../assets/images/post/graphql/test_query.png)
+![](../../assets/images/post/graphql/test_query.png)
 
 Add scripts in your `package.json` file as below for running commands in an easier way from next time.
 
@@ -207,7 +207,7 @@ Add some logic for resolving mutation in `src/resolvers.ts` file as shown below
 
 Run the command and test mutation from client
 
-![](../_site/assets/images/post/graphql/test_mutation.png)
+![](../../assets/images/post/graphql/test_mutation.png)
 
 ---
 

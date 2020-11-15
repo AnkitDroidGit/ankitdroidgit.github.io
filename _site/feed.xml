@@ -5,8 +5,8 @@
     <description>Ankit Kumar is a programmer, teacher, technologist, writer and  YouTuber</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Nov 2020 14:37:28 +0800</pubDate>
-    <lastBuildDate>Sun, 15 Nov 2020 14:37:28 +0800</lastBuildDate>
+    <pubDate>Sun, 15 Nov 2020 16:09:39 +0800</pubDate>
+    <lastBuildDate>Sun, 15 Nov 2020 16:09:39 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -123,7 +123,7 @@ cd apollo-server-demo-project
 
 &lt;p&gt;Running above command will create tsconfig.json file in the project and it will look like this.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../_site/assets/images/post/graphql/tsconfig.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/graphql/tsconfig.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We will also need &lt;a href=&quot;https://www.npmjs.com/package/nodemon&quot;&gt;nodemon&lt;/a&gt; to compile our code on change, and &lt;a href=&quot;https://www.npmjs.com/package/ts-node&quot;&gt;ts-node&lt;/a&gt; to exec TypeScript files.&lt;/p&gt;
 
@@ -149,7 +149,7 @@ cd apollo-server-demo-project
 
 &lt;p&gt;You will see &lt;strong&gt;Hello World&lt;/strong&gt; printed on your terminal as below.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/images/post/graphql/hello_world.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/graphql/hello_world.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;lets-now-create-an-actual-graphql-api&quot;&gt;Lets now create an actual GraphQL API&lt;/h3&gt;
 
@@ -187,11 +187,11 @@ cd apollo-server-demo-project
 
 &lt;p&gt;Run your server again open http://localhost:8000/graphql on browsers of any other graphql client software.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/images/post/graphql/run_server.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/graphql/run_server.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;lets-test-your-hellowolrd-query-from-the-client&quot;&gt;Let’s test your helloWolrd query from the client&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/images/post/graphql/test_query.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/graphql/test_query.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Add scripts in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt; file as below for running commands in an easier way from next time.&lt;/p&gt;
 
@@ -228,7 +228,7 @@ cd apollo-server-demo-project
 
 &lt;p&gt;Run the command and test mutation from client&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../_site/assets/images/post/graphql/test_mutation.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/graphql/test_mutation.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
