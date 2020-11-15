@@ -4,7 +4,7 @@ title: "Github Secret : Creating A GitHub Profile"
 author: ankit
 categories: [git, github, tutorial]
 tags: [git, github, tutorial]
-image: assets/images/17.jpg
+image: assets/images/post/github_profile.png
 comments: false
 ---
 
@@ -37,8 +37,6 @@ Note: new repository name must match (including letter case) your GitHub usernam
 
 And finally, you will get a profile read me like mine.
 
-![](https://miro.medium.com/max/2000/1*sTgb-hXxszN0U5zssdFRrQ.png)
-
-This article was originally posted on [Medium](https://medium.com/@ankitdeveloper/creating-a-github-profile-bf9cfd885b89)
+![](../../assets/images/post/github_profile_full.png)
 
 Also, to be notified about my new articles and stories, follow me on Medium, Github. You can find me on LinkedIn as well. Cheers!
