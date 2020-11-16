@@ -9,8 +9,6 @@ categories: [git, github, tutorial]
 tags: [git, github, tutorial]
 image: assets/images/post/github_profile.png
 comments: false
-hidden: true
-featured: true
 ---
 
 ## Creating A GitHub Profile

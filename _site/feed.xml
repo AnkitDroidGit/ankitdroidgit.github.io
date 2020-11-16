@@ -5,9 +5,171 @@
     <description>Ankit Kumar is a Programmer, Technologist, Technical Writer, YouTuber and Tutor</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Nov 2020 13:08:41 +0800</pubDate>
-    <lastBuildDate>Mon, 16 Nov 2020 13:08:41 +0800</lastBuildDate>
+    <pubDate>Mon, 16 Nov 2020 13:32:18 +0800</pubDate>
+    <lastBuildDate>Mon, 16 Nov 2020 13:32:18 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Building your own Google Chrome Extension</title>
+        <description>&lt;p&gt;Probably you are reading this article on the Google Chrome browser. Right?&lt;/p&gt;
+
+&lt;p&gt;If yes, you would have used extensions on your browser to customize your experience.&lt;/p&gt;
+
+&lt;p&gt;Today I am here to describe how you can write and build your own extension for the Google Chrome browser.&lt;/p&gt;
+
+&lt;h2 id=&quot;lets-start-&quot;&gt;Lets Start !!!!&lt;/h2&gt;
+
+&lt;p&gt;If you feel lazy in reading articles, you should watch a video tutorial below&lt;/p&gt;
+
+&lt;iframe width=&quot;1192&quot; height=&quot;670&quot; src=&quot;https://www.youtube.com/embed/CqdUGhzIddA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Let’s start reading finally.&lt;/p&gt;
+
+&lt;p&gt;By this time you have got to know that we are going an extension for Google Chrome.&lt;/p&gt;
+
+&lt;p&gt;So the question comes what this extension will do for us?&lt;/p&gt;
+
+&lt;p&gt;The answer is We are will build an extension that will open a new tab on the browser with a predefined URL, in this example it is my YouTube Channel URL.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;what-is-the-google-chrome-extension&quot;&gt;What is the Google Chrome extension?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chrome Extension helps to add some functionality to Chrome through some of the JavaScript APIs Chrome exposes.&lt;/li&gt;
+  &lt;li&gt;It is basically a webpage hosted within Chrome.&lt;/li&gt;
+  &lt;li&gt;It can access some additional APIs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Let’s do some code now!&lt;/p&gt;
+
+&lt;h4 id=&quot;setting-up-the-project&quot;&gt;Setting up the project&lt;/h4&gt;
+
+&lt;p&gt;Create a directory called ChromeExtension and Open this in your favorite code editor&lt;/p&gt;
+
+&lt;h4 id=&quot;create-the-manifest&quot;&gt;Create the manifest&lt;/h4&gt;
+
+&lt;p&gt;Extensions start with their &lt;a href=&quot;https://developer.chrome.com/extensions/extensions/manifest&quot;&gt;manifest&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Create a file called manifest.json and include the following code.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AnkitDroidGit/f858af50d5e8679d3ece5db765175096.js&quot;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;name&lt;/strong&gt; is the name of the extension.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;version&lt;/strong&gt; is the current version of the extension.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;introduce-a-user-interface-and-logo&quot;&gt;Introduce a User Interface and Logo&lt;/h4&gt;
+
+&lt;p&gt;Create a file called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;test.html&lt;/code&gt; and add the following code.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AnkitDroidGit/14d4e07421368b047e530b731a531a5f.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Add &lt;strong&gt;logo&lt;/strong&gt; to project, I have added a file called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;logo.png&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;These files need to be designated as a popup in the manifest under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;browser_action&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The updated manifest.json will look like this&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AnkitDroidGit/82b1205f19df9c94fe8218c9ec911a72.js&quot;&gt;&lt;/script&gt;
+
+&lt;h4 id=&quot;override-pages&quot;&gt;Override Pages&lt;/h4&gt;
+
+&lt;p&gt;As I mentioned above, we are building an extension that will open a new tab with a predefined URL. We have to add a page for it.&lt;/p&gt;
+
+&lt;p&gt;Create a file called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;newtab.html&lt;/code&gt; and add the following code to it.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AnkitDroidGit/3f0339250c08c27984a4d14b9d52894a.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;These files need to be designated as a popup in the manifest under &lt;a href=&quot;https://developer.chrome.com/extensions/override&quot;&gt;chrome_url_overrides&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The updated manifest file shown is below&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/AnkitDroidGit/f3992d4b244986a09a7c60ecc561ed74.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;We are done with the coding part.&lt;/p&gt;
+
+&lt;p&gt;It was easy, wasn’t it?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;adding-an-extension-to-chrome&quot;&gt;Adding an extension to Chrome&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open the Extension Management page by navigating to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chrome://extensions&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/chrome/open_extension.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The Extension Management page can also be opened by clicking on the &lt;strong&gt;Chrome menu&lt;/strong&gt;, hovering over &lt;strong&gt;More Tools&lt;/strong&gt; then select &lt;strong&gt;Extensions&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Enable &lt;strong&gt;Developer Mode&lt;/strong&gt; by clicking the toggle switch next to &lt;strong&gt;Developer mode&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Click the &lt;strong&gt;LOAD UNPACKED&lt;/strong&gt; button and select the extension directory&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/chrome/deve_mode.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/chrome/extension_loaded.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The extension has been successfully installed !!!&lt;/p&gt;
+
+&lt;p&gt;You should pin it to make visible on the extension bar of Google Chrome.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/chrome/test.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;testing-extension&quot;&gt;Testing extension&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/chrome/test2.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Also, to be notified about my new articles and stories, follow me on &lt;a href=&quot;https://ankitdeveloper.medium.com/&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://github.com/AnkitDroidGit&quot;&gt;Github&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/KumarrAnkitt&quot;&gt;Twitter&lt;/a&gt;. You can find me on &lt;a href=&quot;https://www.linkedin.com/in/kumarankitkumar/&quot;&gt;LinkedIn&lt;/a&gt; as well. I am quite active on &lt;a href=&quot;https://dev.to/ankitkumar&quot;&gt;Dev Community&lt;/a&gt; as well and write small topics over there.&lt;/p&gt;
+
+&lt;p&gt;Cheers!!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 05 Sep 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/building-own-cheome-extension/</link>
+        <guid isPermaLink="true">http://localhost:4000/building-own-cheome-extension/</guid>
+        
+        <category>Chrome</category>
+        
+        <category>Google Chrome</category>
+        
+        <category>Chrome Extension</category>
+        
+        <category>JavaScript</category>
+        
+        <category>TypeScript</category>
+        
+        <category>HTML</category>
+        
+        <category>CSS</category>
+        
+        
+        <category>Chrome</category>
+        
+        <category>Google Chrome</category>
+        
+        <category>Chrome Extension</category>
+        
+        <category>JavaScript</category>
+        
+        <category>TypeScript</category>
+        
+        <category>HTML</category>
+        
+        <category>CSS</category>
+        
+      </item>
     
       <item>
         <title>Apollo Server Express GraphQL API using Node.js with TypeScript</title>
