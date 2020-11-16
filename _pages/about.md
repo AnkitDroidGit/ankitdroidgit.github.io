@@ -26,7 +26,13 @@ comments: false
 <p>Join my <a target="_blank" href="https://discord.gg/QNWqVmtG3E">Discord</a> | 
 <a target="_blank" href="https://t.me/TechTalksbyAnkitKumar">Telegram channel</a>
 </p>
-<p>For collaboration, email me at blogs@ankitkumar.dev</p>
+
+<p>For collaboration, email me at <a
+        href="mailto:blogs@ankitkumar.dev?subject=&body=:%20"
+        target="_blank"
+        title="Email"
+        onclick="window.open(this.href, 'width=550,height=435');return false;"
+      >blogs@ankitkumar.dev</a></p>
 
 </div>
 </div>
