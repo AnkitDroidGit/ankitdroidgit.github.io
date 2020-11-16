@@ -8,14 +8,27 @@ comments: false
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It is created with Github Pages and hosted with Github.</p>
+<p>Hi, I am a Software Developer and a YouTuber who likes to write Technical Blogs and contribute to Open Source</p>
 
-<h4> ---- This page is in construction currently ---- </h4>
+<p><img src="../../assets/images/about/about_banner.png" /></p>
 
-<h4>Questions or suggestion?</h4>
+<div>
+<p>The Blog content will be mostly about Technical guide and my recent learnings and experience</p>
+<p>Connect with me on <a target="_blank" href="https://twitter.com/KumarrAnkitt"> Twitter</a>
+ |  <a target="_blank" href="https://www.youtube.com/channel/UCalpz0wG0xvNXcVYasg1pEA"> YouTube</a>
+ |  <a target="_blank" href="https://www.linkedin.com/in/kumarankitkumar">LinkedIn</a>
+</p>
+<p>Do share Suggestions and Feedback with me on  <a target="_blank" href="https://twitter.com/KumarrAnkitt"> Twitter</a></p>
+<p>Check out my work and projects on <a target="_blank" href="https://github.com/AnkitDroidGit">GitHub</a></p>
 
-<p>Head over to our <a href="https://github.com/AnkitDroidGit/ankitdroidgit.github.io">Github repository</a>!</p>
+<p>Make sure to subscribe my <a target="_blank" href="https://www.youtube.com/channel/UCalpz0wG0xvNXcVYasg1pEA">YouTube Channel</a> for latest updates</p>
 
+<p>Join my <a target="_blank" href="https://discord.gg/QNWqVmtG3E">Discord</a> | 
+<a target="_blank" href="https://t.me/TechTalksbyAnkitKumar">Telegram channel</a>
+</p>
+<p>For collaboration, email me at blogs@ankitkumar.dev</p>
+
+</div>
 </div>
 
 <div class="col-md-4">
