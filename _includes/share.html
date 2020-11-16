@@ -1,34 +1,64 @@
 <div class="share sticky-top sticky-top-offset">
-    <p>
-        Share
-    </p>
-    <ul>
-        <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-                <i class="fab fa-twitter"></i>
-            </a>
-        </li>
+  <p>Share</p>
+  <ul>
+    <li class="ml-1 mr-1">
+      <a
+        target="_blank"
+        href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"
+      >
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
 
-        <li class="ml-1 mr-1">
-            <a target="_blank" href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-        </li>
+    <li class="ml-1 mr-1">
+      <a
+        target="_blank"
+        href="https://facebook.com/sharer.php?u={{ page.url | absolute_url }}"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"
+      >
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
 
-        <li class="ml-1 mr-1">
-            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'width=550,height=435');return false;">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-        </li>
+    <li class="ml-1 mr-1">
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{ page.title }}&source=Tech Talks by Ankit Kumar"
+        onclick="window.open(this.href, 'width=550,height=435');return false;"
+      >
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
 
-    </ul>
-    {% if page.comments != false %}
-    <div class="sep">
-    </div>
-    <ul>
-        <li>
-        <a class="small smoothscroll" href="#disqus_thread"></a>
-        </li>
-    </ul>
-    {% endif %}
+    <li class="ml-1 mr-1">
+      <a
+        target="_blank"
+        href="http://www.reddit.com/submit?url={{ page.url | absolute_url }}&title={{ page.title }}"
+        onclick="window.open(this.href, 'width=550,height=435');return false;"
+      >
+        <i class="fab fa-reddit-alien"></i>
+      </a>
+    </li>
+    
+    <li class="ml-1 mr-1"></li>
+      <a
+        href="mailto:blogs@ankitkumar.dev?subject=&body=:%20"
+        target="_blank"
+        title="Email"
+        onclick="window.open(this.href, 'width=550,height=435');return false;"
+      >
+    <i class="fas fa-envelope"></i>
+    </a>
+    </li>
+
+  </ul>
+  {% if page.comments != false %}
+  <div class="sep"></div>
+  <ul>
+    <li>
+      <a class="small smoothscroll" href="#disqus_thread"></a>
+    </li>
+  </ul>
+  {% endif %}
 </div>
