@@ -1,13 +1,11 @@
 # Site
-name: "Ankit 's Tech Blog"
-title: "Ankit's Tech Blog"
-description: "Ankit Kumar is a programmer, teacher, technologist, writer and  YouTuber"
+name: "Tech Talks by Ankit Kumar"
+title: "Tech Talks by Ankit Kumar"
+description: "Ankit Kumar is a Programmer, Technologist, Technical Writer, YouTuber and Tutor"
 logo: "assets/images/logo.png"
 favicon: "assets/images/favicon.ico"
 baseurl: ""
 google_analytics: ""
-disqus: "demowebsite"
-# mailchimp-list: "https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
 include: ["_pages"]
 permalink: /:title/
 
