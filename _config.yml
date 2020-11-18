@@ -13,12 +13,13 @@ permalink: /:title/
 authors:
   ankit:
     name: Ankit
-    display_name: Ankit
+    display_name: Ankit Kumar
     avatar: "assets/images/avatar.png"
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: blogs@ankitkumar.dev
     web: https://www.ankitkumar.dev
     twitter: https://twitter.com/KumarrAnkitt
+    twitterHandle: KumarrAnkitt
     description: "Programmer, Technologist, Technical Writer, YouTuber and Tutor"
 
 # Plugins
