@@ -7,6 +7,9 @@ body {
   color: #201f1f;
 }
 
+ul {
+  columns: 3;
+}
 .header {
   display: flex;
   flex-direction: column;
