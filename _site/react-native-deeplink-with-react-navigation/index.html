@@ -330,7 +330,7 @@
                 <!-- Toc if any -->
                 
                 <!-- End Toc -->
-                <p>Deep linking is when a link sends users directly into a specific point in the app experience, rather than an external website or app homepage.</p>
+                <p>Deep linking is when a link sends users directly into a specific point in the app experience, rather than an external website or app homepage</p>
 
 <h3 id="whats-is-deeplink">Whats is Deeplink</h3>
 
@@ -356,17 +356,17 @@
 
 <ul>
   <li>Custom URI schemes were the original form of deep linking for mobile apps.</li>
-  <li>They are like creating a “private internet” for your app, with links that look like <code class="language-plaintext highlighter-rouge">demo://path/to/content</code>.</li>
+  <li>They are like creating a “private internet” for your app, with links that look like <code class="language-plaintext highlighter-rouge">demo://path/to/content</code></li>
   <li>The advantage of custom URI schemes is they are easy to set up.</li>
-  <li>The disadvantage is a user’s device only knows about this “private internet” if the corresponding app is already installed, and there is no graceful fallback option by default.</li>
+  <li>The disadvantage is a user’s device only knows about this <code class="language-plaintext highlighter-rouge">private internet</code> if the corresponding app is already installed, and there is no graceful fallback option by default.</li>
 </ul>
 
 <h3 id="universal-links">Universal Links</h3>
 
 <ul>
-  <li>Apple introduced Universal Links in iOS 9 as a solution to the lack of graceful fallback functionality in custom URI scheme deeplinks.</li>
+  <li>Apple introduced Universal Links in iOS 9 as a solution to the lack of graceful fallback functionality in custom URI scheme deep links.</li>
   <li>Universal Links are standard web links (<code class="language-plaintext highlighter-rouge">https://ankitkumar.dev</code>) that point to both a web page and a piece of content inside an app.</li>
-  <li>When a Universal Link is opened, iOS checks to see if any installed app on device is registered for that domain.
+  <li>When a Universal Link is opened, iOS checks to see if any installed app on the device is registered for that domain.
     <ul>
       <li>If so, the app is launched immediately without ever loading the web page.</li>
       <li>If not, the web URL (which can be a simple redirect to the App Store) is loaded in Safari.</li>
@@ -391,16 +391,16 @@
 
 <h3 id="what-are-we-building">What are we building?</h3>
 
-<p>I am decalring deeplink urls for our application, which will open our app from anywhere in the os on Android and iOS devices.</p>
+<p>I am declaring deep link URLs for our application, which will open our app from anywhere in the os on Android and iOS devices.</p>
 
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">demo://app/home/:id</code> - This deeplink will open home screen of the app and will pass <code class="language-plaintext highlighter-rouge">id</code> as param/props to home screen</li>
-  <li><code class="language-plaintext highlighter-rouge">demo://app/profile/:id</code> - This deeplink will open profile screen of the app and will pass <code class="language-plaintext highlighter-rouge">id</code> as param/props to profile screen</li>
-  <li><code class="language-plaintext highlighter-rouge">demo://app/notifications</code> - This deeplink will open notificatiosn screen of the app</li>
-  <li><code class="language-plaintext highlighter-rouge">demo://app/settings</code> - This deeplink will open notificatiosn screen of the app</li>
+  <li><code class="language-plaintext highlighter-rouge">demo://app/home/:id</code> - This deep link will open the home screen of the app and will pass id as param/props to the home screen</li>
+  <li><code class="language-plaintext highlighter-rouge">demo://app/profile/:id</code> - This deep link will open the profile screen of the app and will pass id as param/props to the profile screen</li>
+  <li><code class="language-plaintext highlighter-rouge">demo://app/notifications</code> - This deep link will open the notifications screen of the app</li>
+  <li><code class="language-plaintext highlighter-rouge">demo://app/settings</code> - This deep link will open the notifications screen of the app</li>
 </ul>
 
-<p>After implementation of deeplink, app will behave as shown here.</p>
+<p>After the implementation of the deep-link, the app will behave as shown here.</p>
 
 <iframe width="860" height="515" src="https://www.youtube.com/embed/s8YaclRknYw?start=55" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
@@ -410,9 +410,9 @@
 
 <h3 id="setting-up-the-project">Setting up the project</h3>
 
-<p>I am assuming that you already have project in which deeplink need to be integrated.</p>
+<p>I am assuming that you already have a project in which deep links need to be integrated.</p>
 
-<p>If you dont have any project, I have created a small app with four screens and expalined here.</p>
+<p>If you don’t have any project, I have created a small app with four screens and explained here.</p>
 
 <iframe width="860" height="515" src="https://www.youtube.com/embed/s8YaclRknYw?start=05" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
@@ -421,30 +421,30 @@
 <h3 id="setting-up-custom-uri-scheme-for-ios-in-xcode">Setting up custom uri scheme for iOS in Xcode</h3>
 
 <ol>
-  <li>Open your <code class="language-plaintext highlighter-rouge">react-native</code>(<code class="language-plaintext highlighter-rouge">deeplinkreactnavigation</code>) project and go to <code class="language-plaintext highlighter-rouge">ios</code> folder.</li>
-  <li>Open file with extension <code class="language-plaintext highlighter-rouge">.xcworkspace</code> by double clicking on it. In this project <code class="language-plaintext highlighter-rouge">deeplinkreactnavigation.xcworkspace</code> is the file.</li>
-  <li>After opening in Xcode, follow the steps from screenshot below and add <code class="language-plaintext highlighter-rouge">demo</code> to <code class="language-plaintext highlighter-rouge">URL Schemes</code> and <code class="language-plaintext highlighter-rouge">target name</code>(<code class="language-plaintext highlighter-rouge">deeplinkreactnavigation</code>) to Identifier.</li>
+  <li>Open your <code class="language-plaintext highlighter-rouge">react-native</code>(<code class="language-plaintext highlighter-rouge">deeplinkreactnavigation</code>) project and go to the ios folder.</li>
+  <li>Open the file with extension <code class="language-plaintext highlighter-rouge">.xcworkspace</code> by double-clicking on it. In this project <code class="language-plaintext highlighter-rouge">deeplinkreactnavigation.xcworkspace</code> is the file.</li>
+  <li>After opening in Xcode, follow the steps from the screenshot below and add <code class="language-plaintext highlighter-rouge">demo</code> to <code class="language-plaintext highlighter-rouge">URL Schemes</code> and target name(<code class="language-plaintext highlighter-rouge">deeplinkreactnavigation</code>) to the <code class="language-plaintext highlighter-rouge">Identifier</code>.</li>
 </ol>
 
 <p><img src="../../assets/images/post/react-native/deeplink/ios_setup.png" width="860" height="515" /></p>
 
-<h3 id="setting-up-custom-uri-scheme-for-android-in-android-studio">Setting up custom uri scheme for Android in Android Studio</h3>
+<h3 id="setting-up-custom-uri-scheme-for-android-in-android-studio">Setting up custom URI scheme for Android in Android Studio</h3>
 
 <ol>
-  <li>Open your <code class="language-plaintext highlighter-rouge">react-native</code>(<code class="language-plaintext highlighter-rouge">deeplinkreactnavigation</code>) project and go to <code class="language-plaintext highlighter-rouge">android</code> folder.</li>
-  <li>Open file <code class="language-plaintext highlighter-rouge">build.gradle</code> with Android Studio.</li>
-  <li>After opening in Xcode, open <code class="language-plaintext highlighter-rouge">Androidmanifest.xml</code> and add <code class="language-plaintext highlighter-rouge">intent-filter</code> as shown below.</li>
+  <li>Open your <code class="language-plaintext highlighter-rouge">react-native</code>(<code class="language-plaintext highlighter-rouge">deeplinkreactnavigation</code>) project and go to the <code class="language-plaintext highlighter-rouge">android</code> folder.</li>
+  <li>Open file <code class="language-plaintext highlighter-rouge">build.gradle</code> with <code class="language-plaintext highlighter-rouge">Android Studio</code>.</li>
+  <li>After opening in <code class="language-plaintext highlighter-rouge">Android Studio</code>, open <code class="language-plaintext highlighter-rouge">Androidmanifest.xml</code> and add intent-filter as shown below.</li>
 </ol>
 
 <script src="https://gist.github.com/AnkitDroidGit/1db942dfd800427a889dda8bf667ccfa.js"></script>
 
 <hr />
 
-<h3 id="handling-deeplink-in-react-native">Handling deeplink in react native</h3>
+<h3 id="handling-deep-link-in-react-native">Handling deep link in react native</h3>
 
 <ol>
   <li>Create a new file <code class="language-plaintext highlighter-rouge">linking.js</code></li>
-  <li>Add <code class="language-plaintext highlighter-rouge">prefixes</code> as array of <code class="language-plaintext highlighter-rouge">demo://app</code> and all <code class="language-plaintext highlighter-rouge">deeplink</code> urls as described above to the file as shown below</li>
+  <li>Add <code class="language-plaintext highlighter-rouge">prefixes</code> as an array of <code class="language-plaintext highlighter-rouge">demo://app</code> and all deep link URLs as described above to the file as shown below</li>
 </ol>
 
 <script src="https://gist.github.com/AnkitDroidGit/0e9f548c75bacf8859c45fc343914712.js"></script>
@@ -468,19 +468,19 @@
 
 <h3 id="testing-deeplink">Testing deeplink</h3>
 
-<p>Its always easy and better to test deeplink on physical devices, so</p>
+<p><strong>Its always easy and better to test deep link on physical devices, so</strong></p>
 
 <ul>
-  <li>Install app on devcies(<code class="language-plaintext highlighter-rouge">Android</code> or <code class="language-plaintext highlighter-rouge">iOS</code> or <code class="language-plaintext highlighter-rouge">both</code>)</li>
-  <li>Have the deeplink url in any other app</li>
-  <li>Tap on deeplink url as a normal url</li>
-  <li>Its hsould take you the our app’s respective screen</li>
+  <li>Install the app on devices(<code class="language-plaintext highlighter-rouge">Android</code> or <code class="language-plaintext highlighter-rouge">iOS</code> or <code class="language-plaintext highlighter-rouge">both</code>)</li>
+  <li>Have the deep link URL in any other app</li>
+  <li>Tap on deep link URL as a normal URL</li>
+  <li>Its should take you our app’s respective screen</li>
 </ul>
 
-<p>If you want to test deeplink on virtual devices, then</p>
+<p><strong>If you want to test deep link on virtual devices, then</strong></p>
 
 <ul>
-  <li>Install app on virtual devcies(<code class="language-plaintext highlighter-rouge">Android</code> or <code class="language-plaintext highlighter-rouge">iOS</code> or <code class="language-plaintext highlighter-rouge">both</code>)</li>
+  <li>Install the app on virtual devices(<code class="language-plaintext highlighter-rouge">Android</code> or <code class="language-plaintext highlighter-rouge">iOS</code> or <code class="language-plaintext highlighter-rouge">both</code>)</li>
   <li>Type command <code class="language-plaintext highlighter-rouge">npx uri-scheme open demo://app/notifications --android</code> for <code class="language-plaintext highlighter-rouge">android</code> to deeplink to <code class="language-plaintext highlighter-rouge">notifications</code> screen</li>
   <li>Type command <code class="language-plaintext highlighter-rouge">npx uri-scheme open demo://app/notifications --ios</code> for <code class="language-plaintext highlighter-rouge">ios</code> to deeplink to <code class="language-plaintext highlighter-rouge">notifications</code> screen</li>
   <li>And see the magic</li>
