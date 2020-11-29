@@ -8,8 +8,6 @@ tags:
   [Chrome, Google Chrome, Chrome Extension, JavaScript, TypeScript, HTML, CSS]
 image: assets/images/post/chrome/build_chrome_extension.png
 description: how you can write and build your own extension for the Google Chrome browser
-featured: true
-hidden: true
 comments: false
 rating: 4.5
 ---
