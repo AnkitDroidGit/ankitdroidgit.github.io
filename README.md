@@ -1,3 +1,3 @@
 # Tech Blog
 
-ankitkumar.dev
+https://ankitkumar.dev

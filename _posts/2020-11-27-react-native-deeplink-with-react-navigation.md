@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Deep linking in React Native app with React Navigation v5"
+title: "How to implement deep linking in React Native app with React Navigation v5"
 author: ankit
 categories:
   [
