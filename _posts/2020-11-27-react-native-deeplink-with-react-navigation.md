@@ -166,6 +166,10 @@ Testing Video
 
 ---
 
+## Further Reading
+
+- [How to deep link from notification in react native app](https://ankitkumar.dev/how-to-deep-link-from-notification-in-react-native/)
+
 ---
 
 Also, to be notified about my new articles and stories:
