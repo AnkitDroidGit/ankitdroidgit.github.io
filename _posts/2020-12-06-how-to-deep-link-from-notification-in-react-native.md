@@ -42,15 +42,15 @@ Deep linking is when a link sends users directly into a specific point in the ap
 
 ### What are we building?
 
-In last article we learned about how to implement deeplink in react native app with react navigation v5.
+In the last article, we learned about how to implement deep-links in the react native app with react-navigation v5.
 
-In this article we will look on how to **deeplink content in app from notitifcation**
+In this article, we will look at **how to deep-link content in the app from the notification**.
 
-We will use below deeplinks and see how app behaves when these deeplink are received in notification and user tap on notification.
-- `demo://app/home/:id` - This deep link will open the home screen of the app and will pass id as param/props to the home screen
-- `demo://app/profile/:id` - This deep link will open the profile screen of the app and will pass id as param/props to the profile screen
-- `demo://app/notifications` - This deep link will open the notifications screen of the app
-- `demo://app/settings` - This deep link will open the notifications screen of the app
+We will use the below deep links and see how the app behaves when this deep link is received in the notification and the user tap on the notification.
+- `demo://app/home/:id` - This deep link will open the `home` screen of the app and will pass `id` as param/props to the `home` screen
+- `demo://app/profile/:id` - This deep link will open the `profile` screen of the app and will pass `id` as param/props to the `profile` screen
+- `demo://app/notifications` - This deep link will open the `notifications` screen of the app
+- `demo://app/settings` - This deep link will open the `settings` screen of the app
 
 After the implementation of the deep link with notification, the app will behave as shown here.
 
@@ -64,7 +64,7 @@ Let's do some code now!
 
 I am assuming that you already have a project in which deep links need to be integrated.
 
-If you don't have any project, I have created a small app with four screens and explained here.
+If you don’t have any project, I have created a small app with four screens and explained it here.
 
 <iframe width="860" height="515" src="https://www.youtube.com/embed/s8YaclRknYw?start=05" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -76,7 +76,7 @@ Project is already created in [previous article](https://ankitkumar.dev/react-na
 
 **I have setup four kinds of local notification in the app**
 
-- Schedule local notification without deep link
+- Schedule local notification without deep-link
 
 ```
   const scheduleLocalNotification = () => {
@@ -87,7 +87,7 @@ Project is already created in [previous article](https://ankitkumar.dev/react-na
   };
 
 ```
-- Local notification that deeplink to profile
+- Local notification that deep-link to profile screen
 ```
   const sendProfilNotification = () => {
     PushNotificationIOS.presentLocalNotification({
@@ -98,7 +98,7 @@ Project is already created in [previous article](https://ankitkumar.dev/react-na
   };
 ```
 
-- Local notification that deeplink to setting
+- Local notification that deep-link to settings screen
 ```
   const sendSettingsNotificationWithSound = () => {
     PushNotificationIOS.addNotificationRequest({
@@ -111,7 +111,7 @@ Project is already created in [previous article](https://ankitkumar.dev/react-na
     });
   };
 ```
-- Local Notification Request that deeplink to notifications screen
+- Local Notification Request that deep-link to the notifications screen
 ```
   const addNotificationRequest = () => {
     PushNotificationIOS.addNotificationRequest({
@@ -127,15 +127,15 @@ Project is already created in [previous article](https://ankitkumar.dev/react-na
   };
 ```
 
-**Lets now write functions to handle on registering to and unregistering from notification**
+**Lets now write functions to handle registering to and unregistering from notification**
 
-We will just console log devide token on successful registeration
+We will just console log device token on successful registration
 ```
   const onRegistered = (deviceToken) => {
     console.log("Registered For Remote Push", `Device Token: ${deviceToken}`);
   };
 ```
-and console log error message on registeration error, if any
+and console log error message on registration error, if any
 ```
 
   const onRegistrationError = (error) => {
@@ -181,7 +181,7 @@ Lets now create a function to handle onclick event of notification
     // Handle deeplink here from notification - done below
   };
 ```
-We need to add `onLocalNotification()` to event listeners, so updated event lister will look like below.
+We need to add `onLocalNotification()` to event listeners, so the updated event lister will look like below.
 ```
 useEffect(() => {
     PushNotificationIOS.addEventListener("register", onRegistered);
@@ -232,7 +232,7 @@ It was easy, wasn't it?
 
 ---
 
-### Testing deeplink from notification
+### Testing deep-link from the notification
 
 Video of testing 
 

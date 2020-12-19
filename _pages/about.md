@@ -102,7 +102,6 @@ You can find me on the below channels where I'm generally active:
 - [Medium](https://ankitdeveloper.medium.com)
 - [Stackoverflow](https://stackoverflow.com/users/3282461)
 
-
  <p>For collaboration, email me at <a
         href="mailto:blogs@ankitkumar.dev?subject=&body=:%20"
         target="_blank"

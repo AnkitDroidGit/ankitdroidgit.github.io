@@ -5,8 +5,8 @@
     <description>Ankit Kumar is a Programmer, Technologist, Technical Writer, YouTuber and Tutor</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 18 Dec 2020 18:45:52 +0800</pubDate>
-    <lastBuildDate>Fri, 18 Dec 2020 18:45:52 +0800</lastBuildDate>
+    <pubDate>Sat, 19 Dec 2020 08:58:32 +0800</pubDate>
+    <lastBuildDate>Sat, 19 Dec 2020 08:58:32 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -19,16 +19,16 @@
 
 &lt;h3 id=&quot;what-are-we-building&quot;&gt;What are we building?&lt;/h3&gt;
 
-&lt;p&gt;In last article we learned about how to implement deeplink in react native app with react navigation v5.&lt;/p&gt;
+&lt;p&gt;In the last article, we learned about how to implement deep-links in the react native app with react-navigation v5.&lt;/p&gt;
 
-&lt;p&gt;In this article we will look on how to &lt;strong&gt;deeplink content in app from notitifcation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this article, we will look at &lt;strong&gt;how to deep-link content in the app from the notification&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;We will use below deeplinks and see how app behaves when these deeplink are received in notification and user tap on notification.&lt;/p&gt;
+&lt;p&gt;We will use the below deep links and see how the app behaves when this deep link is received in the notification and the user tap on the notification.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;demo://app/home/:id&lt;/code&gt; - This deep link will open the home screen of the app and will pass id as param/props to the home screen&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;demo://app/profile/:id&lt;/code&gt; - This deep link will open the profile screen of the app and will pass id as param/props to the profile screen&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;demo://app/notifications&lt;/code&gt; - This deep link will open the notifications screen of the app&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;demo://app/settings&lt;/code&gt; - This deep link will open the notifications screen of the app&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;demo://app/home/:id&lt;/code&gt; - This deep link will open the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;home&lt;/code&gt; screen of the app and will pass &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;id&lt;/code&gt; as param/props to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;home&lt;/code&gt; screen&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;demo://app/profile/:id&lt;/code&gt; - This deep link will open the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;profile&lt;/code&gt; screen of the app and will pass &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;id&lt;/code&gt; as param/props to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;profile&lt;/code&gt; screen&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;demo://app/notifications&lt;/code&gt; - This deep link will open the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;notifications&lt;/code&gt; screen of the app&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;demo://app/settings&lt;/code&gt; - This deep link will open the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;settings&lt;/code&gt; screen of the app&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;After the implementation of the deep link with notification, the app will behave as shown here.&lt;/p&gt;
@@ -43,7 +43,7 @@
 
 &lt;p&gt;I am assuming that you already have a project in which deep links need to be integrated.&lt;/p&gt;
 
-&lt;p&gt;If you don’t have any project, I have created a small app with four screens and explained here.&lt;/p&gt;
+&lt;p&gt;If you don’t have any project, I have created a small app with four screens and explained it here.&lt;/p&gt;
 
 &lt;iframe width=&quot;860&quot; height=&quot;515&quot; src=&quot;https://www.youtube.com/embed/s8YaclRknYw?start=05&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -56,7 +56,7 @@
 &lt;p&gt;&lt;strong&gt;I have setup four kinds of local notification in the app&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Schedule local notification without deep link&lt;/li&gt;
+  &lt;li&gt;Schedule local notification without deep-link&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
@@ -75,7 +75,7 @@
 
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;ul&gt;
-  &lt;li&gt;Local notification that deeplink to profile
+  &lt;li&gt;Local notification that deep-link to profile screen
     &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
@@ -92,7 +92,7 @@
 };
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;Local notification that deeplink to setting
+  &lt;li&gt;Local notification that deep-link to settings screen
     &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
@@ -115,7 +115,7 @@
 };
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;Local Notification Request that deeplink to notifications screen
+  &lt;li&gt;Local Notification Request that deep-link to the notifications screen
     &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
@@ -144,9 +144,9 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Lets now write functions to handle on registering to and unregistering from notification&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lets now write functions to handle registering to and unregistering from notification&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;We will just console log devide token on successful registeration&lt;/p&gt;
+&lt;p&gt;We will just console log device token on successful registration&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
@@ -154,7 +154,7 @@
     console.log(&quot;Registered For Remote Push&quot;, `Device Token: ${deviceToken}`);
   };
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;and console log error message on registeration error, if any&lt;/p&gt;
+&lt;p&gt;and console log error message on registration error, if any&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
@@ -228,7 +228,7 @@
     // Handle deeplink here from notification - done below
   };
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;We need to add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;onLocalNotification()&lt;/code&gt; to event listeners, so updated event lister will look like below.&lt;/p&gt;
+&lt;p&gt;We need to add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;onLocalNotification()&lt;/code&gt; to event listeners, so the updated event lister will look like below.&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
@@ -308,7 +308,7 @@
 
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;testing-deeplink-from-notification&quot;&gt;Testing deeplink from notification&lt;/h3&gt;
+&lt;h3 id=&quot;testing-deep-link-from-the-notification&quot;&gt;Testing deep-link from the notification&lt;/h3&gt;
 
 &lt;p&gt;Video of testing&lt;/p&gt;
 
