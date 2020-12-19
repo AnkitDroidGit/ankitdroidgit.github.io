@@ -115,4 +115,7 @@
 <url>
 <loc>http://localhost:4000/category/universal-links/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/category/custom-uri-schemes/</loc>
+</url>
 </urlset>

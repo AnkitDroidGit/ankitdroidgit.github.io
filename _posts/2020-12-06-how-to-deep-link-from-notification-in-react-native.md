@@ -10,7 +10,7 @@ categories:
     JavaScript,
     TypeScript,
     Deeplink,
-    Custum URI Schemes,
+    Custom URI Schemes,
     App Links,
     Universal Links,
   ]
@@ -22,7 +22,7 @@ tags:
     JavaScript,
     TypeScript,
     Deeplink,
-    Custum URI Schemes,
+    Custom URI Schemes,
     App Links,
     Universal Links,
   ]
