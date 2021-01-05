@@ -5,9 +5,354 @@
     <description>Ankit Kumar is a Programmer, Technologist, Technical Writer, YouTuber and Tutor</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 19 Dec 2020 09:05:09 +0800</pubDate>
-    <lastBuildDate>Sat, 19 Dec 2020 09:05:09 +0800</lastBuildDate>
+    <pubDate>Tue, 05 Jan 2021 14:12:21 +0800</pubDate>
+    <lastBuildDate>Tue, 05 Jan 2021 14:12:21 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Top Flutter Advantages and Why You Should Try Flutter on Your Next Project</title>
+        <description>&lt;p&gt;Flutter is Google’s UI toolkit for building beautiful, native applications from a single codebase for&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Mobile&lt;/strong&gt; - Android and iOS&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Desktop&lt;/strong&gt; - MacOS, Chromebook, Windows and Linux&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Web&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Welcome to &lt;strong&gt;Tech Talks&lt;/strong&gt; tutorial.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Table of Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;What Is Flutter?&lt;/li&gt;
+  &lt;li&gt;More than 15 points of Why to use Flutter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;what-is-flutter&quot;&gt;What is Flutter?&lt;/h3&gt;
+
+&lt;p&gt;It belongs to the category of cross platform development frameworks and tools that allows developers to build and compile native apps for&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Android and iOS mobiles,&lt;/li&gt;
+  &lt;li&gt;Desktops including MacOS, Chromebook, Windows and Linux machines&lt;/li&gt;
+  &lt;li&gt;Web&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All of this happens from a single code base.&lt;/p&gt;
+
+&lt;p&gt;So we can say that Flutter is Write once and run anywhere framework for developers.&lt;/p&gt;
+
+&lt;p&gt;If you feel lazy to read more text, you can watch video on the topic below&lt;/p&gt;
+
+&lt;iframe width=&quot;760&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/a-EcD1AKRag&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;why-flutter-lets-understand-it-with-more-than-15-points&quot;&gt;Why Flutter? Let’s understand it with more than 15 points&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Integration of Flutter with existing Android and iOS apps&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s sometimes not practical to rewrite your entire application in Flutter all at once. For those situations, Flutter can be integrated into your existing application piecemeal, as a library or module. That module can then be imported into your Android or iOS (currently supported platforms) app to render a part of your app’s UI in Flutter. Or, just to run shared Dart logic.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Flutter can be developed on multiple IDEs&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Including the Android Studio which is backed by JetBrains which build worlds’ best IDE such as IntelliJ, WebStorm, PyCharm and many more.&lt;/li&gt;
+  &lt;li&gt;It works perfectly on VS Code, and those who are not coming from Android Native development, can use VS Code as the IDE.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Flutter has whole suites of web-based tooling of debugging and inspecting Flutter applications&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are some of the things you can do with DevTools:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Inspect the UI layout and state of a Flutter app.&lt;/li&gt;
+  &lt;li&gt;Diagnose UI jank performance issues in a Flutter app.&lt;/li&gt;
+  &lt;li&gt;CPU profiling for a Flutter or Dart app.&lt;/li&gt;
+  &lt;li&gt;Network profiling for a Flutter app.&lt;/li&gt;
+  &lt;li&gt;Source-level debugging of a Flutter or Dart app.&lt;/li&gt;
+  &lt;li&gt;Debug memory issues in a Flutter or Dart command-line app.&lt;/li&gt;
+  &lt;li&gt;View general log and diagnostics information about a running Flutter or Dart command-line app.&lt;/li&gt;
+  &lt;li&gt;Analyze code and app size.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Dart is the programming language for Flutter&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Because it is optimised for Client development with HOT RELOAD, powered by the DART VM, so that developers can iteratively make changes and instantly see changes or results in the app.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Dart compiles to native machine code for mobile and desktop, as well as to JavaScript for the web&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Whether you’re creating a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mobile app&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;web app&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;command-line script&lt;/code&gt;, or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;server-side app&lt;/code&gt;, there’s a Dart solution for that.&lt;/p&gt;
+
+&lt;p&gt;Flexible compiler technology lets you run Dart code in different ways, depending on your target platform and goals:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Dart Native:&lt;/strong&gt; For programs targeting devices (mobile, desktop, server, and more), Dart Native includes both a Dart VM with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JIT (just-in-time)&lt;/code&gt; compilation and an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AOT (ahead-of-time)&lt;/code&gt; compiler for producing machine code.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dart Web:&lt;/strong&gt; For programs targeting the web, Dart Web includes both a development time compiler (dartdevc) and a production time compiler (dart2js).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;6. Dart and Flutter has conditional UI features which helps developers to render UI based on conditions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A flutter package which enhances conditional rendering, supports &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if-else&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;switch&lt;/code&gt; conditions&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if-else&lt;/code&gt; example
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;class MyWidget extends StatelessWidget {
+@override
+Widget build(BuildContext context) {
+  return Column(
+    children: &amp;lt;Widget&amp;gt;[
+      Conditional.single(
+        context: context,
+        conditionBuilder: (BuildContext context) =&amp;gt; someCondition == true,
+        widgetBuilder: (BuildContext context) =&amp;gt; Text('The condition is true!'),
+        fallbackBuilder: (BuildContext context) =&amp;gt; Text('The condition is false!'),
+      ),
+    ],
+  );
+}
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;switch&lt;/code&gt; example
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;class MyWidget extends StatelessWidget {
+@override
+Widget build(BuildContext context) {
+  return Column(
+    children: &amp;lt;Widget&amp;gt;[
+      ConditionalSwitch.single&amp;lt;String&amp;gt;(
+        context: context,
+        valueBuilder: (BuildContext context) =&amp;gt; 'A',
+        caseBuilders: {
+          'A': (BuildContext context) =&amp;gt; Text('The value is A!'),
+          'B': (BuildContext context) =&amp;gt; Text('The value is B!'),
+        },
+        fallbackBuilder: (BuildContext context) =&amp;gt; Text('None of the cases matched!'),
+      ),
+    ],
+  );
+}
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;7. Compiled code of Flutter is faster than others and it increases performance by 15% for many cases&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Flutter is fast. It’s powered by the same hardware-accelerated 2D graphics library that underpins Chrome and Android: Skia.&lt;/p&gt;
+
+&lt;p&gt;Flutter is architectured to support glitch-free, jank-free graphics at the native speed of your device.&lt;/p&gt;
+
+&lt;p&gt;Flutter code is powered by the world-class Dart platform, which enables compilation to 32-bit and 64-bit ARM machine code for iOS and Android, as well as JavaScript for the web and Intel x64 for desktop devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8. Flutter is open source product&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Open Source Community is the major source of feedback, documentations and code contributions.&lt;/p&gt;
+
+&lt;p&gt;Flutter on &lt;a href=&quot;https://github.com/flutter/flutter&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;9. Fastest growing skill among software engineers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And Linked data says that Flutter is the fastest growing skill among software engineers.&lt;/p&gt;
+
+&lt;p&gt;Read more about it &lt;a href=&quot;https://www.linkedin.com/business/learning/blog/productivity-tips/the-fastest-growing-skills-among-software-engineers-and-how-to&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;10. Shared UI and Business logic for all platforms&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To illustrate, here’s an example of how UI rendering looks like in most cross-platform frameworks:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/flutter/ui-elements.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This kind of a rendering process makes building an app that looks native on every platform simple. But the devil’s in the details.
+Relying on platform-specific components for rendering provokes a need for a property mapping layer for the platform widget and a framework widget data synchronization. That’s what requires mapping every animation into a platform-specific widget call. So much more complicated than it needs to be, right?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/flutter/flutter-canvas.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In contrast, Flutter doesn’t need any platform-specific UI components to render it’s UI. The only thing Flutter needs to show the application UI is a canvas to draw onto. And here’s how it looks like:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;11. Reduced Code Development Time&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Flutter offers stateful hot reload, allowing you to make changes to your code and see the results instantly without restarting your app or losing its state.&lt;/li&gt;
+  &lt;li&gt;Wide variety of ready-to-use widgets&lt;/li&gt;
+  &lt;li&gt;In addition to numerous core layout widgets, Flutter provides a large set of Material and Cupertino widgets that perfectly mimic the behavior of each design language.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;12. Native App Performance&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Application performance is crucial for good UX. While it’s hard to tell the exact figures, it’s safe to say that Flutter application performance in most cases will be indistinguishable from the native app and even better in complex UI animation scenarios.&lt;/p&gt;
+
+&lt;p&gt;Why?&lt;/p&gt;
+
+&lt;p&gt;Contrary to the approach of most cross-platform frameworks, Flutter doesn’t rely on any intermediate code representations or interpretation.&lt;/p&gt;
+
+&lt;p&gt;Flutter application is built directly into the machine code, which eliminates any performance bugs of the interpretation process.&lt;/p&gt;
+
+&lt;p&gt;Eventually, you get your release application fully compiled ahead of time with Flutter.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;13. Custom, Animated UI of Any Complexity Available&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the biggest advantages of Flutter is the ability to customize anything you see on the screen, regardless of how complex it may be.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/flutter/complex-ui.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Flutter makes the process more flexible and versatile without adding to the workload. Shared element transitions, shape/color/shadow manipulations, clipping, transformations – Flutter allows you to perform all of these effortlessly&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;14. Own Rendering Engine&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Flutter uses Skia for rendering itself onto a platform-provided canvas. Because of the engine, UI built in Flutter can be launched on virtually any platform.&lt;/p&gt;
+
+&lt;p&gt;Putting it differently, you no longer have to adjust UI to transfer it to a platform, which simplifies the development process hugely.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;15. Simple Platform-Specific Logic Implementation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Besides the UI, many real-life mobile applications rely on advanced OS-level features, such as fetching GPS coordinates, Bluetooth communication, gathering sensor data, permission handling, working with credentials, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/flutter/platform-specific.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Many of these are available when developing a Flutter application through a ready-to-use plugin supported by Google.
+Flutter provides an easy to use way of establishing the communication between platform-native code and Dart through platform channels. This way, you can implement anything that a native app can do on a Flutter app, with just a little extra effort on the native side.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;16 The Potential Ability to Go Beyond Mobile&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;With Flutter, you can go far beyond Flutter app development on mobile.
+There’s also Flutter for Web and Flutter Desktop Embeddings now.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/flutter/all-platforms.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ankitkumar.dev/react-native-deeplink-with-react-navigation/&quot;&gt;How to implement deep linking in React Native app with React Navigation v5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Also, to be notified about my new articles and stories:&lt;/p&gt;
+
+&lt;p&gt;Subscribe to my &lt;a href=&quot;https://www.youtube.com/TechTalksByAnkitKumar&quot;&gt;YouTube Channel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Follow me on &lt;a href=&quot;https://ankitdeveloper.medium.com/&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://github.com/AnkitDroidGit&quot;&gt;Github&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/KumarrAnkitt&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;https://www.linkedin.com/in/kumarankitkumar/&quot;&gt;LinkedIn&lt;/a&gt; as well.&lt;/p&gt;
+
+&lt;p&gt;I am quite active on &lt;a href=&quot;https://dev.to/ankitkumar&quot;&gt;Dev Community&lt;/a&gt; as well and write small topics over there.&lt;/p&gt;
+
+&lt;p&gt;Cheers!!! Happy coding!!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 12 Dec 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/why-flutter/</link>
+        <guid isPermaLink="true">http://localhost:4000/why-flutter/</guid>
+        
+        <category>Flutter</category>
+        
+        <category>Dart</category>
+        
+        <category>Google</category>
+        
+        <category>Advantages of Flutter</category>
+        
+        <category>Flutter Tutorial 2021</category>
+        
+        <category>What is Flutter</category>
+        
+        <category>Why Flutter</category>
+        
+        <category>Advantages of Flutter</category>
+        
+        <category>Benefits of Flutter</category>
+        
+        <category>Disadvantages of Flutter</category>
+        
+        <category>Flutter</category>
+        
+        <category>Flutter App Development</category>
+        
+        <category>Android and iOS App</category>
+        
+        <category>Dart and Flutter</category>
+        
+        <category>Flutter for Web</category>
+        
+        <category>Flutter for Desktop apps</category>
+        
+        <category>Flutter for mobile apps</category>
+        
+        <category>Android development with Flutter</category>
+        
+        <category>iOS app development with Flutter</category>
+        
+        <category>Why Flutter</category>
+        
+        <category>What is Flutter</category>
+        
+        <category>Dart language</category>
+        
+        <category>Flutter tutorial for beginners</category>
+        
+        <category>Flutter course</category>
+        
+        <category>flutter app</category>
+        
+        <category>flutter android studio</category>
+        
+        <category>dart tutorial</category>
+        
+        <category>flutter</category>
+        
+        <category>dart</category>
+        
+        <category>Flutter for beginners</category>
+        
+        
+        <category>Flutter</category>
+        
+        <category>Dart</category>
+        
+        <category>Google</category>
+        
+        <category>Advantages of Flutter</category>
+        
+        <category>Flutter Tutorial 2021</category>
+        
+        <category>What is Flutter</category>
+        
+        <category>Why Flutter</category>
+        
+      </item>
     
       <item>
         <title>How to deep link from notification in react native app</title>

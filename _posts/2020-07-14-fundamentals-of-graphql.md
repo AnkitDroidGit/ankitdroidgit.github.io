@@ -6,8 +6,8 @@ categories:
   [GraphQL, GraphQL Query, GraphQL Mutation, Nodejs, JavaScript, TypeScript]
 tags: [GraphQL, GraphQL Query, GraphQL Mutation, Nodejs, JavaScript, TypeScript]
 image: assets/images/post/graphql/header.png
-featured: true
-hidden: true
+featured: false
+hidden: false
 comments: false
 rating: 4.5
 ---
