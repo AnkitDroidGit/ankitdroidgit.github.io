@@ -54,7 +54,7 @@ rating: 5
 
 Flutter is Google’s UI toolkit for building beautiful, native applications from a single codebase for
 - **Mobile** - Android and iOS
-- **Desktop** - MacOS, Chromebook, Windows and Linux
+- **Desktop** - macOS, Chromebook, Windows, and Linux
 - **Web**
 
 ---
@@ -70,16 +70,16 @@ Welcome to **Tech Talks** tutorial.
 
 ### What is Flutter?
 
-It belongs to the category of cross platform development frameworks and tools that allows developers to build and compile native apps for
+It belongs to the category of cross-platform development frameworks and tools that allows developers to build and compile native apps for
   - Android and iOS mobiles,
-  - Desktops including MacOS, Chromebook, Windows and Linux machines
+  - Desktops including macOS, Chromebook, Windows, and Linux machines
   - Web
 
 All of this happens from a single code base.
 
-So we can say that Flutter is Write once and run anywhere framework for developers.
+So we can say that Flutter is a Write once and run anywhere framework for developers.
 
-If you feel lazy to read more text, you can watch video on the topic below
+If you feel lazy to read more text, you can watch a video on the topic below
 
 <iframe width="760" height="415" src="https://www.youtube.com/embed/a-EcD1AKRag" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -92,8 +92,9 @@ If you feel lazy to read more text, you can watch video on the topic below
 It’s sometimes not practical to rewrite your entire application in Flutter all at once. For those situations, Flutter can be integrated into your existing application piecemeal, as a library or module. That module can then be imported into your Android or iOS (currently supported platforms) app to render a part of your app’s UI in Flutter. Or, just to run shared Dart logic.
 
 **2. Flutter can be developed on multiple IDEs**
-- Including the Android Studio which is backed by JetBrains which build worlds’ best IDE such as IntelliJ, WebStorm, PyCharm and many more.
-- It works perfectly on VS Code, and those who are not coming from Android Native development, can use VS Code as the IDE.
+- Including the Android Studio which is backed by JetBrains which build the worlds’ best IDE such as IntelliJ, WebStorm, PyCharm, and many more.
+- It works perfectly on the VS Code, and those who are not coming from Android Native development, can use the VS Code as the IDE.
+
 
 **3. Flutter has whole suites of web-based tooling of debugging and inspecting Flutter applications**
 
@@ -111,7 +112,7 @@ Here are some of the things you can do with DevTools:
 **4. Dart is the programming language for Flutter**
 
 
-Because it is optimised for Client development with HOT RELOAD, powered by the DART VM, so that developers can iteratively make changes and instantly see changes or results in the app.
+Because it is optimized for Client development with HOT RELOAD, powered by the DART VM so that developers can iteratively make changes and instantly see changes or results in the app.
 
 **5. Dart compiles to native machine code for mobile and desktop, as well as to JavaScript for the web**
 
@@ -122,9 +123,9 @@ Flexible compiler technology lets you run Dart code in different ways, depending
 - **Dart Native:** For programs targeting devices (mobile, desktop, server, and more), Dart Native includes both a Dart VM with `JIT (just-in-time)` compilation and an `AOT (ahead-of-time)` compiler for producing machine code.
 - **Dart Web:** For programs targeting the web, Dart Web includes both a development time compiler (dartdevc) and a production time compiler (dart2js).
 
-**6. Dart and Flutter has conditional UI features which helps developers to render UI based on conditions**
+**6. Dart and Flutter has conditional UI features that help developers to render UI based on conditions**
 
-A flutter package which enhances conditional rendering, supports `if-else` and `switch` conditions
+A flutter package that enhances conditional rendering supports `if-else` and `switch` conditions
 
 - `if-else` example
 ```
@@ -175,9 +176,9 @@ Flutter is architectured to support glitch-free, jank-free graphics at the nativ
 
 Flutter code is powered by the world-class Dart platform, which enables compilation to 32-bit and 64-bit ARM machine code for iOS and Android, as well as JavaScript for the web and Intel x64 for desktop devices.
 
-**8. Flutter is open source product**
+**8. Flutter is an open-source product**
 
-Open Source Community is the major source of feedback, documentations and code contributions.
+Open Source Community is the major source of feedback, documentation, and code contributions.
 
 Flutter on [Github](https://github.com/flutter/flutter)
 
