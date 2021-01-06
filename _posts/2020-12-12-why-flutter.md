@@ -45,7 +45,7 @@ tags:
     Flutter for beginners
   ]
 image: assets/images/post/flutter/whyFlutter.png
-description: Deep linking is when a link sends users directly into a specific point in the app experience, rather than an external website or app homepage.
+description: Top Flutter Advantages and Why You Should Try Flutter on Your Next Project.
 featured: true
 hidden: true
 comments: false
