@@ -90,24 +90,24 @@ I'm currently working as a Software Engineer in Singapore. I love building new t
 
 You can find me on the below channels where I'm generally active:
 
-- [YouTube](https://www.youtube.com/techtalksbyankitkumar)
+- [YouTube](https://www.youtube.com/TechTalksWithAK)
 - [Twitter](https://twitter.com/KumarrAnkitt)
 - [LinkedIn](https://www.linkedin.com/in/kumarankitkumar)
 - [Facebook](https://www.facebook.com/tech.talks.fb.page)
 - [Instagram](https://www.instagram.com/tech.talkss)
 - [Telegram](https://t.me/joinchat/JBFH4RzD2WHsvJjrpBcWNQ)
 - [Github](https://github.com/AnkitDroidGit)
-- [Dev.To](https://dev.to/ankitkumar)
+- [Dev.To](https://dev.to/techtalks)
 - [Hashnode](https://kumarankit.hashnode.dev)
 - [Medium](https://ankitdeveloper.medium.com)
 - [Stackoverflow](https://stackoverflow.com/users/3282461)
 
  <p>For collaboration, email me at <a
-        href="mailto:blogs@ankitkumar.dev?subject=&body=:%20"
+        href="mailto:admin@ankitkumar.dev?subject=&body=:%20"
         target="_blank"
         title="Email"
         onclick="window.open(this.href, 'width=550,height=435');return false;"
-      >blogs@ankitkumar.dev</a></p>
+      >admin@ankitkumar.dev</a></p>
 
 <div class="col-md-4">
   <div class="sticky-top sticky-top-80">
