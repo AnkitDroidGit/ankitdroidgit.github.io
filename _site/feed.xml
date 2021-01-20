@@ -5,16 +5,378 @@
     <description>Ankit Kumar is a Programmer, Technologist, Technical Writer, YouTuber and Tutor</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Jan 2021 14:12:21 +0800</pubDate>
-    <lastBuildDate>Tue, 05 Jan 2021 14:12:21 +0800</lastBuildDate>
+    <pubDate>Wed, 20 Jan 2021 13:34:01 +0800</pubDate>
+    <lastBuildDate>Wed, 20 Jan 2021 13:34:01 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Why Flutter loves Dart</title>
+        <description>&lt;p&gt;Dart is a simple and powerful language, which is, in its nature, complies to be efficient with everybody’s own javascript.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Welcome to &lt;strong&gt;Tech Talks&lt;/strong&gt; tutorial.&lt;/p&gt;
+
+&lt;h3 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;What Is Dart?&lt;/li&gt;
+  &lt;li&gt;Why Flutter uses Dart?&lt;/li&gt;
+  &lt;li&gt;How Dart enables developers to develop a Flutter app quickly and deploy it to multiple platforms?&lt;/li&gt;
+  &lt;li&gt;Dart SDK - Libraries, Tools, Dart VM, Dart Compiler to JS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;what-is-dart&quot;&gt;What is Dart?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Dart&lt;/strong&gt; is a&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;client-optimized&lt;/code&gt; programming language for fast apps on any platform,&lt;/li&gt;
+  &lt;li&gt;After lots of experiments, the Google team found dart to be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;faster&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;smoother&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pretty efficient&lt;/code&gt; to be used for developing applications, including client-side and also server-side applications&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Object oriented&lt;/code&gt; &amp;amp; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Class defined&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C Styled syntax&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;what-makes-dart-so-versatile&quot;&gt;What makes Dart so versatile?&lt;/h2&gt;
+
+&lt;p&gt;What makes Dart so versatile is the fact that it compiles to its own format but also trans-compiles into javascript, which is readable by most of the devices today.&lt;/p&gt;
+
+&lt;p&gt;So Dart can be used cross-platform mobile applications, web applications using Angular Dart, and command-line applications or server-side applications&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;If you feel lazy to read more text, you can watch a video on the topic below&lt;/em&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;760&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/4PstaG3YdRs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;why-dart--why-flutter-uses-dart--why-flutter-loves-dart&quot;&gt;Why Dart? / Why Flutter uses Dart? / Why Flutter loves Dart?&lt;/h3&gt;
+
+&lt;p&gt;In today’s world, you need to build from many platforms to reach all your users, while maintaining quality to keep them happy.
+Flutter enables you to ship an application for Android, iOS,
+and the web from a single codebase. To do this, Flutter needs a programming language that works on all these platforms and gives you a fast development experience.&lt;/p&gt;
+
+&lt;p&gt;That’s why Flutter chose Dart.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-dart-enables-developers-to-develop-a-flutter-app-quickly-and-deploy-it-to-multiple-platforms&quot;&gt;How Dart enables developers to develop a Flutter app quickly and deploy it to multiple platforms?&lt;/h2&gt;
+
+&lt;p&gt;If you’re developing for mobile, you might be used to slow compile and debug cycles.&lt;/p&gt;
+
+&lt;p&gt;Dart changes this by enabling one of Flutter’s most loved features, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hot reload&lt;/code&gt;, which injects updated Dart source code into your running app and rebuilds your UI in less than a second, so you can see your changes instantly.&lt;/p&gt;
+
+&lt;p&gt;To have high-quality experiences of apps on both platforms, traditionally, you might have worked in separate teams to build performant apps for each platform. Dart enables you to build high fidelity Flutter apps for all platforms with one team.&lt;/p&gt;
+
+&lt;p&gt;Dart’s production quality compilers compile to ARM and x64 machine code for mobile or optimized JavaScript for the web, enabling quick app startup times and smooth animations.&lt;/p&gt;
+
+&lt;p&gt;Finally, Dart is easy to learn.&lt;/p&gt;
+
+&lt;p&gt;You’ll pick up Dart quickly if you’re familiar with languages such as Java, Swift, and JavaScript.&lt;/p&gt;
+
+&lt;p&gt;Together, Dart and Flutter help you create amazing experiences across Android, iOS, and the web.&lt;/p&gt;
+
+&lt;p&gt;Try Dart in your browser today at &lt;a href=&quot;https://dart.dev/#try-dart&quot;&gt;dart.dev&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;dart-is-not-just-a-programming-language&quot;&gt;Dart is not just a programming language&lt;/h2&gt;
+
+&lt;p&gt;Dart holds much more than that, It includes&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Libraries&lt;/li&gt;
+  &lt;li&gt;Tools&lt;/li&gt;
+  &lt;li&gt;A standalone Dart VM&lt;/li&gt;
+  &lt;li&gt;Compilers to JS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One does not need anything extra to support it, it includes all in one in its SDK.&lt;/p&gt;
+
+&lt;p&gt;Dart VM allows code to run in CLI env as language tools included in the Dart SDK are written mostly in Dart itself.&lt;/p&gt;
+
+&lt;p&gt;The standalone Dart VM is the critical part of Dart SDK.&lt;/p&gt;
+
+&lt;h4 id=&quot;libraries&quot;&gt;Libraries&lt;/h4&gt;
+
+&lt;p&gt;Dart Ships with the complete standard libraries, allowing developers to write fully functional system apps such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;custom web servers, custom mobile apps&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some of the default libraries provided by Dart are, but other third-party libraries are available too.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;dart:core&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Provides a small but critical set of built-in complete functionality to dart&lt;/li&gt;
+  &lt;li&gt;Built-in types, collections, and other core functionality.&lt;/li&gt;
+  &lt;li&gt;This library is automatically imported into every Dart program.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;dart:async&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Support for asynchronous programming with callbacks&lt;/li&gt;
+  &lt;li&gt;Dart also provides other options for asynchronous programming by the support of classes such as Future and Stream.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;dart:math&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Provides common mathematical and trigonometry functionality within darts such as sine and cosine&lt;/li&gt;
+  &lt;li&gt;Mathematical constants and functions, plus a random number generator.&lt;/li&gt;
+  &lt;li&gt;Most of the functionality in the math library is implemented as a top-level function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;dart:convert&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Encoders and decoders for converting between different data representations, including JSON and UTF-8.&lt;/li&gt;
+  &lt;li&gt;As well as support for additional customized converters&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;dart:html&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DOM and other APIs for browser-based apps.&lt;/li&gt;
+  &lt;li&gt;Allows manipulation of OBJECT and DOM&lt;/li&gt;
+  &lt;li&gt;Give access to HTML5 APIs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;dart:io&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I/O for programs that can use the Dart VM, including Flutter apps, servers, and command-line scripts.&lt;/li&gt;
+  &lt;li&gt;Provides the support to deal with files, directories, processes, sockets and WebSockets and HTTP Clients and Servers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;dart:ui&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Exposes the lowest-level services that Flutter use to bootstrap the application&lt;/li&gt;
+  &lt;li&gt;Such as classes for driving the input, graphic text, layouts, and rendering subsystems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;tools&quot;&gt;Tools&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Dart SDK&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Dart SDK is a necessity for web developers, Script developers as well as Server-Side Developers.&lt;/li&gt;
+  &lt;li&gt;For Mobile Developers dart comes as a package within Flutter SDK.&lt;/li&gt;
+  &lt;li&gt;It means setting up Flutter SDK is good enough to start with Dart for Mobile Development.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;IDEs and Code Editor&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Android Studio, VS Code, and IntelliJ idea - officially supported&lt;/li&gt;
+  &lt;li&gt;Atom, Vim, and Emacs are not supported officially by the Dart team but open-source plugins are available&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Dart Pad&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Online dart compiler which allows us to play around with dart without installing any dependency,&lt;/li&gt;
+  &lt;li&gt;The link is in the description below, so please go ahead and check it out.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;CLI Tools&lt;/strong&gt; - There are also certain command-line tools in DART&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;1. Pub Package Manager&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A package manager that makes it easy for you to install, use, and share Dart libraries, command-line tools, and other assets.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;2. Dartanalyzer&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A static analyzer that evaluates and reports any errors or warnings in your code.&lt;/li&gt;
+  &lt;li&gt;The Dart plugin for your IDE should make use of Dart’s analysis engine, but you can also run the analyzer from the command line.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;3. Dartdoc&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A documentation generator.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;4. Dartfmt&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An opinionated code formater that follows the recommendations of the Dart style guide&lt;/li&gt;
+  &lt;li&gt;IDEs that support Dart generally allow you to format the code within the IDE.&lt;/li&gt;
+  &lt;li&gt;Or you can run the formater from the command line.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;5. Build Runner&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A building package that’s used behind-the-scenes by the web dev command.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;6. Dartfix&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A tool for migrating Dart source code and fixing common issues.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Debugging Tools&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;1. Dart DevTools&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A suite of debugging and performance tools.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;dart-vm&quot;&gt;Dart VM&lt;/h4&gt;
+
+&lt;p&gt;To run command-line apps, such as server-side scripts, programs, and servers, Dart VM borrows many Ideas from JavaScript VM used by Chrome called V8. But browsers actively rejected it, the reasons being size and concern similar to Javascript VM.&lt;/p&gt;
+
+&lt;p&gt;It is important to know that DART VM works in the background during the process of application building.&lt;/p&gt;
+
+&lt;p&gt;It runs in 2 basics forms&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;JIT&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Which is an acronym for Just In Time.&lt;/li&gt;
+  &lt;li&gt;It is a mode that is used for dynamically loading dart source, parsing it, and compiling it to native machine code on the fly to execute this.&lt;/li&gt;
+  &lt;li&gt;This mode is used when you develop your app&lt;/li&gt;
+  &lt;li&gt;It provides features such as debugging, hot reload, etc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;AOT&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Which is an acronym for Ahead Of Time&lt;/li&gt;
+  &lt;li&gt;It is the mode used to support loading and executing pre-compiled machine code&lt;/li&gt;
+  &lt;li&gt;It does not support dynamic loading, parsing, or compilation&lt;/li&gt;
+  &lt;li&gt;It is mainly used in deployed applications.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dart VM is included in Dart SDK itself&lt;/p&gt;
+
+&lt;p&gt;It also includes observatory options like enable assert which is an assert statement that checks a boolean condition and raises an exception if the condition is false.&lt;/p&gt;
+
+&lt;p&gt;An important point to note about dart VM is that it can not be used for mobile applications or web applications&lt;/p&gt;
+
+&lt;h4 id=&quot;compiler-to-javascript&quot;&gt;Compiler to JavaScript&lt;/h4&gt;
+
+&lt;p&gt;Dart code is compiled into javascript using DART2JS or DARTDEVC compiler which are already included in DART&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;dart2js&lt;/strong&gt; - User can compiled dart file by converting into javascript file&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;dartdevc&lt;/strong&gt; - let you run and debug your web app in any modern browser&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;And it is for in development by dart&lt;/li&gt;
+  &lt;li&gt;Note that the DartDevC compiler is only for the development&lt;/li&gt;
+  &lt;li&gt;And dart2js is used only for deployment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ankitkumar.dev/why-flutter/&quot;&gt;Top Flutter Advantages and Why You Should Try Flutter on Your Next Project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ankitkumar.dev/react-native-deeplink-with-react-navigation/&quot;&gt;How to implement deep linking in React Native app with React Navigation v5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Also, to be notified about my new articles and stories:&lt;/p&gt;
+
+&lt;p&gt;Subscribe to my &lt;a href=&quot;https://www.youtube.com/TechTalksByAnkitKumar&quot;&gt;YouTube Channel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Follow me on &lt;a href=&quot;https://ankitdeveloper.medium.com/&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://github.com/AnkitDroidGit&quot;&gt;Github&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/KumarrAnkitt&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;https://www.linkedin.com/in/kumarankitkumar/&quot;&gt;LinkedIn&lt;/a&gt; as well.&lt;/p&gt;
+
+&lt;p&gt;I am quite active on &lt;a href=&quot;https://dev.to/ankitkumar&quot;&gt;Dev Community&lt;/a&gt; as well and write small topics over there.&lt;/p&gt;
+
+&lt;p&gt;Cheers!!! Happy coding!!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 19 Dec 2020 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/why-flutter-loves-dart/</link>
+        <guid isPermaLink="true">http://localhost:4000/why-flutter-loves-dart/</guid>
+        
+        <category>Flutter</category>
+        
+        <category>Dart</category>
+        
+        <category>Google</category>
+        
+        <category>Advantages of Flutter</category>
+        
+        <category>Flutter Tutorial 2021</category>
+        
+        <category>What is Flutter</category>
+        
+        <category>Why Flutter</category>
+        
+        <category>Advantages of Flutter</category>
+        
+        <category>Benefits of Flutter</category>
+        
+        <category>Disadvantages of Flutter</category>
+        
+        <category>Flutter</category>
+        
+        <category>Flutter App Development</category>
+        
+        <category>Android and iOS App</category>
+        
+        <category>Dart and Flutter</category>
+        
+        <category>Flutter for Web</category>
+        
+        <category>Flutter for Desktop apps</category>
+        
+        <category>Flutter for mobile apps</category>
+        
+        <category>Android development with Flutter</category>
+        
+        <category>iOS app development with Flutter</category>
+        
+        <category>Why Flutter</category>
+        
+        <category>What is Flutter</category>
+        
+        <category>Dart language</category>
+        
+        <category>Flutter tutorial for beginners</category>
+        
+        <category>Flutter course</category>
+        
+        <category>flutter app</category>
+        
+        <category>flutter android studio</category>
+        
+        <category>dart tutorial</category>
+        
+        <category>flutter</category>
+        
+        <category>dart</category>
+        
+        <category>Flutter for beginners</category>
+        
+        
+        <category>Flutter</category>
+        
+        <category>Dart</category>
+        
+        <category>Google</category>
+        
+        <category>Advantages of Dart</category>
+        
+        <category>Flutter Tutorial 2021</category>
+        
+        <category>What is Dart</category>
+        
+        <category>Why Dart</category>
+        
+      </item>
     
       <item>
         <title>Top Flutter Advantages and Why You Should Try Flutter on Your Next Project</title>
         <description>&lt;p&gt;Flutter is Google’s UI toolkit for building beautiful, native applications from a single codebase for&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Mobile&lt;/strong&gt; - Android and iOS&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Desktop&lt;/strong&gt; - MacOS, Chromebook, Windows and Linux&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Desktop&lt;/strong&gt; - macOS, Chromebook, Windows, and Linux&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Web&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -32,18 +394,18 @@
 
 &lt;h3 id=&quot;what-is-flutter&quot;&gt;What is Flutter?&lt;/h3&gt;
 
-&lt;p&gt;It belongs to the category of cross platform development frameworks and tools that allows developers to build and compile native apps for&lt;/p&gt;
+&lt;p&gt;It belongs to the category of cross-platform development frameworks and tools that allows developers to build and compile native apps for&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Android and iOS mobiles,&lt;/li&gt;
-  &lt;li&gt;Desktops including MacOS, Chromebook, Windows and Linux machines&lt;/li&gt;
+  &lt;li&gt;Desktops including macOS, Chromebook, Windows, and Linux machines&lt;/li&gt;
   &lt;li&gt;Web&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;All of this happens from a single code base.&lt;/p&gt;
 
-&lt;p&gt;So we can say that Flutter is Write once and run anywhere framework for developers.&lt;/p&gt;
+&lt;p&gt;So we can say that Flutter is a Write once and run anywhere framework for developers.&lt;/p&gt;
 
-&lt;p&gt;If you feel lazy to read more text, you can watch video on the topic below&lt;/p&gt;
+&lt;p&gt;If you feel lazy to read more text, you can watch a video on the topic below&lt;/p&gt;
 
 &lt;iframe width=&quot;760&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/a-EcD1AKRag&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -57,8 +419,8 @@
 
 &lt;p&gt;&lt;strong&gt;2. Flutter can be developed on multiple IDEs&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Including the Android Studio which is backed by JetBrains which build worlds’ best IDE such as IntelliJ, WebStorm, PyCharm and many more.&lt;/li&gt;
-  &lt;li&gt;It works perfectly on VS Code, and those who are not coming from Android Native development, can use VS Code as the IDE.&lt;/li&gt;
+  &lt;li&gt;Including the Android Studio which is backed by JetBrains which build the worlds’ best IDE such as IntelliJ, WebStorm, PyCharm, and many more.&lt;/li&gt;
+  &lt;li&gt;It works perfectly on the VS Code, and those who are not coming from Android Native development, can use the VS Code as the IDE.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;3. Flutter has whole suites of web-based tooling of debugging and inspecting Flutter applications&lt;/strong&gt;&lt;/p&gt;
@@ -78,7 +440,7 @@
 
 &lt;p&gt;&lt;strong&gt;4. Dart is the programming language for Flutter&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Because it is optimised for Client development with HOT RELOAD, powered by the DART VM, so that developers can iteratively make changes and instantly see changes or results in the app.&lt;/p&gt;
+&lt;p&gt;Because it is optimized for Client development with HOT RELOAD, powered by the DART VM so that developers can iteratively make changes and instantly see changes or results in the app.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;5. Dart compiles to native machine code for mobile and desktop, as well as to JavaScript for the web&lt;/strong&gt;&lt;/p&gt;
 
@@ -91,9 +453,9 @@
   &lt;li&gt;&lt;strong&gt;Dart Web:&lt;/strong&gt; For programs targeting the web, Dart Web includes both a development time compiler (dartdevc) and a production time compiler (dart2js).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;6. Dart and Flutter has conditional UI features which helps developers to render UI based on conditions&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6. Dart and Flutter has conditional UI features that help developers to render UI based on conditions&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;A flutter package which enhances conditional rendering, supports &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if-else&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;switch&lt;/code&gt; conditions&lt;/p&gt;
+&lt;p&gt;A flutter package that enhances conditional rendering supports &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if-else&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;switch&lt;/code&gt; conditions&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if-else&lt;/code&gt; example
@@ -178,9 +540,9 @@ Widget build(BuildContext context) {
 
 &lt;p&gt;Flutter code is powered by the world-class Dart platform, which enables compilation to 32-bit and 64-bit ARM machine code for iOS and Android, as well as JavaScript for the web and Intel x64 for desktop devices.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;8. Flutter is open source product&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;8. Flutter is an open-source product&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Open Source Community is the major source of feedback, documentations and code contributions.&lt;/p&gt;
+&lt;p&gt;Open Source Community is the major source of feedback, documentation, and code contributions.&lt;/p&gt;
 
 &lt;p&gt;Flutter on &lt;a href=&quot;https://github.com/flutter/flutter&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
 

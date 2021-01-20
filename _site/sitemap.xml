@@ -33,6 +33,10 @@
 <lastmod>2020-12-12T00:00:00+08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/why-flutter-loves-dart/</loc>
+<lastmod>2020-12-19T00:00:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about</loc>
 </url>
 <url>
@@ -142,5 +146,14 @@
 </url>
 <url>
 <loc>http://localhost:4000/category/why-flutter/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/category/advantages-of-dart/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/category/what-is-dart/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/category/why-dart/</loc>
 </url>
 </urlset>
