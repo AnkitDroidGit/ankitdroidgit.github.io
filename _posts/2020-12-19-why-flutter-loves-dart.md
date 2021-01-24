@@ -129,6 +129,14 @@ Dart VM allows code to run in CLI env as language tools included in the Dart SDK
 
 The standalone Dart VM is the critical part of Dart SDK.
 
+A video on this section is here
+
+---
+
+<iframe width="760" height="415" src="https://www.youtube.com/embed/FODGHk6ZIhU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 #### Libraries
 
 Dart Ships with the complete standard libraries, allowing developers to write fully functional system apps such as `custom web servers, custom mobile apps`.
