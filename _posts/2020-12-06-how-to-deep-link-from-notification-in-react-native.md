@@ -28,8 +28,7 @@ tags:
   ]
 image: assets/images/post/react-native/deeplink/deeplink-notification.png
 description: Deep linking is when a link sends users directly into a specific point in the app experience, rather than an external website or app homepage.
-featured: true
-hidden: true
+featured: false
 comments: false
 rating: 5
 ---

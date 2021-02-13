@@ -5,9 +5,872 @@
     <description>Ankit Kumar is a Programmer, Technologist, Technical Writer, YouTuber and Tutor</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Jan 2021 13:34:01 +0800</pubDate>
-    <lastBuildDate>Wed, 20 Jan 2021 13:34:01 +0800</lastBuildDate>
+    <pubDate>Sat, 13 Feb 2021 15:11:44 +0800</pubDate>
+    <lastBuildDate>Sat, 13 Feb 2021 15:11:44 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>100 most asked JavaScript Interview Questions and Answers - Part 1</title>
+        <description>&lt;p&gt;JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB, and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.&lt;/p&gt;
+
+&lt;p&gt;We are going to learn JavaScript, by answering the most frequently asked javascript interview questions.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;javascript-interview-questions-and-answers-series&quot;&gt;JavaScript Interview Questions and Answers Series&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ankitkumar.dev/100-JS-interview-question-part&quot;&gt;100 most asked JavaScript Interview Questions and Answers - Part 1&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;100 most asked JavaScript Interview Questions and Answers - Part 2 - coming soon&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Welcome to &lt;strong&gt;Tech Talks&lt;/strong&gt; tutorial.&lt;/p&gt;
+
+&lt;h2 id=&quot;questions&quot;&gt;Questions&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#1-what-is-javascript&quot;&gt;What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt;?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#2-what-are-the-primitive-types-in-javascript&quot;&gt;What are the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;primitive types&lt;/code&gt; in JavaScript?
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;or&lt;/code&gt;
+Explain the various JavaScript &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;data types&lt;/code&gt;?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#3-whats-the-difference-between-undefined-and-null-in-javascript&quot;&gt;What’s the difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;undefined&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;null&lt;/code&gt; in JavaScript?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#4-what-are-the-escape-characters-in-javascript&quot;&gt;What are the escape characters in JavaScript?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#5-what-does-the-logical-and-operator-do&quot;&gt;What does the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Logical AND (&amp;amp;&amp;amp;)&lt;/code&gt; operator do?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#6-what-does-the-logical-or-operator-do&quot;&gt;What does the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Logical OR (||)&lt;/code&gt; operator do?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#7-what-is-the-fastest-way-converting-a-string-to-a-number&quot;&gt;What is the fastest way converting a string to a number?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#8-what-are-the-different-types-of-error-name-values-in-javascript&quot;&gt;What are the different types of Error Name values in JavaScript?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#9-please-explain-self-invoking-function&quot;&gt;Please explain &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Self Invoking Function&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#10-explain-difference-between-function-declaration-and-function-expression&quot;&gt;Explain difference between function declaration and function expression.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#11-what-is-the-dom&quot;&gt;What is the DOM?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#12-please-explain-difference-between-attributes-and-property&quot;&gt;Please explain difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;attributes&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;property&lt;/code&gt;?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#13-what-are-cookies-how-will-you-create-read-and-delete-a-cookie-using-javascript&quot;&gt;What are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cookies&lt;/code&gt;? How will you &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;delete&lt;/code&gt; a cookie using JavaScript?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#14-what-is-event-propagation&quot;&gt;What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Event Propagation&lt;/code&gt;?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#15-what-is-event-bubbling&quot;&gt;What is Event Bubbling?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#16-what-is-event-capturing&quot;&gt;What is Event Capturing?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#17-explain-difference-between-eventpreventdefault-and-eventstoppropagation-methods&quot;&gt;Explain difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.preventDefault()&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.stopPropagation()&lt;/code&gt; methods?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#18-how-to-know-if-the-eventpreventdefault-method-was-used-in-an-element&quot;&gt;How to know if the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.preventDefault()&lt;/code&gt; method was used in an element?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#19-what-is-closure&quot;&gt;What is Closure?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#20-how-many-ways-can-you-create-an-array-in-javascript&quot;&gt;How many ways can you create an array in JavaScript?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#21-how-will-you-empty-an-array-in-javascript&quot;&gt;How will you empty an array in JavaScript?&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-what-is-javascript&quot;&gt;1. What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;High level definition of JavaScript is:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else.&lt;/li&gt;
+  &lt;li&gt;JavaScript is the most popular web scripting language, used for both client-side and server-side development.&lt;/li&gt;
+  &lt;li&gt;Supporting object-oriented programming abilities.&lt;/li&gt;
+  &lt;li&gt;JavaScript code can be inserted into HTML pages that can be understood
+and executed by web browsers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-what-are-the-primitive-types-in-javascript&quot;&gt;2. What are the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;primitive types&lt;/code&gt; in JavaScript?&lt;/h2&gt;
+
+&lt;p&gt;The data types supported by JavaScript are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;String&lt;/li&gt;
+  &lt;li&gt;Number&lt;/li&gt;
+  &lt;li&gt;Boolean&lt;/li&gt;
+  &lt;li&gt;Symbol&lt;/li&gt;
+  &lt;li&gt;BigInt&lt;/li&gt;
+  &lt;li&gt;Null&lt;/li&gt;
+  &lt;li&gt;Undefined&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-whats-the-difference-between-undefined-and-null-in-javascript&quot;&gt;3. What’s the difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;undefined&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;null&lt;/code&gt; in JavaScript?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;undefined&lt;/code&gt; is the default value of&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;a variable that has not been assigned a specific value.&lt;/li&gt;
+  &lt;li&gt;a function that has no explicit return value. for example
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;console.log(12);
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;a property that does not exist in an object.
+The JavaScript engine does this for us the assigning of undefined value.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;  let _undefinedVar;
+  const doNothing = () =&amp;gt; {};
+  const someObj = {
+    ab : “Tech Talks”,
+    bc : “With AK”,
+    cd : “Subscribe, Link in Bio”,
+  };
+  console.log(_undefinedVar); // undefined
+  console.log(doNothing()); // undefined
+  console.log(someObj[“d”]); // undefined
+
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;null&lt;/code&gt; is&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;a value that represents no value.&lt;/li&gt;
+  &lt;li&gt;value that has been explicitly defined to a variable.&lt;/li&gt;
+  &lt;li&gt;Example we get a value of null when the fs.readFile method does not throw an error.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;fs.readFile('path/to/file', (err,data) =&amp;gt; {
+   console.log(e); //prints null when no error occurred
+   if(e){
+     console.log(e);
+   }
+   console.log(data);
+ }
+);
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;comparing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;null&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;undefined&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;When comparing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;null&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;undefined&lt;/code&gt; we get &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt; when using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;==&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;false&lt;/code&gt; when using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;===&lt;/code&gt;.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;console.log(null == undefined); // logs true
+console.log(null === undefined); // logs false
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4-what-are-the-escape-characters-in-javascript&quot;&gt;4. What are the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;escape characters&lt;/code&gt; in JavaScript?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We use escape characters &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;backslash (\)&lt;/code&gt; while working with special characters, such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ampersands (&amp;amp;)&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apostrophes (‘)&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;double quotes (“ ”)&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;single quotes (‘ ’)&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Whatever enclosed within the escape characters get displayed by the JavaScript.&lt;/li&gt;
+  &lt;li&gt;Six additional escape characters are also available in JavaScript:
+    &lt;ul&gt;
+      &lt;li&gt;\b – Backspace&lt;/li&gt;
+      &lt;li&gt;\f – Form feed&lt;/li&gt;
+      &lt;li&gt;\n – Newline&lt;/li&gt;
+      &lt;li&gt;\r – Carriage return&lt;/li&gt;
+      &lt;li&gt;\t – Horizontal tabulator&lt;/li&gt;
+      &lt;li&gt;\v – Vertical tabulator&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;These aren’t in anyway executed in the HTML or JS code.&lt;/li&gt;
+  &lt;li&gt;These were originally designed for controlling fax machines, teletypes, and typewriters.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;5-what-does-the-logical-and-operator-do&quot;&gt;5. What does the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Logical AND&lt;/code&gt; operator do?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;amp;&amp;amp;&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Logical AND&lt;/code&gt; operator finds the first false expression in its operands and returns it.&lt;/li&gt;
+  &lt;li&gt;If it does not find any false expression it returns the last expression.&lt;/li&gt;
+  &lt;li&gt;It employs short-circuiting to prevent unnecessary work.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;   console.log(false &amp;amp;&amp;amp; 10 &amp;amp;&amp;amp; []); // false
+   console.log(&quot; &quot; &amp;amp;&amp;amp; true &amp;amp;&amp;amp; 10); // 10
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;6-what-does-the-logical-or-operator-do&quot;&gt;6. What does the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Logical OR&lt;/code&gt; operator do?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;||&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Logical OR&lt;/code&gt; operator finds the first truthy expression in its operands and returns it.&lt;/li&gt;
+  &lt;li&gt;This too employs short-circuiting to prevent unnecessary work.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;console.log(null || 10 || undefined); //prints 10
+
+function printChannelName(name) {
+  var n = name || &quot;Tech Talks With AK&quot;;
+  console.log(n);
+}
+
+printChannelName(); //prints &quot;Tech Talks With AK&quot;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;7-what-is-the-fastest-way-converting-a-string-to-a-number&quot;&gt;7. What is the fastest way converting a string to a number?&lt;/h2&gt;
+
+&lt;p&gt;According to &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#Unary_plus&quot;&gt;MDN Documentation&lt;/a&gt; the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Unary Plus (+)&lt;/code&gt; is the fastest way of converting a string to a number because it does not perform any operations on the value if it is already a number.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;8-what-are-the-different-types-of-error-name-values-in-javascript&quot;&gt;8. What are the different types of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Error Name values&lt;/code&gt; in JavaScript?&lt;/h2&gt;
+
+&lt;p&gt;There are 6 Error Name values in JavaScript.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Eval Error&lt;/strong&gt; – Thrown when coming across an error in eval() (Newer JS releases don’t have it)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Range Error&lt;/strong&gt; – Generated when a number outside the specified range is used&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reference Error&lt;/strong&gt; – It comes into play when an undeclared variable is used.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Syntax Error&lt;/strong&gt; – When the incorrect syntax is used, we get this error&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Type Error&lt;/strong&gt; – This error is thrown when a value outside the range of data types is tried to be used.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;URI Error&lt;/strong&gt; – Generated due to the use of illegal characters&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;9-please-explain-self-invoking-function&quot;&gt;9. Please explain &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Self Invoking Function&lt;/code&gt;.&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Functions that are automatically invoked are termed as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Self Invoking Functions&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;These are also known as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Immediately Invoked Function Expressions&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Self Executing Anonymous Functions&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;The general syntax of a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Self Invoking Function&lt;/code&gt; is:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;// A function is defined and then invoked
+(function_name () {
+    return ()
+}) ();
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;However, if there is a need to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;automatically&lt;/code&gt; execute a function at the place where it is given and not be called again, then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;anonymous functions&lt;/code&gt; can be used.
+Such functions have no name. So the name.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;10-explain-difference-between-function-declaration-and-function-expression&quot;&gt;10. Explain difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;function declaration&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;function expression&lt;/code&gt;.&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;function declaration&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;function expression&lt;/code&gt;&lt;/strong&gt; can be differenciated on basis of&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Definition&lt;/li&gt;
+  &lt;li&gt;Strict Mode&lt;/li&gt;
+  &lt;li&gt;Time of Use&lt;/li&gt;
+  &lt;li&gt;When to Use&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Definition&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A function declared as a separate statement in the main code flow is termed the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;function declaration&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;When a function is created inside an expression or another syntax construct, it is called a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;function expression&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Strict Mode&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;When a function declaration is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;within a code block in the Strict mode&lt;/code&gt;, it is visible everywhere inside that block but not outside of it.&lt;/li&gt;
+  &lt;li&gt;This isn’t the case for a function expression.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Time of Use&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A function expression is created &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;when the execution reaches it&lt;/code&gt;. The function expression is usable from that moment onwards.&lt;/li&gt;
+  &lt;li&gt;A function declaration, on the other hand, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;can be called before the same is defined&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;When to Use&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Function declaration offers &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;better readability&lt;/code&gt; and offers &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;more freedom in organizing the code&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Function expressions are typically &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;restricted to be used when there is a need for a conditional declaration&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;11-what-is-the-dom&quot;&gt;11. What is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DOM&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DOM stands for Document Object Model is an interface (API) for HTML and XML documents.&lt;/li&gt;
+  &lt;li&gt;When the browser first reads (parses) HTML document it creates a big object, a really big object based on the HTML document this is the DOM.&lt;/li&gt;
+  &lt;li&gt;It is a tree-like structure that is modeled from the HTML document.&lt;/li&gt;
+  &lt;li&gt;The DOM is used for interacting and modifying the DOM structure or specific Elements or Nodes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&quot;en&quot;&amp;gt;
+&amp;lt;head&amp;gt;
+   &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;
+   &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&amp;gt;
+   &amp;lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&amp;gt;
+   &amp;lt;title&amp;gt;Document Object Model&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+   &amp;lt;div&amp;gt;
+  	&amp;lt;p&amp;gt;
+     	&amp;lt;span&amp;gt;&amp;lt;/span&amp;gt;
+  	&amp;lt;/p&amp;gt;
+  	&amp;lt;label&amp;gt;&amp;lt;/label&amp;gt;
+  	&amp;lt;input&amp;gt;   // other elements
+   &amp;lt;/div&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The graphical representation of the DOM of code above looks like&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/JSQuestion/dom.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The document object in JavaScript represents the DOM.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It provides us many methods that we can use to selecting elements to update element contents and many more.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;JavaScript can change all the HTML elements in the page&lt;/li&gt;
+  &lt;li&gt;JavaScript can change all the HTML attributes in the page&lt;/li&gt;
+  &lt;li&gt;JavaScript can change all the CSS styles in the page&lt;/li&gt;
+  &lt;li&gt;JavaScript can remove existing HTML elements and attributes&lt;/li&gt;
+  &lt;li&gt;JavaScript can add new HTML elements and attributes&lt;/li&gt;
+  &lt;li&gt;JavaScript can react to all existing HTML events in the page&lt;/li&gt;
+  &lt;li&gt;JavaScript can create new HTML events in the page&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;12-please-explain-difference-between-attributes-and-property&quot;&gt;12. Please explain difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;attributes&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;property&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;JS DOM objects have properties that are like instance variables for particular elements.&lt;/li&gt;
+  &lt;li&gt;A property can be of various data types.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Properties are accessible by interacting with the object in Vanilla JS or using jQuery’s prop() method.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Rather than in the DOM, attributes are in the HTML.&lt;/li&gt;
+  &lt;li&gt;They are similar to properties but not as capable.&lt;/li&gt;
+  &lt;li&gt;It’s recommended to work with properties rather than attributes if the former is available. Unlike a property, an attribute is of the string data type&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;13-what-are-cookies-how-will-you-create-read-and-delete-a-cookie-using-javascript&quot;&gt;13. What are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cookies&lt;/code&gt;? How will you &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;delete&lt;/code&gt; a cookie using JavaScript?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A cookie is simply data, usually small, sent from a website and stored on the user’s computer by the web browser used to access the website.&lt;/li&gt;
+  &lt;li&gt;It is a reliable way for websites to remember stateful information and record the user’s browsing activity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Creatting a Cookie:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The most basic way of creating a cookie using JS is to assign a string value to the document.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;document.cookie = “key1 = value1; key2 = value2; … ; keyN= valueN; expires = date”;
+
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Reading a Cookie:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Reading a cookie using JS is as simple as creating.&lt;/li&gt;
+  &lt;li&gt;Cookie object is the cookie, use this string whenever you wish to access the cookie.&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;document.cookie&lt;/code&gt; string keeps a list of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name = value&lt;/code&gt; pairs, where a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;semicolon separates each pair&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt; represents a cookie’s name, and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;value&lt;/code&gt; represents the respective cookie’s string value.&lt;/li&gt;
+  &lt;li&gt;For breaking the string into key and value, you can use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;split()&lt;/code&gt; method.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Deleting a Cookie:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Simply &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setting the expiration date&lt;/code&gt; (expires) to a time that’s already past.&lt;/li&gt;
+  &lt;li&gt;Some web browsers don’t let you delete a cookie unless you don’t specify the cookie’s path.&lt;/li&gt;
+  &lt;li&gt;Hence, defining the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cookie path&lt;/code&gt; is important to ensure that the right cookie is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;deleted.assign&lt;/code&gt; a string value to the document.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;14-what-is-event-propagation&quot;&gt;14. What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Event Propagation&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;When an event occurs on a DOM element, that event does not entirely occur on that just one element.&lt;/li&gt;
+  &lt;li&gt;In the Bubbling Phase, the event bubbles up or it goes to its parent, to its grandparents, to its grandparent’s parent until it reaches all the way to the window while in the Capturing Phase the event starts from the window down to the element that triggered the event or the event.target.&lt;/li&gt;
+  &lt;li&gt;This process is called Event Propagation.&lt;/li&gt;
+  &lt;li&gt;It has 3 phases.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Capturing Phase&lt;/code&gt; – The event starts from window then goes down to every element until it reaches the target element.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Target Phase&lt;/code&gt; – The event has reached the target element.&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bubbling Phase&lt;/code&gt; – The event bubbles up from the target element then goes up every element until it reaches the window.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../assets/images/post/JSQuestion/event.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;15-what-is-event-bubbling&quot;&gt;15. What is Event Bubbling?&lt;/h2&gt;
+
+&lt;p&gt;When an event occurs on a DOM element, that event does not entirely occur on that just one element.&lt;/p&gt;
+
+&lt;p&gt;In the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bubbling Phase&lt;/code&gt;, the event bubbles up or it goes to its parent, to its grandparents, to its grandparent’s parent until it reaches all the way to the window.&lt;/p&gt;
+
+&lt;p&gt;If we have an example markup like this&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&amp;lt;div class=&quot;grandparent&quot;&amp;gt;
+    &amp;lt;div class=&quot;parent&quot;&amp;gt;
+          &amp;lt;div class=&quot;child&quot;&amp;gt;1&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And javascript code.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function addEvent(el, event, callback, isCapture = false) {
+       if (!el || !event || !callback || typeof callback !== 'function') return;
+       if (typeof el === 'string') {
+      	el = document.querySelector(el);
+       }; 
+       el.addEventListener(event, callback, isCapture);
+}
+addEvent(document, 'DOMContentLoaded', () =&amp;gt; {
+
+       const child = document.querySelector('.child');
+       const parent = document.querySelector('.parent');
+       const grandparent = document.querySelector('.grandparent');
+  
+     addEvent(child, 'click', function (e) {
+	console.log('child');
+       });
+      addEvent(parent, 'click', function (e) {
+	console.log('parent');
+      });
+     addEvent(grandparent, 'click', function (e) {
+	console.log('grandparent');
+     });
+     addEvent(document, 'click', function (e) {
+	console.log('document');
+     });
+     addEvent('html', 'click', function (e) {
+	console.log('html');
+     });
+     addEvent(window, 'click', function (e) {
+	console.log('window');
+     });
+});
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;addEventListener()&lt;/code&gt; method has a third optional parameter useCapture with a default value of false the event will occur in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bubbling phase&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;If &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;useCapture&lt;/code&gt; is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt;, the event will occur in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Capturing Phase&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;If we click on the child element it logs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;child, parent, grandparent, html, document and window&lt;/code&gt; respectively on the console.&lt;/li&gt;
+  &lt;li&gt;This  whole event is Event Bubbling.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;16-what-is-event-capturing&quot;&gt;16. What is Event Capturing?&lt;/h2&gt;
+
+&lt;p&gt;When an event occurs on a DOM element, that event does not entirely occur on that just one element.
+In Capturing Phase, the event starts from the window all the way down to the element that triggered the event.&lt;/p&gt;
+
+&lt;p&gt;If we have an example markup like this&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&amp;lt;div class=&quot;grandparent&quot;&amp;gt;
+    &amp;lt;div class=&quot;parent&quot;&amp;gt;
+          &amp;lt;div class=&quot;child&quot;&amp;gt;1&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And javascript code is&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function addEvent(el, event, callback, isCapture = false) {
+     if (!el || !event || !callback || typeof callback !== 'function') return;
+     if (typeof el === 'string') {
+	el = document.querySelector(el);
+     };
+     el.addEventListener(event, callback, isCapture);
+}
+addEvent(document, 'DOMContentLoaded', () =&amp;gt; {
+     const child = document.querySelector('.child');
+     const parent = document.querySelector('.parent');
+     const grandparent = document.querySelector('.grandparent');
+
+     addEvent(child, 'click', function (e) {
+	console.log('child');
+     }, true);
+     addEvent(parent, 'click', function (e) {
+	console.log('parent');
+     }, true);
+  addEvent(grandparent, 'click', function (e) {
+	console.log('grandparent');
+  }, true);
+
+  addEvent(document, 'click', function (e) {
+	console.log('document');
+  }, true);
+
+  addEvent('html', 'click', function (e) {
+	console.log('html');
+  }, true)
+
+  addEvent(window, 'click', function (e) {
+	console.log('window');
+  }, true)
+
+});
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;addEventListener()&lt;/code&gt; method has a third optional parameter useCapture with a default value of false the event will occur in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bubbling phase&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;If &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;useCapture&lt;/code&gt; is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;true&lt;/code&gt;, the event will occur in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Capturing Phase&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;If we click on the child element it logs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;window, document, html, grandparent, parent and child&lt;/code&gt; respectively on the console.&lt;/li&gt;
+  &lt;li&gt;This is Event Capturing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;17-explain-difference-between-eventpreventdefault-and-eventstoppropagation-methods&quot;&gt;17. Explain difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.preventDefault()&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.stopPropagation()&lt;/code&gt; methods?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The event.preventDefault() method prevents the default behavior of an element.&lt;/li&gt;
+  &lt;li&gt;If used in a form element it prevents it from submitting.&lt;/li&gt;
+  &lt;li&gt;If used in an anchor element it prevents it from navigating.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If used in a context menu it prevents it from showing or displaying.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;While the event.stopPropagation() method stops the propagation of an event.&lt;/li&gt;
+  &lt;li&gt;It stops the event from occurring in the bubbling or capturing phase.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;18-how-to-know-if-the-eventpreventdefault-method-was-used-in-an-element&quot;&gt;18. How to know if the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.preventDefault()&lt;/code&gt; method was used in an element?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We can use the event.defaultPrevented property in the event object.&lt;/li&gt;
+  &lt;li&gt;It returns a boolean indicating if the event.preventDefault() was called in a particular element.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;19-what-is-closure&quot;&gt;19. What is Closure?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Closures&lt;/code&gt; are created whenever a variable, defined outside the current scope, is accessed from within some inner scope.&lt;/li&gt;
+  &lt;li&gt;It gives us access to an outer function’s scope from an inner function.&lt;/li&gt;
+  &lt;li&gt;In other words, a closure is a locally declared variable that is related to a function and stays in the memory when the related function has returned.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The closure contains all local variables that were in-scope at the time of the closure creation.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;In JavaScript, closures are created every time a function is created.
+To use a closure, simply define a function inside another function and expose it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lets look at example&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Without Closure&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function greet(message) {
+  console.log(message);
+}
+function greeter(name, number) {
+  return name + &quot; says Hey!! He has &quot; + age + &quot; subscribers&quot;;
+}
+var message = greeter(&quot;Tech Talks&quot;, 1026);
+greet(message);
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;With Closure&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function greeter(name, age) {
+  var message = name + &quot; says Hey!! He has &quot; + age + &quot; subscribers&quot;;
+  return function greet() {
+    console.log(message);
+  };
+}
+// Generate the closure
+var TechTalksGreeter = greeter(&quot;Tech Talks&quot;, 1026);
+// Use the closure
+TechTalksGreeter();
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;20-how-many-ways-can-you-create-an-array-in-javascript&quot;&gt;20. How many ways can you create an array in JavaScript?&lt;/h2&gt;
+
+&lt;p&gt;There are three different ways of creating an array in JavaScript, namely:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;By creating instance of an array:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;var someArray = new Array();
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;By array constructor:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;var someArray = new Array(‘value1’, ‘value2’,…, ‘valueN’)
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;By using an array literal:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;var someArray = [value1, value2,…., valueN];
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;21-how-will-you-empty-an-array-in-javascript&quot;&gt;21. How will you empty an array in JavaScript?&lt;/h2&gt;
+
+&lt;p&gt;There are four ways to empty an array in JavaScript&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;By assigning an empty array:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;var array1 = [1, 22, 24, 46];
+array1 = [ ];
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;By assigning array length to 0:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;var array1 = [1, 22, 24, 46];
+array1.length=0;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;By popping the elements of the array:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;var array1 = [1, 22, 24, 46];
+while(array1.length &amp;gt; 0) {
+array1.pop();
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;By using the splice array function:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;var array1 = [1, 22, 24, 46];
+array1.splice(0, array1.length)
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;top-&quot;&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ankitkumar.dev/why-flutter/&quot;&gt;Top Flutter Advantages and Why You Should Try Flutter on Your Next Project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ankitkumar.dev/react-native-deeplink-with-react-navigation/&quot;&gt;How to implement deep linking in React Native app with React Navigation v5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Also, to be notified about my new articles and stories:&lt;/p&gt;
+
+&lt;p&gt;Subscribe to my &lt;a href=&quot;https://www.youtube.com/TechTalksWithAK&quot;&gt;YouTube Channel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Follow me on &lt;a href=&quot;https://ankitdeveloper.medium.com/&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://github.com/AnkitDroidGit&quot;&gt;Github&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/KumarrAnkitt&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;https://www.linkedin.com/in/kumarankitkumar/&quot;&gt;LinkedIn&lt;/a&gt; as well.&lt;/p&gt;
+
+&lt;p&gt;I am quite active on &lt;a href=&quot;https://dev.to/ankitkumar&quot;&gt;Dev Community&lt;/a&gt; as well and write small topics over there.&lt;/p&gt;
+
+&lt;p&gt;Cheers!!! Happy coding!!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 Jan 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/100-JS-interview-question-part1/</link>
+        <guid isPermaLink="true">http://localhost:4000/100-JS-interview-question-part1/</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>Interview</category>
+        
+        <category>Questions</category>
+        
+        <category>Answers</category>
+        
+        <category>100 JavaScript Questions</category>
+        
+        <category>100 JavaScript Interview Questions</category>
+        
+        <category>100 Interview Questions</category>
+        
+        <category>Web Developer Interview Questions</category>
+        
+        <category>Backend Developer Interview Questions</category>
+        
+        <category>Frontend Developer Interview Questions</category>
+        
+        <category>Fullstack Developer Interview Questions</category>
+        
+        
+        <category>JavaScript</category>
+        
+        <category>Interview</category>
+        
+        <category>Questions</category>
+        
+        <category>Answers</category>
+        
+        <category>100 JavaScript Questions</category>
+        
+        <category>100 JavaScript Interview Questions</category>
+        
+        <category>100 Interview Questions</category>
+        
+        <category>Web Developer Interview Questions</category>
+        
+        <category>Backend Developer Interview Questions</category>
+        
+        <category>Frontend Developer Interview Questions</category>
+        
+        <category>Fullstack Developer Interview Questions</category>
+        
+      </item>
     
       <item>
         <title>Why Flutter loves Dart</title>
@@ -92,6 +955,14 @@ and the web from a single codebase. To do this, Flutter needs a programming lang
 &lt;p&gt;Dart VM allows code to run in CLI env as language tools included in the Dart SDK are written mostly in Dart itself.&lt;/p&gt;
 
 &lt;p&gt;The standalone Dart VM is the critical part of Dart SDK.&lt;/p&gt;
+
+&lt;p&gt;A video on this section is here&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;iframe width=&quot;760&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/FODGHk6ZIhU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
 
 &lt;h4 id=&quot;libraries&quot;&gt;Libraries&lt;/h4&gt;
 
@@ -280,7 +1151,7 @@ and the web from a single codebase. To do this, Flutter needs a programming lang
 
 &lt;p&gt;Also, to be notified about my new articles and stories:&lt;/p&gt;
 
-&lt;p&gt;Subscribe to my &lt;a href=&quot;https://www.youtube.com/TechTalksByAnkitKumar&quot;&gt;YouTube Channel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Subscribe to my &lt;a href=&quot;https://www.youtube.com/TechTalksWithAK&quot;&gt;YouTube Channel&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Follow me on &lt;a href=&quot;https://ankitdeveloper.medium.com/&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://github.com/AnkitDroidGit&quot;&gt;Github&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/KumarrAnkitt&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
 
