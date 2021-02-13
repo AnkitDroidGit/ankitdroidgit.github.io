@@ -78,7 +78,11 @@ Explain the various JavaScript `data types`?](#2-what-are-the-primitive-types-in
 20. [How many ways can you create an array in JavaScript?](#20-how-many-ways-can-you-create-an-array-in-javascript)
 21. [How will you empty an array in JavaScript?](#21-how-will-you-empty-an-array-in-javascript)
 
+---
 
+_If you feel lazy to read more text, you can watch a video covering all questions here_
+
+<iframe width="760" height="415" src="https://www.youtube.com/embed/kkKpgNNsB_8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -609,8 +613,8 @@ array1.splice(0, array1.length)
 ```
 
 [Top ↑](#questions)
----
 
+---
 
 ## Further Reading
 

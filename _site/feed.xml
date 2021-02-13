@@ -5,8 +5,8 @@
     <description>Ankit Kumar is a Programmer, Technologist, Technical Writer, YouTuber and Tutor</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Feb 2021 15:11:44 +0800</pubDate>
-    <lastBuildDate>Sat, 13 Feb 2021 15:11:44 +0800</lastBuildDate>
+    <pubDate>Sat, 13 Feb 2021 15:15:55 +0800</pubDate>
+    <lastBuildDate>Sat, 13 Feb 2021 15:15:55 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -59,6 +59,12 @@ Explain the various JavaScript &lt;code class=&quot;language-plaintext highlight
   &lt;li&gt;&lt;a href=&quot;#20-how-many-ways-can-you-create-an-array-in-javascript&quot;&gt;How many ways can you create an array in JavaScript?&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#21-how-will-you-empty-an-array-in-javascript&quot;&gt;How will you empty an array in JavaScript?&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;If you feel lazy to read more text, you can watch a video covering all questions here&lt;/em&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;760&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/kkKpgNNsB_8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;hr /&gt;
 
@@ -798,7 +804,9 @@ array1.splice(0, array1.length)
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;top-&quot;&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;h2 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h2&gt;
 
