@@ -52,6 +52,7 @@ We are going to learn JavaScript, by answering the most frequently asked javascr
 ---
 Welcome to **Tech Talks** tutorial.
 
+>If you guys want to practice for JavaScript Interview on mock video interview, please drop me an email at [admin@ankitkumar.dev](mailto:admin@ankitkumar.dev)
 
 ## Questions
 Question 1. [What is `JavaScript`?](#1-what-is-javascript)
@@ -634,6 +635,10 @@ array1.splice(0, array1.length)
 ```
 
 [Top ↑](#questions)
+
+---
+
+>If you guys want to practice for JavaScript Interview on mock video interview, please drop me an email at [admin@ankitkumar.dev](mailto:admin@ankitkumar.dev)
 
 ---
 

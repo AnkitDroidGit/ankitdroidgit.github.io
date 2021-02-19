@@ -5,8 +5,8 @@
     <description>Ankit Kumar is a Programmer, Technologist, Technical Writer, YouTuber and Tutor</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Feb 2021 11:57:16 +0800</pubDate>
-    <lastBuildDate>Fri, 19 Feb 2021 11:57:16 +0800</lastBuildDate>
+    <pubDate>Fri, 19 Feb 2021 12:05:44 +0800</pubDate>
+    <lastBuildDate>Fri, 19 Feb 2021 12:05:44 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -30,6 +30,10 @@
 
 &lt;hr /&gt;
 &lt;p&gt;Welcome to &lt;strong&gt;Tech Talks&lt;/strong&gt; tutorial.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you guys want to practice for JavaScript Interview on mock video interview, please drop me an email at &lt;a href=&quot;mailto:admin@ankitkumar.dev&quot;&gt;admin@ankitkumar.dev&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;questions&quot;&gt;Questions&lt;/h2&gt;
 &lt;p&gt;Question 22. &lt;a href=&quot;#22-how-to-remove-duplicates-from-an-array&quot;&gt;How to remove duplicates from an array?&lt;/a&gt;&lt;/p&gt;
@@ -729,6 +733,12 @@ array1.splice(0, array1.length)
 
 &lt;hr /&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;If you guys want to practice for JavaScript Interview on mock video interview, please drop me an email at &lt;a href=&quot;mailto:admin@ankitkumar.dev&quot;&gt;admin@ankitkumar.dev&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -824,6 +834,10 @@ array1.splice(0, array1.length)
 
 &lt;hr /&gt;
 &lt;p&gt;Welcome to &lt;strong&gt;Tech Talks&lt;/strong&gt; tutorial.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you guys want to practice for JavaScript Interview on mock video interview, please drop me an email at &lt;a href=&quot;mailto:admin@ankitkumar.dev&quot;&gt;admin@ankitkumar.dev&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&quot;questions&quot;&gt;Questions&lt;/h2&gt;
 &lt;p&gt;Question 1. &lt;a href=&quot;#1-what-is-javascript&quot;&gt;What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt;?&lt;/a&gt;&lt;/p&gt;
@@ -1616,6 +1630,12 @@ array1.splice(0, array1.length)
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you guys want to practice for JavaScript Interview on mock video interview, please drop me an email at &lt;a href=&quot;mailto:admin@ankitkumar.dev&quot;&gt;admin@ankitkumar.dev&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;hr /&gt;
 
