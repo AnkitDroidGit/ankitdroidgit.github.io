@@ -538,37 +538,6 @@ showMeThis(); //returns undefined
 
 ```
 
-
-[Top ↑](#questions)
-
-## 21. How will you empty an array in JavaScript?
-
-There are four ways to empty an array in JavaScript
-
-- By assigning an empty array:
-```
-var array1 = [1, 22, 24, 46];
-array1 = [ ];
-```
-
-- By assigning array length to 0:
-```
-var array1 = [1, 22, 24, 46];
-array1.length=0;
-```
-- By popping the elements of the array: 
-```
-var array1 = [1, 22, 24, 46];
-while(array1.length > 0) {
-array1.pop();
-}
-```
-- By using the splice array function:
-```
-var array1 = [1, 22, 24, 46];
-array1.splice(0, array1.length)
-```
-
 [Top ↑](#questions)
 
 ---
