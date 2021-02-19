@@ -32,8 +32,6 @@ tags:
   ]
 image: assets/images/post/JSQuestion/2.png
 description: We are going to learn JavaScript, by answering the most frequently asked javascript interview questions
-featured: true
-hidden: true
 comments: false
 rating: 5
 ---
