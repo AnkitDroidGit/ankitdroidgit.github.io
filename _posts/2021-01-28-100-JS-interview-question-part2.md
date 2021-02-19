@@ -42,8 +42,31 @@ We are going to learn JavaScript, by answering the most frequently asked javascr
 
 ## JavaScript Interview Questions and Answers Series
 
-|[100 most asked JavaScript Interview Questions and Answers - Part 1](https://ankitkumar.dev/100-JS-interview-question-part1)|
-|[100 most asked JavaScript Interview Questions and Answers - Part 2](https://ankitkumar.dev/100-JS-interview-question-part2/)|
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+<a href="https://ankitkumar.dev/100-JS-interview-question-part1">100 most asked JavaScript Interview Questions and Answers - Part 1</a>
+<a href="https://ankitkumar.dev/100-JS-interview-question-part2" >100 most asked JavaScript Interview Questions and Answers - Part 2</a>
 
 ---
 Welcome to **Tech Talks** tutorial.

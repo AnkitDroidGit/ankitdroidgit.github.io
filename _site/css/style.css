@@ -10,6 +10,7 @@ body {
 ul {
   columns: 3;
 }
+
 .header {
   display: flex;
   flex-direction: column;
@@ -123,7 +124,7 @@ ul {
   border: 1px solid #0a0a0a;
 }
 
-.social-link a:hover > .social-icon {
+.social-link a:hover>.social-icon {
   color: #0a0a0a;
 }
 
