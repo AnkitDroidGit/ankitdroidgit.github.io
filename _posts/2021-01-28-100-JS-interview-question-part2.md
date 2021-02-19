@@ -65,8 +65,8 @@ a:active {
 }
 </style>
 
-<a href="https://ankitkumar.dev/100-JS-interview-question-part1">100 most asked JavaScript Interview Questions and Answers - Part 1</a>
-<a href="https://ankitkumar.dev/100-JS-interview-question-part2" >100 most asked JavaScript Interview Questions and Answers - Part 2</a>
+<a href="https://ankitkumar.dev/100-JS-interview-question-part1/">100 most asked JavaScript Interview Questions and Answers - Part 1</a>
+<a href="https://ankitkumar.dev/100-JS-interview-question-part2/" >100 most asked JavaScript Interview Questions and Answers - Part 2</a>
 
 ---
 Welcome to **Tech Talks** tutorial.
