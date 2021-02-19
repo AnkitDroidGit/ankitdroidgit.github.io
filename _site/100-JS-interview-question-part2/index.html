@@ -1,0 +1,1600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="icon" href="/assets/images/logo.png" />
+
+    <title>100 most asked JavaScript Interview Questions and Answers - Part 2 | Tech Talks</title>
+
+    <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>100 most asked JavaScript Interview Questions and Answers - Part 2 | Tech Talks</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="100 most asked JavaScript Interview Questions and Answers - Part 2" />
+<meta name="author" content="ankit" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="We are going to learn JavaScript, by answering the most frequently asked javascript interview questions" />
+<meta property="og:description" content="We are going to learn JavaScript, by answering the most frequently asked javascript interview questions" />
+<link rel="canonical" href="http://localhost:4000/100-JS-interview-question-part2/" />
+<meta property="og:url" content="http://localhost:4000/100-JS-interview-question-part2/" />
+<meta property="og:site_name" content="Tech Talks" />
+<meta property="og:image" content="http://localhost:4000/assets/images/post/JSQuestion/2.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-28T00:00:00+08:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","image":"http://localhost:4000/assets/images/post/JSQuestion/2.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/100-JS-interview-question-part2/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"ankit"},"author":{"@type":"Person","name":"ankit"},"url":"http://localhost:4000/100-JS-interview-question-part2/","description":"We are going to learn JavaScript, by answering the most frequently asked javascript interview questions","headline":"100 most asked JavaScript Interview Questions and Answers - Part 2","dateModified":"2021-01-28T00:00:00+08:00","datePublished":"2021-01-28T00:00:00+08:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <script
+      data-ad-client="ca-pub-5564254492658278"
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link href="/assets/css/screen.css" rel="stylesheet" />
+
+    <link href="/assets/css/main.css" rel="stylesheet" />
+
+    <script src="/assets/js/jquery.min.js"></script>
+  </head>
+
+   
+  <body class="layout-post">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyAQirCcb76JSjymnZ45WBTycYeajfZ_zTw",
+        authDomain: "tech-talk-web.firebaseapp.com",
+        databaseURL: "https://tech-talk-web.firebaseio.com",
+        projectId: "tech-talk-web",
+        storageBucket: "tech-talk-web.appspot.com",
+        messagingSenderId: "219733738257",
+        appId: "1:219733738257:web:f4037e684fd76bc01602b0",
+        measurementId: "G-SP6SV08RRX",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <!-- defer loading of font and font awesome -->
+    <noscript id="deferred-styles">
+      <link
+        href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i"
+        rel="stylesheet"
+      />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous"
+      />
+    </noscript>
+
+    <!-- Begin Menu Navigation
+================================================== -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down"
+    >
+      <div class="container pr-0">
+        <!-- Begin Logo -->
+        <a class="navbar-brand" href="/">
+          <img src="/assets/images/logo.png" alt="Tech Talks" />
+        </a>
+        <!-- End Logo -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarMediumish"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMediumish">
+          <!-- Begin Menu -->
+
+          <ul class="navbar-nav ml-auto">
+            </li>
+
+            <li class="nav-item">
+              
+              <a class="nav-link" href="/index.html">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://www.youtube.com/channel/UCalpz0wG0xvNXcVYasg1pEA"
+                ><i class="fab fa-youtube"></i> YouTube</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/AnkitDroidGit"
+                ><i class="fab fa-github"></i> Github</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://twitter.com/KumarrAnkitt"
+                ><i class="fab fa-twitter"></i> Twitter</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://www.linkedin.com/in/kumarankitkumar/"
+                ><i class="fab fa-linkedin"></i> LinkedIn</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/AnkitDroidGit"
+                ><i class="fab fa-medium"></i> Medium</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/AnkitDroidGit"
+                ><i class="fab fa-dev"></i> Dev Community</a
+              >
+            </li>
+
+            <script src="/assets/js/lunr.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script>
+          </ul>
+
+          <!-- End Menu -->
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation
+================================================== -->
+
+    <div class="site-content">
+      <div class="container">
+        <!-- Site Title
+================================================== -->
+        <div class="mainheading">
+          <h1 class="sitetitle">Tech Talks</h1>
+          <p class="lead">Ankit Kumar is a Programmer, Technologist, Technical Writer, YouTuber and Tutor</p>
+        </div>
+
+        <!-- Content
+================================================== -->
+        <div class="main-content"><!-- Begin Article
+================================================== -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Share -->
+        <div class="col-md-2 pl-0">
+            <div class="share sticky-top sticky-top-offset">
+  <p>Share</p>
+  <ul>
+    <li class="ml-1 mr-1">
+      <a
+        target="_blank"
+        href="https://twitter.com/intent/tweet?text=100 most asked JavaScript Interview Questions and Answers - Part 2&url=http://localhost:4000/100-JS-interview-question-part2/"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"
+      >
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+
+    <li class="ml-1 mr-1">
+      <a
+        target="_blank"
+        href="https://facebook.com/sharer.php?u=http://localhost:4000/100-JS-interview-question-part2/"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"
+      >
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+
+    <li class="ml-1 mr-1">
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/100-JS-interview-question-part2/&title=100 most asked JavaScript Interview Questions and Answers - Part 2&source=Tech Talks by Ankit Kumar"
+        onclick="window.open(this.href, 'width=550,height=435');return false;"
+      >
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+
+    <li class="ml-1 mr-1">
+      <a
+        target="_blank"
+        href="http://www.reddit.com/submit?url=http://localhost:4000/100-JS-interview-question-part2/&title=100 most asked JavaScript Interview Questions and Answers - Part 2"
+        onclick="window.open(this.href, 'width=550,height=435');return false;"
+      >
+        <i class="fab fa-reddit-alien"></i>
+      </a>
+    </li>
+    
+    <li class="ml-1 mr-1"></li>
+      <a
+        href="mailto:?subject=100 most asked JavaScript Interview Questions and Answers - Part 2&body=http://localhost:4000/100-JS-interview-question-part2/"
+        target="_blank"
+        title="Email"
+        onclick="window.open(this.href, 'width=550,height=435');return false;"
+      >
+    <i class="fas fa-envelope"></i>
+    </a>
+    </li>
+
+  </ul>
+  
+</div>
+
+        </div>
+
+        <!-- Post -->
+        
+
+        <div class="col-md-9 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!-- Author Box -->
+                
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0">
+                        
+                        <img class="author-thumb" src="/assets/images/avatar.png" alt="Ankit Kumar">
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                        <a target="_blank" class="link-dark" href="https://www.ankitkumar.dev">Ankit Kumar</a><a target="_blank" href="https://twitter.com/KumarrAnkitt" class="btn follow">Follow</a>
+                        <span class="author-description">Programmer, Technologist, Technical Writer, YouTuber and Tutor</span>
+                    </div>
+                </div>
+                
+
+                <!-- Post Title -->
+                <h1 class="posttitle">100 most asked JavaScript Interview Questions and Answers - Part 2</h1>
+
+            </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            
+            <!-- End Adsense -->
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="/assets/images/post/JSQuestion/2.png" alt="100 most asked JavaScript Interview Questions and Answers - Part 2">
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+                <!-- Toc if any -->
+                
+                <!-- End Toc -->
+                <p>We are going to learn JavaScript, by answering the most frequently asked javascript interview questions.</p>
+
+<hr />
+
+<h2 id="javascript-interview-questions-and-answers-series">JavaScript Interview Questions and Answers Series</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://ankitkumar.dev/100-JS-interview-question-part1">100 most asked JavaScript Interview Questions and Answers - Part 1</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://ankitkumar.dev/100-JS-interview-question-part2/">100 most asked JavaScript Interview Questions and Answers - Part 2</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+<p>Welcome to <strong>Tech Talks</strong> tutorial.</p>
+
+<h2 id="questions">Questions</h2>
+<p>Question 22. <a href="#22-how-to-remove-duplicates-from-an-array">How to remove duplicates from an array?</a></p>
+
+<p>Question 23. <a href="#23-how-to-check-if-a-value-is-an-array">How to check if a value is an Array?</a></p>
+
+<p>Question 24. <a href="#24-implement-the-arrayprototypemap-method">Implement the <code class="language-plaintext highlighter-rouge">Array.prototype.map()</code> method
+</a></p>
+
+<p>Question 25. <a href="#25-implement-the-arrayprototypefilter-method">Implement the <code class="language-plaintext highlighter-rouge">Array.prototype.filter()</code> method</a></p>
+
+<p>Question 26. <a href="#26-implement-the-arrayprototypereduce-method">Implement the <code class="language-plaintext highlighter-rouge">Array.prototype.reduce()</code> method</a></p>
+
+<p>Question 27. <a href="#27-what-is-a-name-function-in-javascript">What is a <code class="language-plaintext highlighter-rouge">name function</code> in JavaScript?</a></p>
+
+<p>Question 28. <a href="#28-can-you-assign-an-anonymous-function-to-a-variable-and-pass-it-as-an-argument-to-another-function">Can you assign an anonymous function to a variable and pass it as an argument to another function?</a></p>
+
+<p>Question 29. <a href="#29-what-is-the-arguments-object">What is the <code class="language-plaintext highlighter-rouge">arguments object</code>?</a></p>
+
+<p>Question 30. <a href="#30-can-you-convert-arguments-object-into-an-array">Can you convert arguments object into an array?</a></p>
+
+<p>Question 31. <a href="#31-does-arguments-object-work-on-es6-arrow-functions">Does arguments object work on ES6 arrow functions?</a></p>
+
+<p>Question 32. <a href="#32-how-to-create-an-object-without-a-prototype">How to create an object without a prototype?</a></p>
+
+<p>Question 33. <a href="#33-what-are-the-scopes-of-a-variable-in-javascript">What are the scopes of a variable in JavaScript?</a></p>
+
+<p>Question 34. <a href="#34-what-is-the-purpose-of-this-in-javascript">What is the purpose of <code class="language-plaintext highlighter-rouge">this</code> in JavaScript?</a></p>
+
+<p>Question 35. <a href="#35-what-is-callback-in-javascript">What is <code class="language-plaintext highlighter-rouge">Callback</code> in JavaScript?</a></p>
+
+<p>Question 36. <a href="#36-how-does-typeof-operator-work">How does <code class="language-plaintext highlighter-rouge">typeOf</code> Operator work?</a></p>
+
+<p>Question 37. <a href="#37-explain-equality-in-javascript">Explain <code class="language-plaintext highlighter-rouge">equality</code> in JavaScript</a></p>
+
+<p>Question 38. <a href="#38-what-is-the-difference-between--and-">What is the difference between <code class="language-plaintext highlighter-rouge">==</code> and <code class="language-plaintext highlighter-rouge">===</code>?</a></p>
+
+<p>Question 39. <a href="#39-what-is-ecmascript">What is <code class="language-plaintext highlighter-rouge">ECMAScript</code>?</a></p>
+
+<p>Question 40. <a href="#40-what-are-the-new-features-in-es6-or-ecmascript-2015">What are the new features in <code class="language-plaintext highlighter-rouge">ES6</code> or <code class="language-plaintext highlighter-rouge">ECMAScript 2015</code>?</a></p>
+
+<p>Question 41. <a href="#41-what-does-use-strict-do">What does <code class="language-plaintext highlighter-rouge">use strict</code> do?</a></p>
+
+<hr />
+
+<p><em>If you feel lazy to read more text, you can watch a video covering all questions here</em></p>
+
+<iframe width="760" height="415" src="https://www.youtube.com/embed/3RM9Tp4PU00" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<hr />
+
+<h2 id="22-how-to-remove-duplicates-from-an-array">22. How to <code class="language-plaintext highlighter-rouge">remove duplicates from an array</code>?</h2>
+
+<p>There can be multiple ways of removing duplicates from an array, but let me tell three the most popular ways to do it.</p>
+<ul>
+  <li><strong>Using Filter</strong> -  It is possible to remove duplicates from an array in JavaScript by applying a filter to the same. To call the <code class="language-plaintext highlighter-rouge">filter()</code> method, three arguments are required. These are namely array as <code class="language-plaintext highlighter-rouge">self</code>, current element as <code class="language-plaintext highlighter-rouge">elem</code>, and index of the current element as <code class="language-plaintext highlighter-rouge">index</code>.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="rouge-code"><pre>let language = ['JavaScript', 'Dart', 'Kotlin', 'Java', 'Swift', 'Dart']
+function unique_array(arr) {
+   let unique_array = arr.filter(function (elem, index, self) {
+       return index == self.indexOf(elem);
+   });
+   return unique_array
+}
+console.log(unique_array(language));
+
+// Logs [ 'JavaScript', 'Dart', 'Kotlin', 'Java', 'Swift' ]
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="23-how-to-check-if-a-value-is-an-array">23. How to check if a value is an Array?</h2>
+
+<ul>
+  <li>We can check if a value is an Array by using the Array.isArray() method available from the Array global object.</li>
+  <li>It returns true when the parameter pass to it is an Array otherwise false.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre>console.log(Array.isArray(5));  //logs false
+console.log(Array.isArray("")); //logs false
+console.log(Array.isArray()); //logs false
+console.log(Array.isArray(null)); //logs false
+console.log(Array.isArray({ length: 5 })); //logs false
+console.log(Array.isArray([])); //logs true
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>If your environment does not support this method you can use the polyfill implementation.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>function isArray(value){
+   return Object.prototype.toString.call(value) === "[object Array]"
+}
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="24-implement-the-arrayprototypemap-method">24. Implement the <code class="language-plaintext highlighter-rouge">Array.prototype.map()</code> method.</h2>
+
+<p>As the MDN description of the <code class="language-plaintext highlighter-rouge">Array.prototype.map method</code>, the <code class="language-plaintext highlighter-rouge">map()</code> method creates a new array with the results of calling a provided function on every element in the calling array.</p>
+
+<ul>
+  <li>Syntax of <code class="language-plaintext highlighter-rouge">map()</code> method is</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>let newArray = arr.map(callback(currentValue[, index[, array]]) {
+  // return element for newArray, after executing something
+}[, thisArg]);
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>And here is the implementation of it</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="rouge-code"><pre>function map(arr, mapCallback) {
+  // Check if the parameters passed are right.
+  if (!Array.isArray(arr) || !arr.length || typeof mapCallback !== 'function') {
+    return [];
+    }
+    else {
+      let result = [];
+      // Avoid mutating the original array.
+      for (let i = 0, len = arr.length; i &lt; len; i++) {
+        result.push(mapCallback(arr[i], i, arr));
+        // push the result of the mapCallback in the 'result' array
+        }
+        return result; // return the result array
+    }
+}
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="25-implement-the-arrayprototypefilter-method">25. Implement the <code class="language-plaintext highlighter-rouge">Array.prototype.filter()</code> method.</h2>
+
+<p>As the MDN description of the Array.prototype.filter method, the <code class="language-plaintext highlighter-rouge">filter()</code> method creates a new array with all elements that pass the test implemented by the provided function.</p>
+
+<ul>
+  <li>Syntax is
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>let newArray = arr.filter(callback(currentValue[, index[, array]]) {
+// return element for newArray, if true
+}[, thisArg]);
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>Implementations is
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+</pre></td><td class="rouge-code"><pre>function filter(arr, filterCallback) {
+// Check if the parameters passed are right.
+if (!Array.isArray(arr) || !arr.length || typeof filterCallback !== 'function') {
+  return [];
+  }
+  else {
+    let result = [];
+    // Avoid mutating the original array.
+    for (let i = 0, len = arr.length; i &lt; len; i++) {
+      // check if the return value of the filterCallback is true or "truthy"
+      if (filterCallback(arr[i], i, arr)) {
+      // push the current item in the 'result' array if the condition is true
+      result.push(arr[i]);
+    }
+  }
+  return result; // return the result array
+}
+}
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+</ul>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="26-implement-the-arrayprototypereduce-method">26. Implement the <code class="language-plaintext highlighter-rouge">Array.prototype.reduce()</code> method.</h2>
+
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">reduce()</code> method executes a reducer function (that you provide) on each element of the array, resulting in single output value.</li>
+  <li>The reducer function takes four arguments:
+    <blockquote>
+      <p>Accumulator, Current Value, Current Index ,Source Array</p>
+    </blockquote>
+  </li>
+  <li>Syntax is
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>arr.reduce(callback( accumulator, currentValue, [, index[, array]] )[, initialValue])
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>Implementation
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+</pre></td><td class="rouge-code"><pre>function reduce(arr, reduceCallback, initialValue) {
+// Check if the parameters passed are right.
+if (!Array.isArray(arr) || !arr.length || typeof reduceCallback !== 'function'){
+  return [];
+}
+else {
+  // If no initialValue has been passed to the function we're gonna use the
+  let hasInitialValue = initialValue !== undefined;
+  let value = hasInitialValue ? initialValue : arr[0];
+  // first array item as the initialValue, Start looping at index 1 if there is no
+  // initialValue has been passed to the function else we start at 0 if there is an initialValue.
+  for (let i = hasInitialValue ? 0 : 1, len = arr.length; i &lt; len; i++) {
+    // Then for every iteration we assign the result of the reduceCallback to the variable value.
+    value = reduceCallback(value, arr[i], i, arr);
+  }
+  return value;
+}
+}
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+</ul>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="27-what-is-a-name-function-in-javascript">27. What is a <code class="language-plaintext highlighter-rouge">name function</code> in JavaScript?</h2>
+
+<p>A named function declares a name as soon as it is defined. It can be defined using function keyword as :</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>function named() {
+   // write code here
+}
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="28-can-you-assign-an-anonymous-function-to-a-variable-and-pass-it-as-an-argument-to-another-function">28. Can you assign an anonymous function to a variable and pass it as an argument to another function?</h2>
+
+<ul>
+  <li>
+    <p>Yes! An anonymous function can be assigned to a variable.</p>
+  </li>
+  <li>
+    <p>It can also be passed as an argument to another function.</p>
+  </li>
+</ul>
+
+<p>Exmample is</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>let show = function () {
+  console.log('Anonymous function');
+};
+show();
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="29-what-is-the-arguments-object">29. What is the <code class="language-plaintext highlighter-rouge">arguments object</code>?</h2>
+
+<ul>
+  <li>The arguments object is a collection of parameter values pass in a function.</li>
+  <li>It’s an Array-like object because it has a length property and we can access individual values using array indexing notation arguments[1]</li>
+  <li>But it does not have the built-in methods in an array forEach, reduce, filter and map.</li>
+  <li>It helps us know the number of arguments pass in a function.</li>
+</ul>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="30-can-you-convert-arguments-object-into-an-array">30. Can you convert arguments object into an array?</h2>
+
+<ul>
+  <li><strong>Yes</strong>, We can convert the arguments object into an array using the Array.prototype.slice.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>function one() {
+ return Array.prototype.slice.call(arguments);
+}
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>However, if there is a need to <code class="language-plaintext highlighter-rouge">automatically</code> execute a function at the place where it is given and not be called again, then <code class="language-plaintext highlighter-rouge">anonymous functions</code> can be used.
+Such functions have no name. So the name.</li>
+</ul>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="31-does-arguments-object-work-on-es6-arrow-functions">31. Does <code class="language-plaintext highlighter-rouge">arguments object</code> work on <code class="language-plaintext highlighter-rouge">ES6 arrow functions</code>?</h2>
+
+<p><strong>No</strong>, the arguments object does not work on ES6 arrow functions.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>function one() {
+   return arguments;
+}
+const two = function () {
+   return arguments;
+}
+const three = function three() {
+   return arguments;
+}
+const four = () =&gt; arguments;
+four(); // Throws an error  - arguments is not defined
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>When we invoke the function four it throws a ReferenceError: arguments is not defined error.</p>
+
+<p>We can solve this problem if your environment supports the rest syntax.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>const four = (...args) =&gt; args;
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>This puts all parameter values in an array automatically.</p>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="32-how-to-create-an-object-without-a-prototype">32. How to create an <code class="language-plaintext highlighter-rouge">object without a prototype</code>?</h2>
+
+<p>We can create an object without a prototype using the <code class="language-plaintext highlighter-rouge">Object.create method</code>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre>const o1 = {};
+console.log(o1.toString());
+// logs [object Object] get this method to the Object.prototype
+
+const o2 = Object.create(null);
+// the first parameter is the prototype of the object "o2" which in this case will be null specifying we don't want any prototype
+console.log(o2.toString());
+// throws an error o2.toString is not a function
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="33-what-are-the-scopes-of-a-variable-in-javascript">33. What are the scopes of a variable in JavaScript?</h2>
+
+<p>The scope of a variable is the region of your program in which it is defined.
+JavaScript variable will have only two scopes.</p>
+<ul>
+  <li><strong>Global Variables</strong> − A global variable has global scope which means it is visible everywhere in your JavaScript code.</li>
+  <li><strong>Local Variables</strong> − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function.</li>
+</ul>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="34-what-is-the-purpose-of-this-in-javascript">34. What is the purpose of <code class="language-plaintext highlighter-rouge">this</code> in JavaScript?</h2>
+
+<p>The JavaScript this keyword refers to the object it belongs to.</p>
+
+<p>This has different values depending on where it is used.</p>
+<ul>
+  <li>In a method, this refers to the owner object</li>
+  <li>In a function, this refers to the global object.</li>
+</ul>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="35-what-is-callback-in-javascript">35. What is <code class="language-plaintext highlighter-rouge">Callback</code> in JavaScript?</h2>
+
+<ul>
+  <li>A callback is a plain JavaScript function passed to some method as an argument or option.</li>
+  <li>It is a function that is to be executed after another function has finished executing, hence the name ‘callback’.</li>
+  <li>In JavaScript, functions are objects, So functions can take functions as arguments, and can be returned by other functions.</li>
+</ul>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="36-how-does-typeof-operator-work">36. How does <code class="language-plaintext highlighter-rouge">typeOf</code> Operator work?</h2>
+
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">typeof</code> operator is used to get the data type of its operand.</li>
+  <li>The operand can be either a literal or a data structure such as a variable, a function, or an object.</li>
+  <li>It is a unary operator that is placed before its single operand, which can be of any type.</li>
+  <li>Its value is a string indicating the data type of the operand.</li>
+</ul>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="37-explain-equality-in-javascript">37. Explain <code class="language-plaintext highlighter-rouge">equality</code> in JavaScript.</h2>
+
+<p>JavaScript has both strict and type–converting comparisons:</p>
+
+<ul>
+  <li><strong>Strict comparison</strong> (e.g., ===) checks for value equality without allowing coercion</li>
+  <li><strong>Abstract comparison</strong> (e.g. ==) checks for value equality with coercion allowed.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>var a = "42";
+var b = 42;
+a == b; // true
+a === b; // false
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Some simple equality rules:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">If either value</code> (aka side) in a comparison <code class="language-plaintext highlighter-rouge">could be the true or false</code> value, <code class="language-plaintext highlighter-rouge">avoid == and use ===</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">If either value</code> in a comparison could be of these specific values <code class="language-plaintext highlighter-rouge">(0, "", or [] -- empty array)</code>, <code class="language-plaintext highlighter-rouge">avoid == and use ===</code>.</li>
+  <li>In all other cases, you’re safe to <code class="language-plaintext highlighter-rouge">use ==</code>.
+    <ul>
+      <li>Not only it is safe, but in many cases it simplifies your code in a way that improves readability.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="38-what-is-the-difference-between--and-">38. What is the difference between <code class="language-plaintext highlighter-rouge">==</code> and <code class="language-plaintext highlighter-rouge">===</code>?</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">==</code> is the abstract equality operator while === is the strict equality operator.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">==</code> operator will compare for equality after doing any necessary type conversions.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">===</code> operator will not do type conversion, so if two values are not the same type === will simply return false.</li>
+  <li>When using <code class="language-plaintext highlighter-rouge">==</code>, funky things can happen, such as:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre>1 == "1"; // true
+1 == [1]; // true
+1 == true; // true
+0 == ""; // true
+0 == "0"; // true
+0 == false; // true
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+</ul>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="39-what-is-ecmascript">39. What is <code class="language-plaintext highlighter-rouge">ECMAScript</code>?</h2>
+
+<ul>
+  <li>ECMAScript is a standard for making scripting languages which means that JavaScript follows the specification changes in ECMAScript standard because it is the blueprint of JavaScript.</li>
+  <li>
+    <p>ECMAScript standardized by the ECMA International standards organization in the ECMA-262 and ECMA-402 specifications.</p>
+  </li>
+  <li>Read more about ECMAScript <a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/">here</a>.</li>
+</ul>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="40-what-are-the-new-features-in-es6-or-ecmascript-2015">40. What are the new features in <code class="language-plaintext highlighter-rouge">ES6</code> or <code class="language-plaintext highlighter-rouge">ECMAScript 2015</code>?</h2>
+
+<ul>
+  <li>Arrow Functions</li>
+  <li>Classes</li>
+  <li>Template Strings</li>
+  <li>Enhanced Object literals</li>
+  <li>Object Destructuring</li>
+  <li>Promises</li>
+  <li>Generators</li>
+  <li>Modules</li>
+  <li>Symbol</li>
+  <li>Proxies</li>
+  <li>Sets</li>
+  <li>Default Function parameters</li>
+  <li>Rest and Spread Operators</li>
+  <li>Block Scoping with <code class="language-plaintext highlighter-rouge">let</code> and <code class="language-plaintext highlighter-rouge">const</code></li>
+</ul>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="41-what-does-use-strict-do">41. What does <code class="language-plaintext highlighter-rouge">use strict</code> do?</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">use strict</code> is a ES5 feature in JavaScript that makes our code in Strict Mode in functions or entire scripts.</li>
+  <li>Strict Mode helps us avoid bugs early on in our code and adds restrictions to it.</li>
+</ul>
+
+<p>Let look on restrictions that Strict Mode gives us.</p>
+
+<ul>
+  <li>Assigning or Accessing a variable that is not declared.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>function returnA() {
+"use strict";
+a = 3245;
+return a;
+}
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>Assigning a value to a read-only or non-writable global variable
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>"use strict";
+var NaN = NaN;
+var undefined = undefined;
+var Infinity = "and beyond";
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>Deleting an undeletable property</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre>
+"use strict";
+const obj = {};
+Object.defineProperty(obj, 'x', {
+     value : '1'
+}); 
+
+delete obj.x;
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>Duplicate parameter names</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+</pre></td><td class="rouge-code"><pre>
+"use strict";
+
+function someFunc(a, b, b, c){
+
+}
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>Creating variables with the use of the eval function</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>
+"use strict";
+
+eval("var x = 1;");
+console.log(x); //Throws a Reference Error x is not defined
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>The default value of this will be undefined</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre>
+"use strict";
+
+function showMeThis(){
+ return this;
+}
+showMeThis(); //returns undefined
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<h2 id="21-how-will-you-empty-an-array-in-javascript">21. How will you empty an array in JavaScript?</h2>
+
+<p>There are four ways to empty an array in JavaScript</p>
+
+<ul>
+  <li>By assigning an empty array:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>var array1 = [1, 22, 24, 46];
+array1 = [ ];
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>By assigning array length to 0:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>var array1 = [1, 22, 24, 46];
+array1.length=0;
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>By popping the elements of the array:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>var array1 = [1, 22, 24, 46];
+while(array1.length &gt; 0) {
+array1.pop();
+}
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>By using the splice array function:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>var array1 = [1, 22, 24, 46];
+array1.splice(0, array1.length)
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+</ul>
+
+<p><a href="#questions">Top ↑</a></p>
+
+<hr />
+
+<h2 id="further-reading">Further Reading</h2>
+
+<ul>
+  <li><a href="https://ankitkumar.dev/why-flutter/">Top Flutter Advantages and Why You Should Try Flutter on Your Next Project</a></li>
+  <li><a href="https://ankitkumar.dev/react-native-deeplink-with-react-navigation/">How to implement deep linking in React Native app with React Navigation v5</a></li>
+</ul>
+
+<hr />
+
+<p>Also, to be notified about my new articles and stories:</p>
+
+<p>Subscribe to my <a href="https://www.youtube.com/TechTalksWithAK">YouTube Channel</a></p>
+
+<p>Follow me on <a href="https://ankitdeveloper.medium.com/">Medium</a>, <a href="https://github.com/AnkitDroidGit">Github</a>, and <a href="https://twitter.com/KumarrAnkitt">Twitter</a>.</p>
+
+<p>You can find me on <a href="https://www.linkedin.com/in/kumarankitkumar/">LinkedIn</a> as well.</p>
+
+<p>I am quite active on <a href="https://dev.to/ankitkumar">Dev Community</a> as well and write small topics over there.</p>
+
+<p>Cheers!!! Happy coding!!</p>
+
+            </div>
+
+            <!-- Rating -->
+            
+            <div class="rating mb-4 d-flex align-items-center">
+                <strong class="mr-1">Rating:</strong> <div class="rating-holder">
+<div class="c-rating c-rating--regular" data-rating-value="5">
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+</div>
+</div>
+            </div>
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2021-01-28">28 Jan 2021</time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#100-Interview-Questions">100 Interview Questions</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#100-JavaScript-Interview-Questions">100 JavaScript Interview Questions</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#100-JavaScript-Questions">100 JavaScript Questions</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#Answers">Answers</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#Backend-Developer-Interview-Questions">Backend Developer Interview Questions</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#Frontend-Developer-Interview-Questions">Frontend Developer Interview Questions</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#Fullstack-Developer-Interview-Questions">Fullstack Developer Interview Questions</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#Interview">Interview</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#JavaScript">JavaScript</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#Questions">Questions</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#Web-Developer-Interview-Questions">Web Developer Interview Questions</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#100-Interview-Questions">#100 Interview Questions</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#100-JavaScript-Interview-Questions">#100 JavaScript Interview Questions</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#100-JavaScript-Questions">#100 JavaScript Questions</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Answers">#Answers</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Backend-Developer-Interview-Questions">#Backend Developer Interview Questions</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Frontend-Developer-Interview-Questions">#Frontend Developer Interview Questions</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Fullstack-Developer-Interview-Questions">#Fullstack Developer Interview Questions</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Interview">#Interview</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#JavaScript">#JavaScript</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Questions">#Questions</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Web-Developer-Interview-Questions">#Web Developer Interview Questions</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            <a class="prev d-block col-md-6" href="//100-JS-interview-question-part1/"> &laquo; 100 most asked JavaScript Interview Questions and Answers - Part 1</a>
+            
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+
+    </div>
+</div>
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Thing",
+    "name": "100 most asked JavaScript Interview Questions and Answers - Part 2"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Ankit Kumar"
+  },
+  "datePublished": "2021-01-28",
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5"
+  }
+}
+</script>
+</div>
+
+        
+      </div>
+
+      <!-- Categories Jumbotron
+================================================== -->
+      <div class="jumbotron fortags">
+        <div class="d-md-flex h-100">
+          <div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div
+              class="d-md-flex align-items-center justify-content-center h-100"
+            >
+              <h2 class="d-md-block align-self-center py-1 font-weight-light">
+                Explore <span class="d-none d-md-inline">→</span>
+              </h2>
+            </div>
+          </div>
+          <div class="col-md-8 p-5 align-self-center text-center">
+              
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Android"
+              >Android (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Jetpack-Compose"
+              >Jetpack Compose (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#CameraX"
+              >CameraX (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Technology"
+              >Technology (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#git"
+              >git (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#github"
+              >github (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#tutorial"
+              >tutorial (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#GraphQL"
+              >GraphQL (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#GraphQL-Query"
+              >GraphQL Query (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#GraphQL-Mutation"
+              >GraphQL Mutation (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Nodejs"
+              >Nodejs (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#JavaScript"
+              >JavaScript (6)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#TypeScript"
+              >TypeScript (4)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Chrome"
+              >Chrome (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Google-Chrome"
+              >Google Chrome (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Chrome-Extension"
+              >Chrome Extension (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#HTML"
+              >HTML (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#CSS"
+              >CSS (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#React-Native"
+              >React Native (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#React-Navigation"
+              >React Navigation (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#React"
+              >React (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Deeplink"
+              >Deeplink (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Custum-URI-Schemes"
+              >Custum URI Schemes (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#App-Links"
+              >App Links (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Universal-Links"
+              >Universal Links (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Custom-URI-Schemes"
+              >Custom URI Schemes (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Flutter"
+              >Flutter (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Dart"
+              >Dart (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Google"
+              >Google (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Advantages-of-Flutter"
+              >Advantages of Flutter (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Flutter-Tutorial-2021"
+              >Flutter Tutorial 2021 (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#What-is-Flutter"
+              >What is Flutter (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Why-Flutter"
+              >Why Flutter (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Advantages-of-Dart"
+              >Advantages of Dart (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#What-is-Dart"
+              >What is Dart (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Why-Dart"
+              >Why Dart (1)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Interview"
+              >Interview (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Questions"
+              >Questions (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Answers"
+              >Answers (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#100-JavaScript-Questions"
+              >100 JavaScript Questions (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#100-JavaScript-Interview-Questions"
+              >100 JavaScript Interview Questions (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#100-Interview-Questions"
+              >100 Interview Questions (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Web-Developer-Interview-Questions"
+              >Web Developer Interview Questions (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Backend-Developer-Interview-Questions"
+              >Backend Developer Interview Questions (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Frontend-Developer-Interview-Questions"
+              >Frontend Developer Interview Questions (2)</a
+            >
+            
+            <a
+              class="mt-1 mb-1"
+              href="/categories#Fullstack-Developer-Interview-Questions"
+              >Fullstack Developer Interview Questions (2)</a
+            >
+              
+          </div>
+        </div>
+      </div>
+
+      <!-- Begin Footer
+================================================== -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+              Copyright © 2021 Tech Talks
+            </div>
+            <div class="col-md-6 col-sm-6 text-lg-right">
+              <img
+                src="https://profile-counter.glitch.me/AnkitDroidGit/count.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer
+================================================== -->
+    </div>
+    <!-- /.site-content -->
+
+    <!-- Scripts
+================================================== -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/assets/js/mediumish.js"></script>
+
+    
+
+    <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    
+    <script
+      id="dsq-count-scr"
+      src="//.disqus.com/count.js"
+    ></script>
+    
+  </body>
+</html>

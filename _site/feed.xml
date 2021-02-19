@@ -5,9 +5,801 @@
     <description>Ankit Kumar is a Programmer, Technologist, Technical Writer, YouTuber and Tutor</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Feb 2021 15:15:55 +0800</pubDate>
-    <lastBuildDate>Sat, 13 Feb 2021 15:15:55 +0800</lastBuildDate>
+    <pubDate>Fri, 19 Feb 2021 11:57:16 +0800</pubDate>
+    <lastBuildDate>Fri, 19 Feb 2021 11:57:16 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>100 most asked JavaScript Interview Questions and Answers - Part 2</title>
+        <description>&lt;p&gt;We are going to learn JavaScript, by answering the most frequently asked javascript interview questions.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;javascript-interview-questions-and-answers-series&quot;&gt;JavaScript Interview Questions and Answers Series&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ankitkumar.dev/100-JS-interview-question-part1&quot;&gt;100 most asked JavaScript Interview Questions and Answers - Part 1&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://ankitkumar.dev/100-JS-interview-question-part2/&quot;&gt;100 most asked JavaScript Interview Questions and Answers - Part 2&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Welcome to &lt;strong&gt;Tech Talks&lt;/strong&gt; tutorial.&lt;/p&gt;
+
+&lt;h2 id=&quot;questions&quot;&gt;Questions&lt;/h2&gt;
+&lt;p&gt;Question 22. &lt;a href=&quot;#22-how-to-remove-duplicates-from-an-array&quot;&gt;How to remove duplicates from an array?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 23. &lt;a href=&quot;#23-how-to-check-if-a-value-is-an-array&quot;&gt;How to check if a value is an Array?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 24. &lt;a href=&quot;#24-implement-the-arrayprototypemap-method&quot;&gt;Implement the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.prototype.map()&lt;/code&gt; method
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 25. &lt;a href=&quot;#25-implement-the-arrayprototypefilter-method&quot;&gt;Implement the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.prototype.filter()&lt;/code&gt; method&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 26. &lt;a href=&quot;#26-implement-the-arrayprototypereduce-method&quot;&gt;Implement the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.prototype.reduce()&lt;/code&gt; method&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 27. &lt;a href=&quot;#27-what-is-a-name-function-in-javascript&quot;&gt;What is a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name function&lt;/code&gt; in JavaScript?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 28. &lt;a href=&quot;#28-can-you-assign-an-anonymous-function-to-a-variable-and-pass-it-as-an-argument-to-another-function&quot;&gt;Can you assign an anonymous function to a variable and pass it as an argument to another function?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 29. &lt;a href=&quot;#29-what-is-the-arguments-object&quot;&gt;What is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arguments object&lt;/code&gt;?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 30. &lt;a href=&quot;#30-can-you-convert-arguments-object-into-an-array&quot;&gt;Can you convert arguments object into an array?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 31. &lt;a href=&quot;#31-does-arguments-object-work-on-es6-arrow-functions&quot;&gt;Does arguments object work on ES6 arrow functions?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 32. &lt;a href=&quot;#32-how-to-create-an-object-without-a-prototype&quot;&gt;How to create an object without a prototype?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 33. &lt;a href=&quot;#33-what-are-the-scopes-of-a-variable-in-javascript&quot;&gt;What are the scopes of a variable in JavaScript?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 34. &lt;a href=&quot;#34-what-is-the-purpose-of-this-in-javascript&quot;&gt;What is the purpose of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt; in JavaScript?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 35. &lt;a href=&quot;#35-what-is-callback-in-javascript&quot;&gt;What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Callback&lt;/code&gt; in JavaScript?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 36. &lt;a href=&quot;#36-how-does-typeof-operator-work&quot;&gt;How does &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;typeOf&lt;/code&gt; Operator work?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 37. &lt;a href=&quot;#37-explain-equality-in-javascript&quot;&gt;Explain &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;equality&lt;/code&gt; in JavaScript&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 38. &lt;a href=&quot;#38-what-is-the-difference-between--and-&quot;&gt;What is the difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;==&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;===&lt;/code&gt;?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 39. &lt;a href=&quot;#39-what-is-ecmascript&quot;&gt;What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ECMAScript&lt;/code&gt;?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 40. &lt;a href=&quot;#40-what-are-the-new-features-in-es6-or-ecmascript-2015&quot;&gt;What are the new features in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ES6&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ECMAScript 2015&lt;/code&gt;?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 41. &lt;a href=&quot;#41-what-does-use-strict-do&quot;&gt;What does &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use strict&lt;/code&gt; do?&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;If you feel lazy to read more text, you can watch a video covering all questions here&lt;/em&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;760&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/3RM9Tp4PU00&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;22-how-to-remove-duplicates-from-an-array&quot;&gt;22. How to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;remove duplicates from an array&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;p&gt;There can be multiple ways of removing duplicates from an array, but let me tell three the most popular ways to do it.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Using Filter&lt;/strong&gt; -  It is possible to remove duplicates from an array in JavaScript by applying a filter to the same. To call the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;filter()&lt;/code&gt; method, three arguments are required. These are namely array as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;self&lt;/code&gt;, current element as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;elem&lt;/code&gt;, and index of the current element as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;let language = ['JavaScript', 'Dart', 'Kotlin', 'Java', 'Swift', 'Dart']
+function unique_array(arr) {
+   let unique_array = arr.filter(function (elem, index, self) {
+       return index == self.indexOf(elem);
+   });
+   return unique_array
+}
+console.log(unique_array(language));
+
+// Logs [ 'JavaScript', 'Dart', 'Kotlin', 'Java', 'Swift' ]
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;23-how-to-check-if-a-value-is-an-array&quot;&gt;23. How to check if a value is an Array?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We can check if a value is an Array by using the Array.isArray() method available from the Array global object.&lt;/li&gt;
+  &lt;li&gt;It returns true when the parameter pass to it is an Array otherwise false.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;console.log(Array.isArray(5));  //logs false
+console.log(Array.isArray(&quot;&quot;)); //logs false
+console.log(Array.isArray()); //logs false
+console.log(Array.isArray(null)); //logs false
+console.log(Array.isArray({ length: 5 })); //logs false
+console.log(Array.isArray([])); //logs true
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If your environment does not support this method you can use the polyfill implementation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function isArray(value){
+   return Object.prototype.toString.call(value) === &quot;[object Array]&quot;
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;24-implement-the-arrayprototypemap-method&quot;&gt;24. Implement the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.prototype.map()&lt;/code&gt; method.&lt;/h2&gt;
+
+&lt;p&gt;As the MDN description of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.prototype.map method&lt;/code&gt;, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;map()&lt;/code&gt; method creates a new array with the results of calling a provided function on every element in the calling array.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Syntax of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;map()&lt;/code&gt; method is&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;let newArray = arr.map(callback(currentValue[, index[, array]]) {
+  // return element for newArray, after executing something
+}[, thisArg]);
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;And here is the implementation of it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function map(arr, mapCallback) {
+  // Check if the parameters passed are right.
+  if (!Array.isArray(arr) || !arr.length || typeof mapCallback !== 'function') {
+    return [];
+    }
+    else {
+      let result = [];
+      // Avoid mutating the original array.
+      for (let i = 0, len = arr.length; i &amp;lt; len; i++) {
+        result.push(mapCallback(arr[i], i, arr));
+        // push the result of the mapCallback in the 'result' array
+        }
+        return result; // return the result array
+    }
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;25-implement-the-arrayprototypefilter-method&quot;&gt;25. Implement the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.prototype.filter()&lt;/code&gt; method.&lt;/h2&gt;
+
+&lt;p&gt;As the MDN description of the Array.prototype.filter method, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;filter()&lt;/code&gt; method creates a new array with all elements that pass the test implemented by the provided function.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Syntax is
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;let newArray = arr.filter(callback(currentValue[, index[, array]]) {
+// return element for newArray, if true
+}[, thisArg]);
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Implementations is
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function filter(arr, filterCallback) {
+// Check if the parameters passed are right.
+if (!Array.isArray(arr) || !arr.length || typeof filterCallback !== 'function') {
+  return [];
+  }
+  else {
+    let result = [];
+    // Avoid mutating the original array.
+    for (let i = 0, len = arr.length; i &amp;lt; len; i++) {
+      // check if the return value of the filterCallback is true or &quot;truthy&quot;
+      if (filterCallback(arr[i], i, arr)) {
+      // push the current item in the 'result' array if the condition is true
+      result.push(arr[i]);
+    }
+  }
+  return result; // return the result array
+}
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;26-implement-the-arrayprototypereduce-method&quot;&gt;26. Implement the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.prototype.reduce()&lt;/code&gt; method.&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reduce()&lt;/code&gt; method executes a reducer function (that you provide) on each element of the array, resulting in single output value.&lt;/li&gt;
+  &lt;li&gt;The reducer function takes four arguments:
+    &lt;blockquote&gt;
+      &lt;p&gt;Accumulator, Current Value, Current Index ,Source Array&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Syntax is
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;arr.reduce(callback( accumulator, currentValue, [, index[, array]] )[, initialValue])
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Implementation
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function reduce(arr, reduceCallback, initialValue) {
+// Check if the parameters passed are right.
+if (!Array.isArray(arr) || !arr.length || typeof reduceCallback !== 'function'){
+  return [];
+}
+else {
+  // If no initialValue has been passed to the function we're gonna use the
+  let hasInitialValue = initialValue !== undefined;
+  let value = hasInitialValue ? initialValue : arr[0];
+  // first array item as the initialValue, Start looping at index 1 if there is no
+  // initialValue has been passed to the function else we start at 0 if there is an initialValue.
+  for (let i = hasInitialValue ? 0 : 1, len = arr.length; i &amp;lt; len; i++) {
+    // Then for every iteration we assign the result of the reduceCallback to the variable value.
+    value = reduceCallback(value, arr[i], i, arr);
+  }
+  return value;
+}
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;27-what-is-a-name-function-in-javascript&quot;&gt;27. What is a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name function&lt;/code&gt; in JavaScript?&lt;/h2&gt;
+
+&lt;p&gt;A named function declares a name as soon as it is defined. It can be defined using function keyword as :&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function named() {
+   // write code here
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;28-can-you-assign-an-anonymous-function-to-a-variable-and-pass-it-as-an-argument-to-another-function&quot;&gt;28. Can you assign an anonymous function to a variable and pass it as an argument to another function?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Yes! An anonymous function can be assigned to a variable.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It can also be passed as an argument to another function.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Exmample is&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;let show = function () {
+  console.log('Anonymous function');
+};
+show();
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;29-what-is-the-arguments-object&quot;&gt;29. What is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arguments object&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The arguments object is a collection of parameter values pass in a function.&lt;/li&gt;
+  &lt;li&gt;It’s an Array-like object because it has a length property and we can access individual values using array indexing notation arguments[1]&lt;/li&gt;
+  &lt;li&gt;But it does not have the built-in methods in an array forEach, reduce, filter and map.&lt;/li&gt;
+  &lt;li&gt;It helps us know the number of arguments pass in a function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;30-can-you-convert-arguments-object-into-an-array&quot;&gt;30. Can you convert arguments object into an array?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Yes&lt;/strong&gt;, We can convert the arguments object into an array using the Array.prototype.slice.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function one() {
+ return Array.prototype.slice.call(arguments);
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;However, if there is a need to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;automatically&lt;/code&gt; execute a function at the place where it is given and not be called again, then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;anonymous functions&lt;/code&gt; can be used.
+Such functions have no name. So the name.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;31-does-arguments-object-work-on-es6-arrow-functions&quot;&gt;31. Does &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arguments object&lt;/code&gt; work on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ES6 arrow functions&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;No&lt;/strong&gt;, the arguments object does not work on ES6 arrow functions.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function one() {
+   return arguments;
+}
+const two = function () {
+   return arguments;
+}
+const three = function three() {
+   return arguments;
+}
+const four = () =&amp;gt; arguments;
+four(); // Throws an error  - arguments is not defined
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;When we invoke the function four it throws a ReferenceError: arguments is not defined error.&lt;/p&gt;
+
+&lt;p&gt;We can solve this problem if your environment supports the rest syntax.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;const four = (...args) =&amp;gt; args;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;This puts all parameter values in an array automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;32-how-to-create-an-object-without-a-prototype&quot;&gt;32. How to create an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;object without a prototype&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;p&gt;We can create an object without a prototype using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Object.create method&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;const o1 = {};
+console.log(o1.toString());
+// logs [object Object] get this method to the Object.prototype
+
+const o2 = Object.create(null);
+// the first parameter is the prototype of the object &quot;o2&quot; which in this case will be null specifying we don't want any prototype
+console.log(o2.toString());
+// throws an error o2.toString is not a function
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;33-what-are-the-scopes-of-a-variable-in-javascript&quot;&gt;33. What are the scopes of a variable in JavaScript?&lt;/h2&gt;
+
+&lt;p&gt;The scope of a variable is the region of your program in which it is defined.
+JavaScript variable will have only two scopes.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Global Variables&lt;/strong&gt; − A global variable has global scope which means it is visible everywhere in your JavaScript code.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Local Variables&lt;/strong&gt; − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;34-what-is-the-purpose-of-this-in-javascript&quot;&gt;34. What is the purpose of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt; in JavaScript?&lt;/h2&gt;
+
+&lt;p&gt;The JavaScript this keyword refers to the object it belongs to.&lt;/p&gt;
+
+&lt;p&gt;This has different values depending on where it is used.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;In a method, this refers to the owner object&lt;/li&gt;
+  &lt;li&gt;In a function, this refers to the global object.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;35-what-is-callback-in-javascript&quot;&gt;35. What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Callback&lt;/code&gt; in JavaScript?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A callback is a plain JavaScript function passed to some method as an argument or option.&lt;/li&gt;
+  &lt;li&gt;It is a function that is to be executed after another function has finished executing, hence the name ‘callback’.&lt;/li&gt;
+  &lt;li&gt;In JavaScript, functions are objects, So functions can take functions as arguments, and can be returned by other functions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;36-how-does-typeof-operator-work&quot;&gt;36. How does &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;typeOf&lt;/code&gt; Operator work?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;typeof&lt;/code&gt; operator is used to get the data type of its operand.&lt;/li&gt;
+  &lt;li&gt;The operand can be either a literal or a data structure such as a variable, a function, or an object.&lt;/li&gt;
+  &lt;li&gt;It is a unary operator that is placed before its single operand, which can be of any type.&lt;/li&gt;
+  &lt;li&gt;Its value is a string indicating the data type of the operand.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;37-explain-equality-in-javascript&quot;&gt;37. Explain &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;equality&lt;/code&gt; in JavaScript.&lt;/h2&gt;
+
+&lt;p&gt;JavaScript has both strict and type–converting comparisons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Strict comparison&lt;/strong&gt; (e.g., ===) checks for value equality without allowing coercion&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Abstract comparison&lt;/strong&gt; (e.g. ==) checks for value equality with coercion allowed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;var a = &quot;42&quot;;
+var b = 42;
+a == b; // true
+a === b; // false
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Some simple equality rules:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;If either value&lt;/code&gt; (aka side) in a comparison &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;could be the true or false&lt;/code&gt; value, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;avoid == and use ===&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;If either value&lt;/code&gt; in a comparison could be of these specific values &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(0, &quot;&quot;, or [] -- empty array)&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;avoid == and use ===&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;In all other cases, you’re safe to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use ==&lt;/code&gt;.
+    &lt;ul&gt;
+      &lt;li&gt;Not only it is safe, but in many cases it simplifies your code in a way that improves readability.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;38-what-is-the-difference-between--and-&quot;&gt;38. What is the difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;==&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;===&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;==&lt;/code&gt; is the abstract equality operator while === is the strict equality operator.&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;==&lt;/code&gt; operator will compare for equality after doing any necessary type conversions.&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;===&lt;/code&gt; operator will not do type conversion, so if two values are not the same type === will simply return false.&lt;/li&gt;
+  &lt;li&gt;When using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;==&lt;/code&gt;, funky things can happen, such as:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;1 == &quot;1&quot;; // true
+1 == [1]; // true
+1 == true; // true
+0 == &quot;&quot;; // true
+0 == &quot;0&quot;; // true
+0 == false; // true
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;39-what-is-ecmascript&quot;&gt;39. What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ECMAScript&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ECMAScript is a standard for making scripting languages which means that JavaScript follows the specification changes in ECMAScript standard because it is the blueprint of JavaScript.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ECMAScript standardized by the ECMA International standards organization in the ECMA-262 and ECMA-402 specifications.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Read more about ECMAScript &lt;a href=&quot;https://www.ecma-international.org/publications-and-standards/standards/ecma-262/&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;40-what-are-the-new-features-in-es6-or-ecmascript-2015&quot;&gt;40. What are the new features in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ES6&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ECMAScript 2015&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Arrow Functions&lt;/li&gt;
+  &lt;li&gt;Classes&lt;/li&gt;
+  &lt;li&gt;Template Strings&lt;/li&gt;
+  &lt;li&gt;Enhanced Object literals&lt;/li&gt;
+  &lt;li&gt;Object Destructuring&lt;/li&gt;
+  &lt;li&gt;Promises&lt;/li&gt;
+  &lt;li&gt;Generators&lt;/li&gt;
+  &lt;li&gt;Modules&lt;/li&gt;
+  &lt;li&gt;Symbol&lt;/li&gt;
+  &lt;li&gt;Proxies&lt;/li&gt;
+  &lt;li&gt;Sets&lt;/li&gt;
+  &lt;li&gt;Default Function parameters&lt;/li&gt;
+  &lt;li&gt;Rest and Spread Operators&lt;/li&gt;
+  &lt;li&gt;Block Scoping with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;41-what-does-use-strict-do&quot;&gt;41. What does &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use strict&lt;/code&gt; do?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use strict&lt;/code&gt; is a ES5 feature in JavaScript that makes our code in Strict Mode in functions or entire scripts.&lt;/li&gt;
+  &lt;li&gt;Strict Mode helps us avoid bugs early on in our code and adds restrictions to it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let look on restrictions that Strict Mode gives us.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Assigning or Accessing a variable that is not declared.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function returnA() {
+&quot;use strict&quot;;
+a = 3245;
+return a;
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Assigning a value to a read-only or non-writable global variable
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&quot;use strict&quot;;
+var NaN = NaN;
+var undefined = undefined;
+var Infinity = &quot;and beyond&quot;;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Deleting an undeletable property&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;
+&quot;use strict&quot;;
+const obj = {};
+Object.defineProperty(obj, 'x', {
+     value : '1'
+}); 
+
+delete obj.x;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Duplicate parameter names&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;
+&quot;use strict&quot;;
+
+function someFunc(a, b, b, c){
+
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Creating variables with the use of the eval function&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;
+&quot;use strict&quot;;
+
+eval(&quot;var x = 1;&quot;);
+console.log(x); //Throws a Reference Error x is not defined
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The default value of this will be undefined&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;
+&quot;use strict&quot;;
+
+function showMeThis(){
+ return this;
+}
+showMeThis(); //returns undefined
+
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;21-how-will-you-empty-an-array-in-javascript&quot;&gt;21. How will you empty an array in JavaScript?&lt;/h2&gt;
+
+&lt;p&gt;There are four ways to empty an array in JavaScript&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;By assigning an empty array:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;var array1 = [1, 22, 24, 46];
+array1 = [ ];
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;By assigning array length to 0:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;var array1 = [1, 22, 24, 46];
+array1.length=0;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;By popping the elements of the array:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;var array1 = [1, 22, 24, 46];
+while(array1.length &amp;gt; 0) {
+array1.pop();
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;By using the splice array function:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;var array1 = [1, 22, 24, 46];
+array1.splice(0, array1.length)
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ankitkumar.dev/why-flutter/&quot;&gt;Top Flutter Advantages and Why You Should Try Flutter on Your Next Project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ankitkumar.dev/react-native-deeplink-with-react-navigation/&quot;&gt;How to implement deep linking in React Native app with React Navigation v5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Also, to be notified about my new articles and stories:&lt;/p&gt;
+
+&lt;p&gt;Subscribe to my &lt;a href=&quot;https://www.youtube.com/TechTalksWithAK&quot;&gt;YouTube Channel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Follow me on &lt;a href=&quot;https://ankitdeveloper.medium.com/&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://github.com/AnkitDroidGit&quot;&gt;Github&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/KumarrAnkitt&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;https://www.linkedin.com/in/kumarankitkumar/&quot;&gt;LinkedIn&lt;/a&gt; as well.&lt;/p&gt;
+
+&lt;p&gt;I am quite active on &lt;a href=&quot;https://dev.to/ankitkumar&quot;&gt;Dev Community&lt;/a&gt; as well and write small topics over there.&lt;/p&gt;
+
+&lt;p&gt;Cheers!!! Happy coding!!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Jan 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/100-JS-interview-question-part2/</link>
+        <guid isPermaLink="true">http://localhost:4000/100-JS-interview-question-part2/</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>Interview</category>
+        
+        <category>Questions</category>
+        
+        <category>Answers</category>
+        
+        <category>100 JavaScript Questions</category>
+        
+        <category>100 JavaScript Interview Questions</category>
+        
+        <category>100 Interview Questions</category>
+        
+        <category>Web Developer Interview Questions</category>
+        
+        <category>Backend Developer Interview Questions</category>
+        
+        <category>Frontend Developer Interview Questions</category>
+        
+        <category>Fullstack Developer Interview Questions</category>
+        
+        
+        <category>JavaScript</category>
+        
+        <category>Interview</category>
+        
+        <category>Questions</category>
+        
+        <category>Answers</category>
+        
+        <category>100 JavaScript Questions</category>
+        
+        <category>100 JavaScript Interview Questions</category>
+        
+        <category>100 Interview Questions</category>
+        
+        <category>Web Developer Interview Questions</category>
+        
+        <category>Backend Developer Interview Questions</category>
+        
+        <category>Frontend Developer Interview Questions</category>
+        
+        <category>Fullstack Developer Interview Questions</category>
+        
+      </item>
     
       <item>
         <title>100 most asked JavaScript Interview Questions and Answers - Part 1</title>
@@ -34,31 +826,50 @@
 &lt;p&gt;Welcome to &lt;strong&gt;Tech Talks&lt;/strong&gt; tutorial.&lt;/p&gt;
 
 &lt;h2 id=&quot;questions&quot;&gt;Questions&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#1-what-is-javascript&quot;&gt;What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt;?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#2-what-are-the-primitive-types-in-javascript&quot;&gt;What are the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;primitive types&lt;/code&gt; in JavaScript?
+&lt;p&gt;Question 1. &lt;a href=&quot;#1-what-is-javascript&quot;&gt;What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JavaScript&lt;/code&gt;?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 2. &lt;a href=&quot;#2-what-are-the-primitive-types-in-javascript&quot;&gt;What are the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;primitive types&lt;/code&gt; in JavaScript?
 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;or&lt;/code&gt;
-Explain the various JavaScript &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;data types&lt;/code&gt;?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#3-whats-the-difference-between-undefined-and-null-in-javascript&quot;&gt;What’s the difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;undefined&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;null&lt;/code&gt; in JavaScript?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#4-what-are-the-escape-characters-in-javascript&quot;&gt;What are the escape characters in JavaScript?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#5-what-does-the-logical-and-operator-do&quot;&gt;What does the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Logical AND (&amp;amp;&amp;amp;)&lt;/code&gt; operator do?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#6-what-does-the-logical-or-operator-do&quot;&gt;What does the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Logical OR (||)&lt;/code&gt; operator do?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#7-what-is-the-fastest-way-converting-a-string-to-a-number&quot;&gt;What is the fastest way converting a string to a number?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#8-what-are-the-different-types-of-error-name-values-in-javascript&quot;&gt;What are the different types of Error Name values in JavaScript?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#9-please-explain-self-invoking-function&quot;&gt;Please explain &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Self Invoking Function&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#10-explain-difference-between-function-declaration-and-function-expression&quot;&gt;Explain difference between function declaration and function expression.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#11-what-is-the-dom&quot;&gt;What is the DOM?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#12-please-explain-difference-between-attributes-and-property&quot;&gt;Please explain difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;attributes&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;property&lt;/code&gt;?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#13-what-are-cookies-how-will-you-create-read-and-delete-a-cookie-using-javascript&quot;&gt;What are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cookies&lt;/code&gt;? How will you &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;delete&lt;/code&gt; a cookie using JavaScript?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#14-what-is-event-propagation&quot;&gt;What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Event Propagation&lt;/code&gt;?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#15-what-is-event-bubbling&quot;&gt;What is Event Bubbling?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#16-what-is-event-capturing&quot;&gt;What is Event Capturing?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#17-explain-difference-between-eventpreventdefault-and-eventstoppropagation-methods&quot;&gt;Explain difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.preventDefault()&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.stopPropagation()&lt;/code&gt; methods?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#18-how-to-know-if-the-eventpreventdefault-method-was-used-in-an-element&quot;&gt;How to know if the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.preventDefault()&lt;/code&gt; method was used in an element?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#19-what-is-closure&quot;&gt;What is Closure?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#20-how-many-ways-can-you-create-an-array-in-javascript&quot;&gt;How many ways can you create an array in JavaScript?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#21-how-will-you-empty-an-array-in-javascript&quot;&gt;How will you empty an array in JavaScript?&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+Explain the various JavaScript &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;data types&lt;/code&gt;?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 3. &lt;a href=&quot;#3-whats-the-difference-between-undefined-and-null-in-javascript&quot;&gt;What’s the difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;undefined&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;null&lt;/code&gt; in JavaScript?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 4. &lt;a href=&quot;#4-what-are-the-escape-characters-in-javascript&quot;&gt;What are the escape characters in JavaScript?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 5. &lt;a href=&quot;#5-what-does-the-logical-and-operator-do&quot;&gt;What does the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Logical AND (&amp;amp;&amp;amp;)&lt;/code&gt; operator do?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 6. &lt;a href=&quot;#6-what-does-the-logical-or-operator-do&quot;&gt;What does the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Logical OR (||)&lt;/code&gt; operator do?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 7. &lt;a href=&quot;#7-what-is-the-fastest-way-converting-a-string-to-a-number&quot;&gt;What is the fastest way converting a string to a number?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 8. &lt;a href=&quot;#8-what-are-the-different-types-of-error-name-values-in-javascript&quot;&gt;What are the different types of Error Name values in JavaScript?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 9. &lt;a href=&quot;#9-please-explain-self-invoking-function&quot;&gt;Please explain &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Self Invoking Function&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 10. [Explain difference between function declaration and function expression.]
+(#10-explain-difference-between-function-declaration-and-function-expression)&lt;/p&gt;
+
+&lt;p&gt;Question 11. &lt;a href=&quot;#11-what-is-the-dom&quot;&gt;What is the DOM?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 12. &lt;a href=&quot;#12-please-explain-difference-between-attributes-and-property&quot;&gt;Please explain difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;attributes&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;property&lt;/code&gt;?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 13. &lt;a href=&quot;#13-what-are-cookies-how-will-you-create-read-and-delete-a-cookie-using-javascript&quot;&gt;What are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cookies&lt;/code&gt;? How will you &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;read&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;delete&lt;/code&gt; a cookie using JavaScript?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 14. &lt;a href=&quot;#14-what-is-event-propagation&quot;&gt;What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Event Propagation&lt;/code&gt;?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 15. &lt;a href=&quot;#15-what-is-event-bubbling&quot;&gt;What is Event Bubbling?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 16. &lt;a href=&quot;#16-what-is-event-capturing&quot;&gt;What is Event Capturing?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 17. &lt;a href=&quot;#17-explain-difference-between-eventpreventdefault-and-eventstoppropagation-methods&quot;&gt;Explain difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.preventDefault()&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.stopPropagation()&lt;/code&gt; methods?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 18. &lt;a href=&quot;#18-how-to-know-if-the-eventpreventdefault-method-was-used-in-an-element&quot;&gt;How to know if the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;event.preventDefault()&lt;/code&gt; method was used in an element?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 19. &lt;a href=&quot;#19-what-is-closure&quot;&gt;What is Closure?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 20. &lt;a href=&quot;#20-how-many-ways-can-you-create-an-array-in-javascript&quot;&gt;How many ways can you create an array in JavaScript?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 21. &lt;a href=&quot;#21-how-will-you-empty-an-array-in-javascript&quot;&gt;How will you empty an array in JavaScript?&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -452,7 +1263,7 @@ Such functions have no name. So the name.&lt;/li&gt;
 
 &lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;15-what-is-event-bubbling&quot;&gt;15. What is Event Bubbling?&lt;/h2&gt;
+&lt;h2 id=&quot;15-what-is-event-bubbling&quot;&gt;15. What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Event Bubbling&lt;/code&gt;?&lt;/h2&gt;
 
 &lt;p&gt;When an event occurs on a DOM element, that event does not entirely occur on that just one element.&lt;/p&gt;
 
@@ -551,7 +1362,7 @@ addEvent(document, 'DOMContentLoaded', () =&amp;gt; {
 
 &lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;16-what-is-event-capturing&quot;&gt;16. What is Event Capturing?&lt;/h2&gt;
+&lt;h2 id=&quot;16-what-is-event-capturing&quot;&gt;16. What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Event Capturing&lt;/code&gt;?&lt;/h2&gt;
 
 &lt;p&gt;When an event occurs on a DOM element, that event does not entirely occur on that just one element.
 In Capturing Phase, the event starts from the window all the way down to the element that triggered the event.&lt;/p&gt;
@@ -677,7 +1488,7 @@ addEvent(document, 'DOMContentLoaded', () =&amp;gt; {
 
 &lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;19-what-is-closure&quot;&gt;19. What is Closure?&lt;/h2&gt;
+&lt;h2 id=&quot;19-what-is-closure&quot;&gt;19. What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Closure&lt;/code&gt;?&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Closures&lt;/code&gt; are created whenever a variable, defined outside the current scope, is accessed from within some inner scope.&lt;/li&gt;
@@ -742,7 +1553,7 @@ TechTalksGreeter();
 
 &lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;20-how-many-ways-can-you-create-an-array-in-javascript&quot;&gt;20. How many ways can you create an array in JavaScript?&lt;/h2&gt;
+&lt;h2 id=&quot;20-how-many-ways-can-you-create-an-array-in-javascript&quot;&gt;20. How many ways can you &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create an array&lt;/code&gt; in JavaScript?&lt;/h2&gt;
 
 &lt;p&gt;There are three different ways of creating an array in JavaScript, namely:&lt;/p&gt;
 &lt;ul&gt;
@@ -765,7 +1576,7 @@ TechTalksGreeter();
 
 &lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;21-how-will-you-empty-an-array-in-javascript&quot;&gt;21. How will you empty an array in JavaScript?&lt;/h2&gt;
+&lt;h2 id=&quot;21-how-will-you-empty-an-array-in-javascript&quot;&gt;21. How will you &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;empty an array&lt;/code&gt; in JavaScript?&lt;/h2&gt;
 
 &lt;p&gt;There are four ways to empty an array in JavaScript&lt;/p&gt;
 
@@ -2825,220 +3636,6 @@ Visit your branch and merge your branch.&lt;/p&gt;
         <category>github</category>
         
         <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Getting Started with CameraX API</title>
-        <description>&lt;p&gt;CameraX, launched at Google IO 19 , is a Jetpack support library, built to help us make camera app development easier. It provides a consistent and easy-to-use API surface that works across most Android devices, with backward-compatibility to Android 5.0 (API level 21).&lt;/p&gt;
-
-&lt;h3 id=&quot;why-camerax-is-beneficial&quot;&gt;Why CameraX is beneficial?&lt;/h3&gt;
-
-&lt;p&gt;As per the &lt;a href=&quot;https://developer.android.com/training/camerax#primary&quot;&gt;documentation&lt;/a&gt;, CameraX has following primary benefits :&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Easy to use&lt;/li&gt;
-  &lt;li&gt;Consistence across the devices&lt;/li&gt;
-  &lt;li&gt;It provide new camera experience to the user&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
-
-&lt;p&gt;Requirements to use CameraX are :&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Android Studio 3.3 or later&lt;/li&gt;
-  &lt;li&gt;A device running on Android L or later&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;lets-get-hands-on-app-code&quot;&gt;Let’s get hands on app code&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Create Android Project with minimum APL level 21.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    defaultConfig {
-        applicationId &quot;com.ankkumar.cameraxsampleapp&quot;
-        minSdkVersion 21
-        targetSdkVersion 28
-        ......
-    }
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Add dependencies in app&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    implementation &quot;androidx.camera:camera-core:1.0.0-alpha01&quot;
-    implementation &quot;androidx.camera:camera-camera2:1.0.0-alpha01&quot;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Request Camera Permissions&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In the manifest file&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    &amp;lt;uses-permission android:name=&quot;android.permission.CAMERA&quot; /&amp;gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Handoling runtime permission in kotlin&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    import android.Manifest
-    import android.util.Size
-    import android.graphics.Matrix
-    import java.util.concurrent.TimeUnit
-
-    private const val REQUEST_CODE_PERMISSIONS = 881
-
-    private val REQUIRED_PERMISSIONS = arrayOf(Manifest.permission.CAMERA)
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;actual code of permission handling look like below&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/AnkitDroidGit/132ef18e5760d202e43513b55e2488c7.js&quot;&gt;&lt;/script&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;time-to-create-ui&quot;&gt;Time to create UI&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Create and Implement view finder&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;script src=&quot;https://gist.github.com/AnkitDroidGit/e8207c26817774fdb20af611fdf9ed29.js&quot;&gt;&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Implementation of view finder&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;Declare lateinit&lt;/p&gt;
-
-        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    private lateinit var viewFinder: TextureView
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;define it inside onCreate(..) method
-        &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;   viewFinder = findViewById(R.id.finder_view)
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;and implement it as below&lt;/p&gt;
-
-        &lt;script src=&quot;https://gist.github.com/AnkitDroidGit/b691aef48268d2f7cafd787bcf8c60de.js&quot;&gt;&lt;/script&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;implementing-image-capture&quot;&gt;Implementing Image Capture&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Write below code to capture image
-  &lt;script src=&quot;https://gist.github.com/AnkitDroidGit/11555201e33e8b74eda1e757685aeb71.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Place below code between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CameraX.bindToLifecycle(this, preview)&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CameraX.bindToLifecycle(this, preview, imageCapture)&lt;/code&gt;
-  &lt;script src=&quot;https://gist.github.com/AnkitDroidGit/7976120ebcfeefaef55bb73e05bc420b.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;analysing-captured-image&quot;&gt;Analysing captured image&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;create a class called ImageAnalyzer as below&lt;/p&gt;
-
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;  class ImageAnalyzer : ImageAnalysis.Analyzer {
-      override fun analyze(image: ImageProxy?, rotationDegrees: Int) {
-          TODO(&quot;not implemented&quot;) //To change body of created functions use File | Settings | File Templates.
-      }
-  }
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;And implement above class for analyzing image
-  &lt;script src=&quot;https://gist.github.com/AnkitDroidGit/77c87e7d35f22621063f5f9213c5353d.js&quot;&gt;&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;Now add image analysis code inside &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;startCamera()&lt;/code&gt; method as below
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;   // Setup image analysis pipeline that computes average pixel luminance
-  val analyzerConfig = ImageAnalysisConfig.Builder().apply {
-      // Use a worker thread for image analysis to prevent glitches
-      val analyzerThread = HandlerThread(
-            &quot;LuminosityAnalysis&quot;
-      ).apply { start() }
-      setCallbackHandler(Handler(analyzerThread.looper))
-      // In our analysis, we care more about the latest image than
-      // analyzing *every* image
-      setImageReaderMode(
-          ImageAnalysis.ImageReaderMode.ACQUIRE_LATEST_IMAGE
-      )
-  }.build()
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;After adding this snippet modify CameraX.bindToLifecycle() method with this argument&lt;/li&gt;
-  &lt;li&gt;Now our complete startCamera() will look like this
-  &lt;script src=&quot;https://gist.github.com/AnkitDroidGit/de4d7bb7c453a9e1fecec162cfb071f6.js&quot;&gt;&lt;/script&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;testing-app&quot;&gt;Testing app&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../assets/images/post/test_camera_x.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;And it works perfect !!!
-Congratulations !!!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 13 May 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/camera-x-android/</link>
-        <guid isPermaLink="true">http://localhost:4000/camera-x-android/</guid>
-        
-        <category>Android</category>
-        
-        <category>Jetpack Compose</category>
-        
-        <category>CameraX</category>
-        
-        <category>Technology</category>
-        
-        
-        <category>Android</category>
-        
-        <category>Jetpack Compose</category>
-        
-        <category>CameraX</category>
-        
-        <category>Technology</category>
         
       </item>
     

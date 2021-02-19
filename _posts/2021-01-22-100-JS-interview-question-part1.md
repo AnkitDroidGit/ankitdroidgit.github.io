@@ -54,29 +54,50 @@ Welcome to **Tech Talks** tutorial.
 
 
 ## Questions
-1. [What is `JavaScript`?](#1-what-is-javascript)
-2. [What are the `primitive types` in JavaScript?
+Question 1. [What is `JavaScript`?](#1-what-is-javascript)
+
+Question 2. [What are the `primitive types` in JavaScript?
 `or`
 Explain the various JavaScript `data types`?](#2-what-are-the-primitive-types-in-javascript)
-3. [What's the difference between `undefined` and `null` in JavaScript?](#3-whats-the-difference-between-undefined-and-null-in-javascript)
-4. [What are the escape characters in JavaScript?](#4-what-are-the-escape-characters-in-javascript)
-5. [What does the `Logical AND (&&)` operator do?](#5-what-does-the-logical-and-operator-do)
-6. [What does the `Logical OR (||)` operator do?](#6-what-does-the-logical-or-operator-do)
-7. [What is the fastest way converting a string to a number?](#7-what-is-the-fastest-way-converting-a-string-to-a-number)
-8. [What are the different types of Error Name values in JavaScript?](#8-what-are-the-different-types-of-error-name-values-in-javascript)
-9. [Please explain `Self Invoking Function`](#9-please-explain-self-invoking-function)
-10. [Explain difference between function declaration and function expression.](#10-explain-difference-between-function-declaration-and-function-expression)
-11. [What is the DOM?](#11-what-is-the-dom)
-12. [Please explain difference between `attributes` and `property`?](#12-please-explain-difference-between-attributes-and-property)
-13. [What are `cookies`? How will you `create`, `read`, and `delete` a cookie using JavaScript?](#13-what-are-cookies-how-will-you-create-read-and-delete-a-cookie-using-javascript)
-14. [What is `Event Propagation`?](#14-what-is-event-propagation)
-15. [What is Event Bubbling?](#15-what-is-event-bubbling)
-16. [What is Event Capturing?](#16-what-is-event-capturing)
-17. [Explain difference between `event.preventDefault()` and `event.stopPropagation()` methods?](#17-explain-difference-between-eventpreventdefault-and-eventstoppropagation-methods)
-18. [How to know if the `event.preventDefault()` method was used in an element?](#18-how-to-know-if-the-eventpreventdefault-method-was-used-in-an-element)
-19. [What is Closure?](#19-what-is-closure)
-20. [How many ways can you create an array in JavaScript?](#20-how-many-ways-can-you-create-an-array-in-javascript)
-21. [How will you empty an array in JavaScript?](#21-how-will-you-empty-an-array-in-javascript)
+
+Question 3. [What's the difference between `undefined` and `null` in JavaScript?](#3-whats-the-difference-between-undefined-and-null-in-javascript)
+
+Question 4. [What are the escape characters in JavaScript?](#4-what-are-the-escape-characters-in-javascript)
+
+Question 5. [What does the `Logical AND (&&)` operator do?](#5-what-does-the-logical-and-operator-do)
+
+Question 6. [What does the `Logical OR (||)` operator do?](#6-what-does-the-logical-or-operator-do)
+
+Question 7. [What is the fastest way converting a string to a number?](#7-what-is-the-fastest-way-converting-a-string-to-a-number)
+
+Question 8. [What are the different types of Error Name values in JavaScript?](#8-what-are-the-different-types-of-error-name-values-in-javascript)
+
+Question 9. [Please explain `Self Invoking Function`](#9-please-explain-self-invoking-function)
+
+Question 10. [Explain difference between function declaration and function expression.]
+(#10-explain-difference-between-function-declaration-and-function-expression)
+
+Question 11. [What is the DOM?](#11-what-is-the-dom)
+
+Question 12. [Please explain difference between `attributes` and `property`?](#12-please-explain-difference-between-attributes-and-property)
+
+Question 13. [What are `cookies`? How will you `create`, `read`, and `delete` a cookie using JavaScript?](#13-what-are-cookies-how-will-you-create-read-and-delete-a-cookie-using-javascript)
+
+Question 14. [What is `Event Propagation`?](#14-what-is-event-propagation)
+
+Question 15. [What is Event Bubbling?](#15-what-is-event-bubbling)
+
+Question 16. [What is Event Capturing?](#16-what-is-event-capturing)
+
+Question 17. [Explain difference between `event.preventDefault()` and `event.stopPropagation()` methods?](#17-explain-difference-between-eventpreventdefault-and-eventstoppropagation-methods)
+
+Question 18. [How to know if the `event.preventDefault()` method was used in an element?](#18-how-to-know-if-the-eventpreventdefault-method-was-used-in-an-element)
+
+Question 19. [What is Closure?](#19-what-is-closure)
+
+Question 20. [How many ways can you create an array in JavaScript?](#20-how-many-ways-can-you-create-an-array-in-javascript)
+
+Question 21. [How will you empty an array in JavaScript?](#21-how-will-you-empty-an-array-in-javascript)
 
 ---
 
@@ -374,7 +395,7 @@ document.cookie = “key1 = value1; key2 = value2; … ; keyN= valueN; expires =
 
 [Top ↑](#questions)
 
-## 15. What is Event Bubbling?
+## 15. What is `Event Bubbling`?
 
 When an event occurs on a DOM element, that event does not entirely occur on that just one element.
 
@@ -435,7 +456,7 @@ addEvent(document, 'DOMContentLoaded', () => {
 
 [Top ↑](#questions)
 
-## 16. What is Event Capturing?
+## 16. What is `Event Capturing`?
 
 When an event occurs on a DOM element, that event does not entirely occur on that just one element.
 In Capturing Phase, the event starts from the window all the way down to the element that triggered the event.
@@ -521,7 +542,7 @@ addEvent(document, 'DOMContentLoaded', () => {
 [Top ↑](#questions)
 
 
-## 19. What is Closure?
+## 19. What is `Closure`?
 
 - `Closures` are created whenever a variable, defined outside the current scope, is accessed from within some inner scope.
 - It gives us access to an outer function’s scope from an inner function.
@@ -565,7 +586,7 @@ TechTalksGreeter();
 
 [Top ↑](#questions)
 
-## 20. How many ways can you create an array in JavaScript?
+## 20. How many ways can you `create an array` in JavaScript?
 
 There are three different ways of creating an array in JavaScript, namely:
 - By creating instance of an array:
@@ -584,7 +605,7 @@ var someArray = [value1, value2,…., valueN];
 
 [Top ↑](#questions)
 
-## 21. How will you empty an array in JavaScript?
+## 21. How will you `empty an array` in JavaScript?
 
 There are four ways to empty an array in JavaScript
 
