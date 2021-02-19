@@ -5,8 +5,8 @@
     <description>Ankit Kumar is a Programmer, Technologist, Technical Writer, YouTuber and Tutor</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Feb 2021 12:19:41 +0800</pubDate>
-    <lastBuildDate>Fri, 19 Feb 2021 12:19:41 +0800</lastBuildDate>
+    <pubDate>Fri, 19 Feb 2021 12:21:12 +0800</pubDate>
+    <lastBuildDate>Fri, 19 Feb 2021 12:21:12 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -859,8 +859,8 @@ a:active {
 }
 &lt;/style&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://ankitkumar.dev/100-JS-interview-question-part1&quot;&gt;100 most asked JavaScript Interview Questions and Answers - Part 1&lt;/a&gt;
-&lt;a href=&quot;https://ankitkumar.dev/100-JS-interview-question-part2&quot;&gt;100 most asked JavaScript Interview Questions and Answers - Part 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ankitkumar.dev/100-JS-interview-question-part1/&quot;&gt;100 most asked JavaScript Interview Questions and Answers - Part 1&lt;/a&gt;
+&lt;a href=&quot;https://ankitkumar.dev/100-JS-interview-question-part2/&quot;&gt;100 most asked JavaScript Interview Questions and Answers - Part 2&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;Welcome to &lt;strong&gt;Tech Talks&lt;/strong&gt; tutorial.&lt;/p&gt;
