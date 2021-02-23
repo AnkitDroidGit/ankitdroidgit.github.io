@@ -5,8 +5,8 @@
     <description>Ankit Kumar is a Programmer, Technologist, Technical Writer, YouTuber and Tutor</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Feb 2021 12:48:24 +0800</pubDate>
-    <lastBuildDate>Fri, 19 Feb 2021 12:48:24 +0800</lastBuildDate>
+    <pubDate>Tue, 23 Feb 2021 19:20:17 +0800</pubDate>
+    <lastBuildDate>Tue, 23 Feb 2021 19:20:17 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -104,6 +104,52 @@ function unique_array(arr) {
 console.log(unique_array(language));
 
 // Logs [ 'JavaScript', 'Dart', 'Kotlin', 'Java', 'Swift' ]
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Using Loop&lt;/strong&gt; — In this method of removing duplicate elements from an array, an empty array is used for storing all the repeating&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;let language = ['JavaScript', 'Dart', 'Kotlin', 'Java', 'Swift', 'Dart', 'JavaScript'];
+function dups_array(language) {
+   let unique = {};
+   langugae.forEach(function (i) {
+       if(!unique[i]) {
+          unique[i] = true;
+       }
+   });
+   return Object.keys(unique);
+}
+console.log(dups_array(language));
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Using Set&lt;/strong&gt; — This is the simplest approach of removing duplicate elements from an array in JS. A set is an inbuilt object for storing unique values in an array. Here’s how to use it for eliminating repeating elements from an array&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;const set = new Set (['JavaScript', 'Dart', 'Kotlin', 'Java', 'Swift', 'Dart']);
+function uniquearray() {
+   let unique_array = Array.from(set);
+   return unique_array;
+}
+console.log(uniquearray());
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;

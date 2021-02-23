@@ -137,6 +137,32 @@ console.log(unique_array(language));
 // Logs [ 'JavaScript', 'Dart', 'Kotlin', 'Java', 'Swift' ]
 ```
 
+- **Using Loop** — In this method of removing duplicate elements from an array, an empty array is used for storing all the repeating
+
+```
+let language = ['JavaScript', 'Dart', 'Kotlin', 'Java', 'Swift', 'Dart', 'JavaScript'];
+function dups_array(language) {
+   let unique = {};
+   langugae.forEach(function (i) {
+       if(!unique[i]) {
+          unique[i] = true;
+       }
+   });
+   return Object.keys(unique);
+}
+console.log(dups_array(language));
+```
+
+- **Using Set** — This is the simplest approach of removing duplicate elements from an array in JS. A set is an inbuilt object for storing unique values in an array. Here’s how to use it for eliminating repeating elements from an array
+
+```
+const set = new Set (['JavaScript', 'Dart', 'Kotlin', 'Java', 'Swift', 'Dart']);
+function uniquearray() {
+   let unique_array = Array.from(set);
+   return unique_array;
+}
+console.log(uniquearray());
+```
 
 [Top ↑](#questions)
 
