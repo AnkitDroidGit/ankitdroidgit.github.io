@@ -5,9 +5,1000 @@
     <description>Ankit Kumar is a Programmer, Technologist, Technical Writer, YouTuber and Tutor</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Feb 2021 19:20:17 +0800</pubDate>
-    <lastBuildDate>Tue, 23 Feb 2021 19:20:17 +0800</lastBuildDate>
+    <pubDate>Sat, 12 Jun 2021 20:46:14 +0800</pubDate>
+    <lastBuildDate>Sat, 12 Jun 2021 20:46:14 +0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>100 most asked JavaScript Interview Questions and Answers - Part 3</title>
+        <description>&lt;p&gt;We are going to learn JavaScript, by answering the most frequently asked javascript interview questions.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;javascript-interview-questions-and-answers-series&quot;&gt;JavaScript Interview Questions and Answers Series&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ankitkumar.dev/100-JS-interview-question-part1/&quot;&gt;100 most asked JavaScript Interview Questions and Answers - Part 1&lt;/a&gt;
+&lt;a href=&quot;https://ankitkumar.dev/100-JS-interview-question-part2/&quot;&gt;100 most asked JavaScript Interview Questions and Answers - Part 2&lt;/a&gt;
+&lt;a href=&quot;https://ankitkumar.dev/100-JS-interview-question-part3/&quot;&gt;100 most asked JavaScript Interview Questions and Answers - Part 3&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Welcome to &lt;strong&gt;Tech Talks&lt;/strong&gt; tutorial.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you guys want to practice for JavaScript Interview on mock video interview, please drop me an email at &lt;a href=&quot;mailto:admin@ankitkumar.dev&quot;&gt;admin@ankitkumar.dev&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;questions&quot;&gt;Questions&lt;/h2&gt;
+&lt;p&gt;Question 42. &lt;a href=&quot;#42-what-is-hoisting&quot;&gt;What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hoisting&lt;/code&gt;?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 43. &lt;a href=&quot;#43-explain-difference-between-function-scope-and-block-scope&quot;&gt;Explain difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Function scope&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Block scope&lt;/code&gt; ?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 44. &lt;a href=&quot;#44-whats-the-difference-between-var-let-and-const-keywords&quot;&gt;What’s the difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;var&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const&lt;/code&gt; keywords?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 45. &lt;a href=&quot;#25-implement-the-arrayprototypefilter-method&quot;&gt;Implement the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.prototype.filter()&lt;/code&gt; method&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 46. &lt;a href=&quot;#26-implement-the-arrayprototypereduce-method&quot;&gt;Implement the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.prototype.reduce()&lt;/code&gt; method&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 47. &lt;a href=&quot;#27-what-is-a-name-function-in-javascript&quot;&gt;What is a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name function&lt;/code&gt; in JavaScript?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 48. &lt;a href=&quot;#28-can-you-assign-an-anonymous-function-to-a-variable-and-pass-it-as-an-argument-to-another-function&quot;&gt;Can you assign an anonymous function to a variable and pass it as an argument to another function?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 49. &lt;a href=&quot;#29-what-is-the-arguments-object&quot;&gt;What is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arguments object&lt;/code&gt;?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 50. &lt;a href=&quot;#30-can-you-convert-arguments-object-into-an-array&quot;&gt;Can you convert arguments object into an array?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 51. &lt;a href=&quot;#31-does-arguments-object-work-on-es6-arrow-functions&quot;&gt;Does arguments object work on ES6 arrow functions?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 52. &lt;a href=&quot;#32-how-to-create-an-object-without-a-prototype&quot;&gt;How to create an object without a prototype?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 53. &lt;a href=&quot;#33-what-are-the-scopes-of-a-variable-in-javascript&quot;&gt;What are the scopes of a variable in JavaScript?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 54. &lt;a href=&quot;#34-what-is-the-purpose-of-this-in-javascript&quot;&gt;What is the purpose of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt; in JavaScript?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 55. &lt;a href=&quot;#35-what-is-callback-in-javascript&quot;&gt;What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Callback&lt;/code&gt; in JavaScript?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 56. &lt;a href=&quot;#36-how-does-typeof-operator-work&quot;&gt;How does &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;typeOf&lt;/code&gt; Operator work?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 57. &lt;a href=&quot;#37-explain-equality-in-javascript&quot;&gt;Explain &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;equality&lt;/code&gt; in JavaScript&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 58. &lt;a href=&quot;#38-what-is-the-difference-between--and-&quot;&gt;What is the difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;==&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;===&lt;/code&gt;?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 59. &lt;a href=&quot;#39-what-is-ecmascript&quot;&gt;What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ECMAScript&lt;/code&gt;?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 50. &lt;a href=&quot;#40-what-are-the-new-features-in-es6-or-ecmascript-2015&quot;&gt;What are the new features in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ES6&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ECMAScript 2015&lt;/code&gt;?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Question 51. &lt;a href=&quot;#41-what-does-use-strict-do&quot;&gt;What does &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use strict&lt;/code&gt; do?&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;If you feel lazy to read more text, you can watch a video covering all questions here&lt;/em&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;760&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/3RM9Tp4PU00&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;42-what-is-hoisting&quot;&gt;42. What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Hoisting&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;p&gt;Hoisting is JavaScript’s default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).&lt;/p&gt;
+
+&lt;p&gt;In Easy words JavaScript Declarations are Hoisted.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;In JavaScript, a variable can be declared after it has been used.&lt;/li&gt;
+  &lt;li&gt;In other words; a variable can be used before it has been declared.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Conceptually, for example, A strict definition of hoisting suggests that variable and function declarations are physically moved to the top of your code, but this is not in fact what happens.&lt;/p&gt;
+
+&lt;p&gt;Instead, the variable and function declarations are put into memory during the compile phase, but stay exactly where you typed them in your code.&lt;/p&gt;
+
+&lt;p&gt;To understand Hoisting, Let’s look on the execution context.&lt;/p&gt;
+
+&lt;p&gt;The Execution Context is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;environment of code&lt;/code&gt; that is currently executing.
+The Execution Context has two phases compilation and execution.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Compilation&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Gets all the function declarations and hoists them up to the top of their scope so we can reference them later.&lt;/li&gt;
+      &lt;li&gt;Gets all variables declaration (declare with the var keyword) and also hoists them up and give them a default value of undefined.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Execution&lt;/strong&gt; - In this phase it assigns values to the variables hoisted earlier and it executes or invokes functions (methods in objects).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;JavaScript only hoists declarations, not initializations. If a variable is declared and initialized after using it, the value will be undefined&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;console.log(num); // Returns undefined, as only declaration was hoisted, no initialization has happened at this stage
+var num; // Declaration
+num = 6; // Initialization
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Only initialization, no hoisting happens so trying to read the variable results in ReferenceError exception.&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;console.log(num); // Throws ReferenceError exception
+num = 6; // Initialization
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Declarations using let and const are also not hoisted&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;// Example with let:
+a = 1; // initialization.
+let a; // Throws ReferenceError: Cannot access 'a' before initialization
+
+// Example with const:
+a = 1; // initialization.
+const a; // Throws SyntaxError: Missing initializer in const declaration
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;More examples demonstrating hoisting&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;// Example 1
+// Only y is hoisted
+x = 1; // Initialize x, and if not already declared, declare it - but no hoisting as there is no var in the statement.
+console.log(x + &quot; &quot; + y); // '1 undefined'
+// This prints value of y as undefined as JavaScript only hoists declarations
+var y = 2; // Declare and Initialize y
+
+// Example 2
+// No hoisting, but since initialization also causes declaration (if not already declared), variables are available.
+a = &quot;Tech&quot;; // Initialize a
+b = &quot;Talks&quot;; // Initialize b
+console.log(a + &quot;&quot; + b); // 'Tech Talks'
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;43-explain-difference-between-function-scope-and-block-scope&quot;&gt;43. Explain difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Function scope&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Block scope&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Function Scope:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In Javascript you limit the scope of a variable by defining it within a function. This is known as function scope.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function fun1() {
+ var a = 10;
+ console.log(a);
+} //function scope of fun1
+
+function fun2() {
+ a++;
+ console.log(a);
+} //function scope of fun2
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Block Scope:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In Javascript you can define a code block using curly braces i.e {}.&lt;/li&gt;
+  &lt;li&gt;Block has scope with opening and closing curly braces.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;{
+ var a = 10;
+ console.log(a);
+} //block 1
+{
+ a++;
+ console.log(a);
+} //block 2
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;44-whats-the-difference-between-var-let-and-const-keywords&quot;&gt;44. What’s the difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;var&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const&lt;/code&gt; keywords?&lt;/h2&gt;
+
+&lt;p&gt;JavaScript has three ways to declare variables.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;var width = 100;
+let height = 200;
+const key = &quot;Tech Talks&quot;;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;var&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;var&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The scope of a variable defined with the keyword “var” is limited to the “function” within which it is defined.&lt;/li&gt;
+  &lt;li&gt;If it is defined outside any function, the scope of the variable is global.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;var&lt;/code&gt; is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;function scoped&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Block Example&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;{
+ var a = 10;
+ console.log(a);
+} //block 1
+{
+ a++;
+ console.log(a);
+} //block 2
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;We are using the keyword &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;var&lt;/code&gt; to define the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;variable a&lt;/code&gt;, the scope of a is limited to the function within which it is defined.&lt;/li&gt;
+  &lt;li&gt;Since a is not defined within any function, the scope of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;variable a&lt;/code&gt; is global, which means that a is recognized within block 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Function Example&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function fun1() {
+ var a = 10;
+ console.log(a);
+} //function scope of fun1
+
+function fun2() {
+ a++;
+ console.log(a);
+} //function scope of fun2
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Since we have enclosed &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fun1&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fun2&lt;/code&gt;, within separate functions, the scope of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;var a=10&lt;/code&gt;, is limited to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fun1&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a&lt;/code&gt; is not recognized in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;fun2&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;let&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let:&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The let keyword was introduced as part of ES6 syntax, as an alternative to var to define variables in Javascript.&lt;/li&gt;
+  &lt;li&gt;The scope of a variable defined with the keyword &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const&lt;/code&gt; is limited to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;block&lt;/code&gt; defined by curly braces i.e. {}&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let&lt;/code&gt; is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;block scoped&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Block Example&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Let us rewrite the code using the keyword &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let&lt;/code&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;{
+ let a = 10;
+ console.log(a);
+} //block 1
+{
+ a++;
+ console.log(a);
+} //block 2
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Since we are using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let a=10&lt;/code&gt;, scope of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a&lt;/code&gt; is limited to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;block 1&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a&lt;/code&gt; is not recognized in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;block 2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Function Example&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function fun1() {
+ let a = 10;
+ console.log(a);
+} //function scope of fun1
+
+function fun2() {
+ a++;
+ console.log(a);
+} //function scope of fun2
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Since we have enclosed fun1 and fun2, within separate functions, the scope of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let a=10&lt;/code&gt;, is limited to fun1 and “a” is not recognized in fun2.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;const&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const:&lt;/code&gt;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;If a variable is defined with keyword const, it cannot be reassigned.&lt;/li&gt;
+  &lt;li&gt;If a variable is defined using the const keyword, its scope is limited to the block scope&lt;/li&gt;
+  &lt;li&gt;It is important to understand that const does NOT mean that the value is fixed and immutable.&lt;/li&gt;
+  &lt;li&gt;It CAN be mutated.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Block Example&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;{
+ const a = 10;
+ console.log(a);
+} //block 1
+{
+ a++;
+ console.log(a);
+} //block 2
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Since we are using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const a=10&lt;/code&gt;, scope of “a” is limited to block 1 and “a” is not recognized in block 2.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Example to show that the value of the variable defined within the const keyword is mutable, i.e. it can be changed&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;{
+ const a = [1, 2, 3];
+ const b = { name: &quot;hello&quot; };
+ a.push(4, 5); //mutating the value of constant &quot;a&quot;
+ b.name = &quot;World&quot;; //mutating the value of constant &quot;b&quot;
+
+ console.log(a); //this will show [1,2,3,4,5]
+ console.log(b); //this will show {name: &quot;World&quot;}
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;This code will run without any errors, and shows that we CAN mutate the values that are defined by “const”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Note that these variables defined by const cannot be re-assigned&lt;/code&gt;&lt;/p&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;{
+ const name = &quot;Tech Talks&quot;;
+ const PI = 3.14;
+ const a = [1, 2, 3];
+ const b = { name: &quot;Hello&quot; };
+ name = &quot;Ankit Kumar&quot;; //Throws an error, since we are attempting to re-assign &quot;name” to a different value.
+ PI = PI + 1; //Throws an error, since we are attempting to re-assign PI to a different value.
+ a = [1, 2, 3, 4, 5]; //Throws an error, since we are attempting to re-assign &quot;a&quot; to a different value.
+ b = { name: &quot;Hello Ankit&quot; }; //Throws an error, since we are attempting to re-assign &quot;b&quot; to a different value.
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;25-implement-the-arrayprototypefilter-method&quot;&gt;25. Implement the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.prototype.filter()&lt;/code&gt; method.&lt;/h2&gt;
+
+&lt;p&gt;As the MDN description of the Array.prototype.filter method, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;filter()&lt;/code&gt; method creates a new array with all elements that pass the test implemented by the provided function.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Syntax is
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;let newArray = arr.filter(callback(currentValue[, index[, array]]) {
+// return element for newArray, if true
+}[, thisArg]);
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Implementations is
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function filter(arr, filterCallback) {
+// Check if the parameters passed are right.
+if (!Array.isArray(arr) || !arr.length || typeof filterCallback !== 'function') {
+  return [];
+  }
+  else {
+    let result = [];
+    // Avoid mutating the original array.
+    for (let i = 0, len = arr.length; i &amp;lt; len; i++) {
+      // check if the return value of the filterCallback is true or &quot;truthy&quot;
+      if (filterCallback(arr[i], i, arr)) {
+      // push the current item in the 'result' array if the condition is true
+      result.push(arr[i]);
+    }
+  }
+  return result; // return the result array
+}
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;26-implement-the-arrayprototypereduce-method&quot;&gt;26. Implement the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Array.prototype.reduce()&lt;/code&gt; method.&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reduce()&lt;/code&gt; method executes a reducer function (that you provide) on each element of the array, resulting in single output value.&lt;/li&gt;
+  &lt;li&gt;The reducer function takes four arguments:
+    &lt;blockquote&gt;
+      &lt;p&gt;Accumulator, Current Value, Current Index ,Source Array&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Syntax is
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;arr.reduce(callback( accumulator, currentValue, [, index[, array]] )[, initialValue])
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Implementation
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function reduce(arr, reduceCallback, initialValue) {
+// Check if the parameters passed are right.
+if (!Array.isArray(arr) || !arr.length || typeof reduceCallback !== 'function'){
+  return [];
+}
+else {
+  // If no initialValue has been passed to the function we're gonna use the
+  let hasInitialValue = initialValue !== undefined;
+  let value = hasInitialValue ? initialValue : arr[0];
+  // first array item as the initialValue, Start looping at index 1 if there is no
+  // initialValue has been passed to the function else we start at 0 if there is an initialValue.
+  for (let i = hasInitialValue ? 0 : 1, len = arr.length; i &amp;lt; len; i++) {
+    // Then for every iteration we assign the result of the reduceCallback to the variable value.
+    value = reduceCallback(value, arr[i], i, arr);
+  }
+  return value;
+}
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;27-what-is-a-name-function-in-javascript&quot;&gt;27. What is a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name function&lt;/code&gt; in JavaScript?&lt;/h2&gt;
+
+&lt;p&gt;A named function declares a name as soon as it is defined. It can be defined using function keyword as :&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function named() {
+   // write code here
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;28-can-you-assign-an-anonymous-function-to-a-variable-and-pass-it-as-an-argument-to-another-function&quot;&gt;28. Can you assign an anonymous function to a variable and pass it as an argument to another function?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Yes! An anonymous function can be assigned to a variable.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It can also be passed as an argument to another function.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Exmample is&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;let show = function () {
+  console.log('Anonymous function');
+};
+show();
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;29-what-is-the-arguments-object&quot;&gt;29. What is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arguments object&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The arguments object is a collection of parameter values pass in a function.&lt;/li&gt;
+  &lt;li&gt;It’s an Array-like object because it has a length property and we can access individual values using array indexing notation arguments[1]&lt;/li&gt;
+  &lt;li&gt;But it does not have the built-in methods in an array forEach, reduce, filter and map.&lt;/li&gt;
+  &lt;li&gt;It helps us know the number of arguments pass in a function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;30-can-you-convert-arguments-object-into-an-array&quot;&gt;30. Can you convert arguments object into an array?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Yes&lt;/strong&gt;, We can convert the arguments object into an array using the Array.prototype.slice.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function one() {
+ return Array.prototype.slice.call(arguments);
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;However, if there is a need to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;automatically&lt;/code&gt; execute a function at the place where it is given and not be called again, then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;anonymous functions&lt;/code&gt; can be used.
+Such functions have no name. So the name.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;31-does-arguments-object-work-on-es6-arrow-functions&quot;&gt;31. Does &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arguments object&lt;/code&gt; work on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ES6 arrow functions&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;No&lt;/strong&gt;, the arguments object does not work on ES6 arrow functions.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function one() {
+   return arguments;
+}
+const two = function () {
+   return arguments;
+}
+const three = function three() {
+   return arguments;
+}
+const four = () =&amp;gt; arguments;
+four(); // Throws an error  - arguments is not defined
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;When we invoke the function four it throws a ReferenceError: arguments is not defined error.&lt;/p&gt;
+
+&lt;p&gt;We can solve this problem if your environment supports the rest syntax.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;const four = (...args) =&amp;gt; args;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;This puts all parameter values in an array automatically.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;32-how-to-create-an-object-without-a-prototype&quot;&gt;32. How to create an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;object without a prototype&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;p&gt;We can create an object without a prototype using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Object.create method&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;const o1 = {};
+console.log(o1.toString());
+// logs [object Object] get this method to the Object.prototype
+
+const o2 = Object.create(null);
+// the first parameter is the prototype of the object &quot;o2&quot; which in this case will be null specifying we don't want any prototype
+console.log(o2.toString());
+// throws an error o2.toString is not a function
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;33-what-are-the-scopes-of-a-variable-in-javascript&quot;&gt;33. What are the scopes of a variable in JavaScript?&lt;/h2&gt;
+
+&lt;p&gt;The scope of a variable is the region of your program in which it is defined.
+JavaScript variable will have only two scopes.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Global Variables&lt;/strong&gt; − A global variable has global scope which means it is visible everywhere in your JavaScript code.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Local Variables&lt;/strong&gt; − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;34-what-is-the-purpose-of-this-in-javascript&quot;&gt;34. What is the purpose of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;this&lt;/code&gt; in JavaScript?&lt;/h2&gt;
+
+&lt;p&gt;The JavaScript this keyword refers to the object it belongs to.&lt;/p&gt;
+
+&lt;p&gt;This has different values depending on where it is used.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;In a method, this refers to the owner object&lt;/li&gt;
+  &lt;li&gt;In a function, this refers to the global object.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;35-what-is-callback-in-javascript&quot;&gt;35. What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Callback&lt;/code&gt; in JavaScript?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A callback is a plain JavaScript function passed to some method as an argument or option.&lt;/li&gt;
+  &lt;li&gt;It is a function that is to be executed after another function has finished executing, hence the name ‘callback’.&lt;/li&gt;
+  &lt;li&gt;In JavaScript, functions are objects, So functions can take functions as arguments, and can be returned by other functions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;36-how-does-typeof-operator-work&quot;&gt;36. How does &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;typeOf&lt;/code&gt; Operator work?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;typeof&lt;/code&gt; operator is used to get the data type of its operand.&lt;/li&gt;
+  &lt;li&gt;The operand can be either a literal or a data structure such as a variable, a function, or an object.&lt;/li&gt;
+  &lt;li&gt;It is a unary operator that is placed before its single operand, which can be of any type.&lt;/li&gt;
+  &lt;li&gt;Its value is a string indicating the data type of the operand.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;37-explain-equality-in-javascript&quot;&gt;37. Explain &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;equality&lt;/code&gt; in JavaScript.&lt;/h2&gt;
+
+&lt;p&gt;JavaScript has both strict and type–converting comparisons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Strict comparison&lt;/strong&gt; (e.g., ===) checks for value equality without allowing coercion&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Abstract comparison&lt;/strong&gt; (e.g. ==) checks for value equality with coercion allowed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;var a = &quot;42&quot;;
+var b = 42;
+a == b; // true
+a === b; // false
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Some simple equality rules:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;If either value&lt;/code&gt; (aka side) in a comparison &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;could be the true or false&lt;/code&gt; value, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;avoid == and use ===&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;If either value&lt;/code&gt; in a comparison could be of these specific values &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(0, &quot;&quot;, or [] -- empty array)&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;avoid == and use ===&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;In all other cases, you’re safe to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use ==&lt;/code&gt;.
+    &lt;ul&gt;
+      &lt;li&gt;Not only it is safe, but in many cases it simplifies your code in a way that improves readability.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;38-what-is-the-difference-between--and-&quot;&gt;38. What is the difference between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;==&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;===&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;==&lt;/code&gt; is the abstract equality operator while === is the strict equality operator.&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;==&lt;/code&gt; operator will compare for equality after doing any necessary type conversions.&lt;/li&gt;
+  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;===&lt;/code&gt; operator will not do type conversion, so if two values are not the same type === will simply return false.&lt;/li&gt;
+  &lt;li&gt;When using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;==&lt;/code&gt;, funky things can happen, such as:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;1 == &quot;1&quot;; // true
+1 == [1]; // true
+1 == true; // true
+0 == &quot;&quot;; // true
+0 == &quot;0&quot;; // true
+0 == false; // true
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;39-what-is-ecmascript&quot;&gt;39. What is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ECMAScript&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ECMAScript is a standard for making scripting languages which means that JavaScript follows the specification changes in ECMAScript standard because it is the blueprint of JavaScript.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ECMAScript standardized by the ECMA International standards organization in the ECMA-262 and ECMA-402 specifications.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Read more about ECMAScript &lt;a href=&quot;https://www.ecma-international.org/publications-and-standards/standards/ecma-262/&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;40-what-are-the-new-features-in-es6-or-ecmascript-2015&quot;&gt;40. What are the new features in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ES6&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ECMAScript 2015&lt;/code&gt;?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Arrow Functions&lt;/li&gt;
+  &lt;li&gt;Classes&lt;/li&gt;
+  &lt;li&gt;Template Strings&lt;/li&gt;
+  &lt;li&gt;Enhanced Object literals&lt;/li&gt;
+  &lt;li&gt;Object Destructuring&lt;/li&gt;
+  &lt;li&gt;Promises&lt;/li&gt;
+  &lt;li&gt;Generators&lt;/li&gt;
+  &lt;li&gt;Modules&lt;/li&gt;
+  &lt;li&gt;Symbol&lt;/li&gt;
+  &lt;li&gt;Proxies&lt;/li&gt;
+  &lt;li&gt;Sets&lt;/li&gt;
+  &lt;li&gt;Default Function parameters&lt;/li&gt;
+  &lt;li&gt;Rest and Spread Operators&lt;/li&gt;
+  &lt;li&gt;Block Scoping with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;let&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;const&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;41-what-does-use-strict-do&quot;&gt;41. What does &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use strict&lt;/code&gt; do?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;use strict&lt;/code&gt; is a ES5 feature in JavaScript that makes our code in Strict Mode in functions or entire scripts.&lt;/li&gt;
+  &lt;li&gt;Strict Mode helps us avoid bugs early on in our code and adds restrictions to it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let look on restrictions that Strict Mode gives us.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Assigning or Accessing a variable that is not declared.
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;function returnA() {
+&quot;use strict&quot;;
+a = 3245;
+return a;
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Assigning a value to a read-only or non-writable global variable
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&quot;use strict&quot;;
+var NaN = NaN;
+var undefined = undefined;
+var Infinity = &quot;and beyond&quot;;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Deleting an undeletable property&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;
+&quot;use strict&quot;;
+const obj = {};
+Object.defineProperty(obj, 'x', {
+     value : '1'
+}); 
+
+delete obj.x;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Duplicate parameter names&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;
+&quot;use strict&quot;;
+
+function someFunc(a, b, b, c){
+
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Creating variables with the use of the eval function&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;
+&quot;use strict&quot;;
+
+eval(&quot;var x = 1;&quot;);
+console.log(x); //Throws a Reference Error x is not defined
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The default value of this will be undefined&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;
+&quot;use strict&quot;;
+
+function showMeThis(){
+ return this;
+}
+showMeThis(); //returns undefined
+
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;#questions&quot;&gt;Top ↑&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you guys want to practice for JavaScript Interview on mock video interview, please drop me an email at &lt;a href=&quot;mailto:admin@ankitkumar.dev&quot;&gt;admin@ankitkumar.dev&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ankitkumar.dev/why-flutter/&quot;&gt;Top Flutter Advantages and Why You Should Try Flutter on Your Next Project&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ankitkumar.dev/react-native-deeplink-with-react-navigation/&quot;&gt;How to implement deep linking in React Native app with React Navigation v5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Also, to be notified about my new articles and stories:&lt;/p&gt;
+
+&lt;p&gt;Subscribe to my &lt;a href=&quot;https://www.youtube.com/TechTalksWithAK&quot;&gt;YouTube Channel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Follow me on &lt;a href=&quot;https://ankitdeveloper.medium.com/&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://github.com/AnkitDroidGit&quot;&gt;Github&lt;/a&gt;, and &lt;a href=&quot;https://twitter.com/KumarrAnkitt&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can find me on &lt;a href=&quot;https://www.linkedin.com/in/kumarankitkumar/&quot;&gt;LinkedIn&lt;/a&gt; as well.&lt;/p&gt;
+
+&lt;p&gt;I am quite active on &lt;a href=&quot;https://dev.to/ankitkumar&quot;&gt;Dev Community&lt;/a&gt; as well and write small topics over there.&lt;/p&gt;
+
+&lt;p&gt;Cheers!!! Happy coding!!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Feb 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/100-JS-interview-question-part3/</link>
+        <guid isPermaLink="true">http://localhost:4000/100-JS-interview-question-part3/</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>Interview</category>
+        
+        <category>Questions</category>
+        
+        <category>Answers</category>
+        
+        <category>100 JavaScript Questions</category>
+        
+        <category>100 JavaScript Interview Questions</category>
+        
+        <category>100 Interview Questions</category>
+        
+        <category>Web Developer Interview Questions</category>
+        
+        <category>Backend Developer Interview Questions</category>
+        
+        <category>Frontend Developer Interview Questions</category>
+        
+        <category>Fullstack Developer Interview Questions</category>
+        
+        
+        <category>JavaScript</category>
+        
+        <category>Interview</category>
+        
+        <category>Questions</category>
+        
+        <category>Answers</category>
+        
+        <category>100 JavaScript Questions</category>
+        
+        <category>100 JavaScript Interview Questions</category>
+        
+        <category>100 Interview Questions</category>
+        
+        <category>Web Developer Interview Questions</category>
+        
+        <category>Backend Developer Interview Questions</category>
+        
+        <category>Frontend Developer Interview Questions</category>
+        
+        <category>Fullstack Developer Interview Questions</category>
+        
+      </item>
     
       <item>
         <title>100 most asked JavaScript Interview Questions and Answers - Part 2</title>
@@ -3486,152 +4477,6 @@ Note: new repository name must match (including letter case) your GitHub usernam
         <pubDate>Mon, 29 Jun 2020 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/github-secret-creating-github-profile/</link>
         <guid isPermaLink="true">http://localhost:4000/github-secret-creating-github-profile/</guid>
-        
-        <category>git</category>
-        
-        <category>github</category>
-        
-        <category>tutorial</category>
-        
-        
-        <category>git</category>
-        
-        <category>github</category>
-        
-        <category>tutorial</category>
-        
-      </item>
-    
-      <item>
-        <title>Working with Github (or any software development version control using Git) for the beginners</title>
-        <description>&lt;p&gt;Working with Github (or any software development version control using Git) for the beginners&lt;/p&gt;
-
-&lt;p&gt;Many new developers face this problem when they start working on a project which is shared among many team member and many of them need to work together on the project.
-It becomes hard for newbies to create PR and adding their work to the upstream project repo.
-I am trying to make this easier for all the newbies who are going to work on the project collaboration in the team.
-By following these steps, it becomes easier to handle changes, stashing, committing, creating, and merging PR after approval.&lt;/p&gt;
-
-&lt;p&gt;Let’s go through the steps with commands and sample project on Github.
-For getting hands-on experience of the below steps, feel free to fork &lt;a href=&quot;https://github.com/AnkitDroidGit/git-basics-for-newbies&quot;&gt;this Github repo&lt;/a&gt; and follow along&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Clone project from upstream to the local repo&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;     git clone git@github.com:AnkitDroidGit/git-basics-for-newbies.git
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Open project with your favorite IDE/Code Editor&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Pull the latest changes from upstream if you haven’t pulled changes from quite some time (think of changes merged by other members of your team)&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;     git pull
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Make your changes on the master (default) branch. I am adding a new file called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;contributors.md&lt;/code&gt; and appending it with my name &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ankit Kumar&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Add file(s) to git for tracking by git add&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;     git add name
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-
-    &lt;p&gt;You can add all files by running below command&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;     git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Check differences by running the following command.&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;     git diff
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Now suppose someone from your teams has already added and merged his changes to the master branch. If you are going to commit and push your changes without synching repo with upstream, you might get conflicts that become hard to resolve later in case of many conflicts.
-Its a great idea to sync your local repo with upstream.
-We will do it here by the below commands.&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;First, stash your changes. Stashing saves your working directory and index state WIP on master: with the latest commit&lt;/p&gt;
-
-        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    git stash
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Run git pull for latest changes from upstream branch, if any.&lt;/p&gt;
-
-        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    git pull
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Apply your stashed change to an active changelist or default changelist.&lt;/p&gt;
-
-        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    git stash apply
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Check your difference again by running git diff&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    git diff
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Resolve conflicts if any. Resolving conflicts now is easier compared to the time of many many conflicts at the time of creating PR without synching.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Now, add commit message&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    git commit - m &lt;span class=&quot;s2&quot;&gt;&quot;added my name in contributors.md&quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Checkout to a new branch&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    git checkout &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; addedName
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Push your changes to the newly checked out branch. It will create a new branch on upstream with the same name your have checked out with.&lt;/p&gt;
-
-    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;    git push &lt;span class=&quot;nt&quot;&gt;--set-upstream&lt;/span&gt; origin addedName
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Visit Github (or any software development version control using Git) repo on the browser.
-Click on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;compare and pull request&lt;/code&gt;,
-Write your PR name with appropriate comments.
-Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reviewers&lt;/code&gt; to request team members to review your PR.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Finally click on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create pull request&lt;/code&gt;
-You have done your work already.
-Wait for the reviewer to review&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Once PR is approved by the reviewer(s).
-Visit your branch and merge your branch.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;On your local repo, pull master again before making any other changes, follow the steps again.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Also, to be notified about my new articles and stories, follow me on &lt;a href=&quot;https://medium.com/@ankitdeveloper&quot;&gt;Medium&lt;/a&gt;, &lt;a href=&quot;https://github.com/AnkitDroidGit&quot;&gt;Github&lt;/a&gt;. You can find me on &lt;a href=&quot;https://www.linkedin.com/in/kumarankitkumar/&quot;&gt;LinkedIn&lt;/a&gt; as well. Cheers!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 23 Jun 2020 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/git-basics-for-beginners/</link>
-        <guid isPermaLink="true">http://localhost:4000/git-basics-for-beginners/</guid>
         
         <category>git</category>
         
